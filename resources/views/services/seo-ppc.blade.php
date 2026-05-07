@@ -1,0 +1,151 @@
+<x-app-layout :page="'services'">
+    <main>
+        <section class="page-section inner-hero">
+            <div class="section-inner inner-hero-grid">
+                <div>
+                    <p class="eyebrow reveal">Service</p>
+                    <h1 class="page-title reveal">SEO &amp; PPC</h1>
+                    <p class="section-copy reveal max-w-3xl">We align search strategy with better landing pages, clearer
+                        offers, and stronger traffic intent so acquisition becomes easier to evaluate and improve.</p>
+                </div>
+                <div class="hero-side-card reveal interactive-card" data-tilt>
+                    <p class="eyebrow">Best fit</p>
+                    <h3>Businesses that need more qualified visibility and better performance discipline across organic
+                        and paid search.</h3>
+                    <p class="section-copy">This is especially useful when traffic exists but conversions or cost
+                        efficiency are underperforming.</p>
+                </div>
+            </div>
+        </section>
+        <section class="page-section">
+            <div class="section-inner">
+                <div class="section-head">
+                    <div class="reveal max-w-2xl">
+                        <p class="eyebrow">Workflow</p>
+                        <h2 class="section-title">How the search workflow runs.</h2>
+                        <p class="section-copy">The goal is to connect traffic strategy with business outcomes, not just
+                            rankings or clicks in isolation.</p>
+                    </div>
+                </div>
+                <div class="detail-grid">
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>01. Audit and opportunity mapping</h3>
+                        <p>We identify visibility gaps, traffic inefficiencies, weak landing points, search-intent
+                            mismatches, and the highest-value opportunities first.</p>
+                    </article>
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>02. Offer and keyword alignment</h3>
+                        <p>We connect keyword clusters, audience intent, and business priorities so traffic acquisition
+                            is built around clearer commercial relevance.</p>
+                    </article>
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>03. Landing-page and funnel refinement</h3>
+                        <p>Search performance depends on the page experience too, so we evaluate page clarity, CTA
+                            placement, trust cues, and conversion friction.</p>
+                    </article>
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>04. Optimization and reporting</h3>
+                        <p>Campaigns and search direction are refined using traffic quality, lead behavior, efficiency
+                            signals, and where the strongest gains are actually happening.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="page-section">
+            <div class="section-inner">
+                <div class="detail-grid">
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>What is included</h3>
+                        <p>Visibility review, keyword direction, campaign structure, landing-page recommendations, and
+                            ongoing optimization thinking.</p>
+                    </article>
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>How engagements usually work</h3>
+                        <p>This often runs as an ongoing optimization relationship where paid traffic, organic
+                            visibility, and page conversion quality are reviewed together.</p>
+                    </article>
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>What usually improves</h3>
+                        <p>Traffic quality, cost efficiency, lead relevance, and clarity around what search is
+                            contributing to growth.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="page-section">
+            <div class="section-inner">
+                <div class="detail-grid">
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>Common deliverables</h3>
+                        <p>Search audits, keyword maps, paid-campaign direction, funnel observations, landing-page
+                            recommendations, and reporting priorities.</p>
+                    </article>
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>Where this creates value</h3>
+                        <p>It is especially useful when acquisition spend feels under-optimized or when the site is
+                            attracting traffic but not enough action.</p>
+                    </article>
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>Related work</h3>
+                        <p><a href="portfolio.html#seo">View SEO &amp; PPC work in the portfolio.</a></p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="page-section">
+            <div class="section-inner">
+                <div class="section-head">
+                    <div class="reveal max-w-2xl">
+                        <p class="eyebrow">Scope</p>
+                        <h2 class="section-title">What this service usually covers.</h2>
+                    </div>
+                </div>
+                <div class="interactive-badge-row reveal">
+                    <div class="interactive-badge">Search audits</div>
+                    <div class="interactive-badge">Keyword strategy</div>
+                    <div class="interactive-badge">Campaign setup</div>
+                    <div class="interactive-badge">Landing alignment</div>
+                    <div class="interactive-badge">Performance review</div>
+                </div>
+            </div>
+        </section>
+        <section class="page-section">
+            <div class="section-inner">
+                <div class="detail-grid">
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>Collaboration model</h3>
+                        <p>We usually work in weekly or biweekly review loops so traffic data can guide better decisions
+                            without long delays.</p>
+                    </article>
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>Best timing</h3>
+                        <p>This is most useful when campaigns are already live, a launch is approaching, or traffic
+                            quality needs stronger control.</p>
+                    </article>
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>What clients usually bring</h3>
+                        <p>Existing site access, past campaign history, known target keywords, and clarity on what a
+                            qualified lead looks like.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="page-section">
+            <div class="section-inner">
+                <div class="section-head">
+                    <div class="reveal max-w-2xl">
+                        <p class="eyebrow">Signals</p>
+                        <h2 class="section-title">When search support is usually the right move.</h2>
+                    </div>
+                </div>
+                <div class="interactive-badge-row reveal">
+                    <div class="interactive-badge">Traffic is weak</div>
+                    <div class="interactive-badge">Paid spend feels inefficient</div>
+                    <div class="interactive-badge">Landing pages underperform</div>
+                    <div class="interactive-badge">Leads are low quality</div>
+                    <div class="interactive-badge">Visibility is inconsistent</div>
+                </div>
+            </div>
+        </section>
+    </main>
+</x-app-layout>

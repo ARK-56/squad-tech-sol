@@ -1,0 +1,371 @@
+<x-app-layout :page="'home'">
+    <main>
+        <section class="hero-section page-section">
+            <div class="section-inner hero-grid">
+                <div class="reveal space-y-8">
+                    <p class="eyebrow">Premium Digital Engineering</p>
+                    <div class="space-y-6">
+                        <h1 class="hero-title">Bold product experiences for brands that want to lead, not blend in.</h1>
+                        <p class="hero-copy">
+                            Squadtech Solution designs and builds high-performance digital products with striking visual
+                            systems, sharp story structure, and modern frontend craft.
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-4 sm:flex-row">
+                        <a href="portfolio" class="primary-button magnetic-button">Explore Our Work</a>
+                        <a href="services" class="secondary-button magnetic-button">View Services</a>
+                    </div>
+                </div>
+
+                <div class="reveal relative">
+                    <div class="floating-orb orb-one"></div>
+                    <div class="floating-orb orb-two"></div>
+                    <div class="hero-console interactive-card" data-tilt>
+                        <div class="feature-panel">
+                            <div class="feature-heading">
+                                <div>
+                                    <p class="mini-label">Live system</p>
+                                    <h2>Agency Pulse</h2>
+                                </div>
+                                <div class="status-pill">
+                                    <span class="status-dot"></span>
+                                    Active delivery
+                                </div>
+                            </div>
+                            <div class="feature-grid">
+                                <div class="highlight-card">
+                                    <p class="mini-label">Conversion lift</p>
+                                    <p class="highlight-value">+178%</p>
+                                    <p class="soft-copy">Designed for impact with custom UX systems and cinematic
+                                        content rhythm.</p>
+                                </div>
+                                <div class="mini-panels">
+                                    <div class="mini-card">
+                                        <p class="mini-label">Launch speed</p>
+                                        <p class="mini-value">3.4x faster</p>
+                                    </div>
+                                    <div class="mini-card">
+                                        <p class="mini-label">UX satisfaction</p>
+                                        <p class="mini-value">4.9/5</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hero-tags">
+                            <div class="tag-card">Product strategy</div>
+                            <div class="tag-card">Immersive UI systems</div>
+                            <div class="tag-card">Scalable engineering</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card reveal stagger interactive-card" data-tilt>
+                    <p class="stat-value">200+</p>
+                    <p class="stat-label">Successful Projects</p>
+                </div>
+                <div class="stat-card reveal stagger interactive-card" data-tilt>
+                    <p class="stat-value">7</p>
+                    <p class="stat-label">Years of Experience</p>
+                </div>
+                <div class="stat-card reveal stagger interactive-card" data-tilt>
+                    <p class="stat-value">+98%</p>
+                    <p class="stat-label">Client Satisfaction</p>
+                </div>
+                <div class="stat-card reveal stagger interactive-card" data-tilt>
+                    <p class="stat-value">10M+</p>
+                    <p class="stat-label">Impressions</p>
+                </div>
+                <div class="stat-card reveal stagger interactive-card" data-tilt>
+                    <p class="stat-value">67+</p>
+                    <p class="stat-label">Global Clients</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-section">
+            <div class="section-inner">
+                <div class="section-head">
+                    <div class="reveal max-w-2xl">
+                        <p class="eyebrow">Services</p>
+                        <h2 class="section-title">Integrated growth services built to help modern brands scale with
+                            clarity.</h2>
+                    </div>
+                    <p class="section-copy reveal">
+                        From brand foundations to performance marketing and delivery support, we help businesses build
+                        stronger visibility, sharper communication, and dependable execution.
+                    </p>
+                </div>
+                <div class="services-grid">
+                    <article class="service-card reveal interactive-card" data-tilt>
+                        <div class="service-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" fill="currentColor">
+                                <path
+                                    d="M278.7 64.7C296 68.4 307 85.4 303.3 102.7L284.2 192L410.7 192L432.7 89.3C436.4 72 453.4 61 470.7 64.7C488 68.4 499 85.4 495.3 102.7L476.2 192L544 192C561.7 192 576 206.3 576 224C576 241.7 561.7 256 544 256L462.4 256L435 384L502.8 384C520.5 384 534.8 398.3 534.8 416C534.8 433.7 520.5 448 502.8 448L421.2 448L399.2 550.7C395.5 568 378.5 579 361.2 575.3C343.9 571.6 332.9 554.6 336.6 537.3L355.7 448L229.2 448L207.2 550.7C203.5 568 186.5 579 169.2 575.3C151.9 571.6 140.9 554.6 144.6 537.3L163.8 448L96 448C78.3 448 64 433.7 64 416C64 398.3 78.3 384 96 384L177.6 384L205 256L137.2 256C119.5 256 105.2 241.7 105.2 224C105.2 206.3 119.5 192 137.2 192L218.8 192L240.8 89.3C244.4 72 261.4 61 278.7 64.7zM270.4 256L243 384L369.5 384L396.9 256L270.4 256z" />
+                            </svg>
+                        </div>
+                        <h3><a href="https://www.behance.net/squadtechsolution/services/808305/Social-Media-Marketing"
+                                target="_blank" rel="noreferrer">Social Media Marketing</a></h3>
+                        <p>Campaign planning, creative direction, and platform-ready content that keeps your brand
+                            visible and consistently active.</p>
+                    </article>
+                    <article class="service-card reveal interactive-card" data-tilt>
+                        <div class="service-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" fill="currentColor">
+                                <path
+                                    d="M544 513L397.2 364.2C417.2 336.3 429.1 302 429.1 265C429.1 171.9 354.4 96.1 262.6 96.1C170.7 96 96 171.8 96 264.9C96 358 170.7 433.8 262.5 433.8C302.3 433.8 338.8 419.6 367.5 395.9L513.5 544L544 513zM262.5 394.8C191.9 394.8 134.4 336.5 134.4 264.9C134.4 193.3 191.9 135 262.5 135C333.1 135 390.6 193.3 390.6 264.9C390.6 336.5 333.2 394.8 262.5 394.8z" />
+                            </svg>
+                        </div>
+                        <h3><a href="https://www.behance.net/squadtechsolution/services/809467/SEO-PPC" target="_blank"
+                                rel="noreferrer">SEO &amp; PPC</a></h3>
+                        <p>Search visibility and paid acquisition strategies structured to drive qualified traffic,
+                            measurable leads, and better return.</p>
+                    </article>
+                    <article class="service-card reveal interactive-card" data-tilt>
+                        <div class="service-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" fill="currentColor">
+                                <path
+                                    d="M384 112L384 128C384 145.7 369.7 160 352 160L288 160C270.3 160 256 145.7 256 128L256 112L192 112C183.2 112 176 119.2 176 128L176 512C176 520.8 183.2 528 192 528L448 528C456.8 528 464 520.8 464 512L464 128C464 119.2 456.8 112 448 112L384 112zM128 128C128 92.7 156.7 64 192 64L448 64C483.3 64 512 92.7 512 128L512 512C512 547.3 483.3 576 448 576L192 576C156.7 576 128 547.3 128 512L128 128zM288 384L352 384C396.2 384 432 419.8 432 464C432 472.8 424.8 480 416 480L224 480C215.2 480 208 472.8 208 464C208 419.8 243.8 384 288 384zM264 288C264 257.1 289.1 232 320 232C350.9 232 376 257.1 376 288C376 318.9 350.9 344 320 344C289.1 344 264 318.9 264 288z" />
+                            </svg>
+                        </div>
+                        <h3><a href="https://www.behance.net/squadtechsolution/services/798393/Brand-Identity"
+                                target="_blank" rel="noreferrer">Brand Identity</a></h3>
+                        <p>Distinct visual systems, messaging cues, and brand assets that help businesses present
+                            themselves with confidence.</p>
+                    </article>
+                    <article class="service-card reveal interactive-card" data-tilt>
+                        <div class="service-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" fill="currentColor">
+                                <path
+                                    d="M257.1 96C238.4 96 220.9 105.4 210.5 120.9L184.5 160L128 160C92.7 160 64 188.7 64 224L64 480C64 515.3 92.7 544 128 544L512 544C547.3 544 576 515.3 576 480L576 224C576 188.7 547.3 160 512 160L455.5 160L429.5 120.9C419.1 105.4 401.6 96 382.9 96L257.1 96zM250.4 147.6C251.9 145.4 254.4 144 257.1 144L382.8 144C385.5 144 388 145.3 389.5 147.6L422.7 197.4C427.2 204.1 434.6 208.1 442.7 208.1L512 208.1C520.8 208.1 528 215.3 528 224.1L528 480.1C528 488.9 520.8 496.1 512 496.1L128 496C119.2 496 112 488.8 112 480L112 224C112 215.2 119.2 208 128 208L197.3 208C205.3 208 212.8 204 217.3 197.3L250.5 147.5zM320 448C381.9 448 432 397.9 432 336C432 274.1 381.9 224 320 224C258.1 224 208 274.1 208 336C208 397.9 258.1 448 320 448zM256 336C256 300.7 284.7 272 320 272C355.3 272 384 300.7 384 336C384 371.3 355.3 400 320 400C284.7 400 256 371.3 256 336z" />
+                            </svg>
+                        </div>
+                        <h3><a href="https://www.behance.net/squadtechsolution/services/809529/Media-Production"
+                                target="_blank" rel="noreferrer">Media Production</a></h3>
+                        <p>Photo, video, and campaign-ready media built to elevate storytelling across web, ads, and
+                            social touchpoints.</p>
+                    </article>
+                    <article class="service-card reveal interactive-card" data-tilt>
+                        <div class="service-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-code-icon lucide-code">
+                                <path d="m16 18 6-6-6-6" />
+                                <path d="m8 6-6 6 6 6" />
+                            </svg>
+                        </div>
+                        <h3><a href="https://www.behance.net/squadtechsolution/services/807663/Website-Design-Development"
+                                target="_blank" rel="noreferrer">Web Development</a></h3>
+                        <p>Responsive websites and digital platforms developed for speed, polish, and long-term
+                            maintainability.</p>
+                    </article>
+                    <article class="service-card reveal interactive-card" data-tilt>
+                        <div class="service-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-messages-square-icon lucide-messages-square">
+                                <path
+                                    d="M16 10a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 14.286V4a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
+                                <path
+                                    d="M20 9a2 2 0 0 1 2 2v10.286a.71.71 0 0 1-1.212.502l-2.202-2.202A2 2 0 0 0 17.172 19H10a2 2 0 0 1-2-2v-1" />
+                            </svg>
+                        </div>
+                        <h3><a href="https://www.behance.net/squadtechsolution/services/809535/Dedicated-Remote-Staff"
+                                target="_blank" rel="noreferrer">Dedicated Remote Staff</a></h3>
+                        <p>Reliable remote team support for ongoing marketing, operations, design, and execution needs
+                            as your business grows.</p>
+                    </article>
+                </div>
+                <div class="section-action reveal">
+                    <a href="services" class="secondary-button magnetic-button">Open Services Page</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-section">
+            <div class="section-inner split-layout">
+                <div class="about-visual reveal interactive-card" data-tilt>
+                    <div class="about-badge">Why Squadtech</div>
+                    <div class="about-visual-copy">
+                        <p class="mini-label">Creative + Technical</p>
+                        <h3>We design digital presence with the precision of a product team.</h3>
+                    </div>
+                    <div class="about-metrics">
+                        <div class="about-metric">
+                            <p>12</p>
+                            <span>Industries served</span>
+                        </div>
+                        <div class="about-metric">
+                            <p>8yr</p>
+                            <span>Combined agency depth</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-copy reveal">
+                    <p class="eyebrow">About</p>
+                    <h2 class="section-title">A premium tech agency built for ambitious launches and sharper digital
+                        storytelling.</h2>
+                    <p class="section-copy">
+                        Squadtech Solution partners with startups, service brands, and product-led companies that need
+                        more than a standard website. We blend bold visual direction, strategic UX thinking, and clean
+                        frontend execution to create experiences that feel elevated from every angle.
+                    </p>
+                    <div class="feature-list">
+                        <div class="feature-list-card interactive-card" data-tilt>
+                            <h3>Strategic discovery</h3>
+                            <p>We translate positioning, offers, and user goals into clear design decisions before
+                                pixels start moving.</p>
+                        </div>
+                        <div class="feature-list-card interactive-card" data-tilt>
+                            <h3>Refined execution</h3>
+                            <p>The final layer matters: motion timing, edge treatment, spacing rhythm, and performance
+                                tuning.</p>
+                        </div>
+                    </div>
+                    <a href="about.html" class="secondary-button magnetic-button">Read the Full Story</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-section">
+            <div class="section-inner">
+                <div class="section-head">
+                    <div class="reveal max-w-2xl">
+                        <p class="eyebrow">Portfolio</p>
+                        <h2 class="section-title">Selected work that proves aesthetics and performance can scale
+                            together.</h2>
+                    </div>
+                    <a href="portfolio.html" class="secondary-button magnetic-button reveal">See All Projects</a>
+                </div>
+                <div class="portfolio-grid">
+                    <article class="portfolio-feature reveal interactive-card" data-tilt>
+                        <div class="portfolio-content">
+                            <p class="eyebrow">Fintech Platform</p>
+                            <h3>A sophisticated dashboard redesign that turned complexity into confidence.</h3>
+                            <p class="soft-copy">Crafted a modular analytics experience with cleaner data hierarchy,
+                                faster navigation paths, and a more premium enterprise feel.</p>
+                            <div class="portfolio-metrics">
+                                <div class="metric-chip">
+                                    <strong>+41%</strong>
+                                    <span>Activation</span>
+                                </div>
+                                <div class="metric-chip">
+                                    <strong>-32%</strong>
+                                    <span>Drop-off</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <div class="portfolio-stack">
+                        <article class="portfolio-card reveal interactive-card" data-tilt>
+                            <p class="eyebrow">SaaS Launch</p>
+                            <h3>Launch funnel engineered for demo bookings and polished credibility.</h3>
+                            <p>Narrative-led homepage architecture, stronger content pacing, and premium visual
+                                presentation.</p>
+                        </article>
+                        <article class="portfolio-card reveal interactive-card" data-tilt>
+                            <p class="eyebrow">E-commerce Brand</p>
+                            <h3>Luxury storefront refresh with bolder imagery and faster mobile browsing.</h3>
+                            <p>Sharper category journeys, premium editorial styling, and improved purchasing momentum.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-section">
+            <div class="section-inner">
+                <div class="section-head">
+                    <div class="reveal max-w-2xl">
+                        <p class="eyebrow">Testimonials</p>
+                        <h2 class="section-title">Trusted by teams that needed sharper positioning, cleaner execution,
+                            and a more premium digital presence.</h2>
+                    </div>
+                    <p class="section-copy reveal">
+                        The common thread is clarity: stronger messaging, better visual authority, and frontend quality
+                        that supports growth instead of slowing it down.
+                    </p>
+                </div>
+                <div class="testimonial-grid">
+                    <article class="testimonial-card reveal interactive-card" data-tilt>
+                        <blockquote>
+                            “Squadtech gave our product launch the level of polish we were missing. The site finally
+                            felt like the company we were trying to become.”
+                        </blockquote>
+                        <div class="testimonial-meta">
+                            <div>
+                                <h3>Rayan Malik</h3>
+                                <p class="testimonial-role">Founder, Vertex Cloud</p>
+                            </div>
+                            <p class="eyebrow">SaaS</p>
+                        </div>
+                    </article>
+                    <article class="testimonial-card reveal interactive-card" data-tilt>
+                        <blockquote>
+                            “The redesign wasn’t just better looking. Our narrative became clearer, the product felt
+                            easier to trust, and conversions followed quickly.”
+                        </blockquote>
+                        <div class="testimonial-meta">
+                            <div>
+                                <h3>Amna Shah</h3>
+                                <p class="testimonial-role">Marketing Lead, Northlane Studio</p>
+                            </div>
+                            <p class="eyebrow">Growth</p>
+                        </div>
+                    </article>
+                    <article class="testimonial-card reveal interactive-card" data-tilt>
+                        <blockquote>
+                            “What stood out most was the combination of design taste and implementation quality. Nothing
+                            felt generic, and nothing felt fragile.”
+                        </blockquote>
+                        <div class="testimonial-meta">
+                            <div>
+                                <h3>Usman Qureshi</h3>
+                                <p class="testimonial-role">Product Director, Metric Forge</p>
+                            </div>
+                            <p class="eyebrow">Product</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-section">
+            <div class="section-inner">
+                <div class="section-head">
+                    <div class="reveal max-w-2xl">
+                        <p class="eyebrow">FAQ</p>
+                        <h2 class="section-title">Answers to the questions teams usually ask before we build together.
+                        </h2>
+                    </div>
+                </div>
+                <div class="accordion-list reveal" data-faq-categories="general,process,services,cost,results"></div>
+            </div>
+        </section>
+
+        <section class="page-section">
+            <div class="section-inner">
+                <div class="cta-panel reveal interactive-card" data-tilt>
+                    <div class="cta-copy">
+                        <p class="eyebrow">Let's build</p>
+                        <h2 class="section-title">Ready for a site that looks premium, feels intentional, and helps your
+                            brand win attention?</h2>
+                        <p class="section-copy">
+                            Bring us the ambition, the timeline, or even the rough brief. We'll shape the product story
+                            and interface system into something that feels unmistakably high-end.
+                        </p>
+                    </div>
+                    <div class="cta-actions">
+                        <a href="mailto:inquiry@squadtechsol.com"
+                            class="primary-button magnetic-button">inquiry@squadtechsol.com</a>
+                        <a href="https://calendly.com/squadtechsolution/30min" class="secondary-button magnetic-button"
+                            target="_blank" rel="noreferrer">Schedule a Discovery Call</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</x-app-layout>

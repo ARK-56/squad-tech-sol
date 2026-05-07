@@ -1,0 +1,196 @@
+<x-app-layout :page="'services'">
+    <main>
+        <section class="page-section inner-hero">
+            <div class="section-inner inner-hero-grid">
+                <div>
+                    <p class="eyebrow reveal">Service</p>
+                    <h1 class="page-title reveal">Brand Identity</h1>
+                    <p class="section-copy reveal max-w-3xl">
+                        We create identity systems that help businesses look more
+                        intentional, feel more established, and stay visually consistent
+                        as they grow.
+                    </p>
+                </div>
+                <div class="hero-side-card reveal interactive-card" data-tilt>
+                    <p class="eyebrow">Best fit</p>
+                    <h3>
+                        Businesses that need a stronger visual system before scaling
+                        marketing, campaigns, or a broader digital refresh.
+                    </h3>
+                    <p class="section-copy">
+                        This is the right move when the offer is strong but the brand
+                        presence still feels generic or fragmented.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="page-section">
+            <div class="section-inner">
+                <div class="section-head">
+                    <div class="reveal max-w-2xl">
+                        <p class="eyebrow">Workflow</p>
+                        <h2 class="section-title">How the identity workflow runs.</h2>
+                        <p class="section-copy">
+                            The objective is to create a brand system that feels coherent
+                            in use, not just attractive in isolation.
+                        </p>
+                    </div>
+                </div>
+                <div class="detail-grid">
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>01. Discovery and positioning</h3>
+                        <p>
+                            We clarify business tone, audience perception, market context,
+                            competitor signals, and the kind of presence the identity
+                            needs to support.
+                        </p>
+                    </article>
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>02. Creative direction and concept building</h3>
+                        <p>
+                            We translate those inputs into identity routes, stylistic
+                            direction, logo thinking, and a more specific visual point of
+                            view.
+                        </p>
+                    </article>
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>03. System design and refinement</h3>
+                        <p>
+                            Typography, color logic, supporting elements, and brand cues
+                            are tightened into a system that can scale across real
+                            surfaces.
+                        </p>
+                    </article>
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>04. Application and handoff</h3>
+                        <p>
+                            The identity is prepared for practical use so it can support
+                            campaigns, social content, websites, and business-facing
+                            materials consistently.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="page-section">
+            <div class="section-inner">
+                <div class="detail-grid">
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>What is included</h3>
+                        <p>
+                            Identity concepts, logo development, typography direction,
+                            color logic, supporting cues, and a stronger visual
+                            foundation.
+                        </p>
+                    </article>
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>How engagements usually work</h3>
+                        <p>
+                            This is often the early strategic layer before a website
+                            redesign, social system, or broader rollout begins.
+                        </p>
+                    </article>
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>What usually improves</h3>
+                        <p>
+                            Recognition, consistency, perceived quality, and the
+                            confidence with which the business can present itself.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="page-section">
+            <div class="section-inner">
+                <div class="detail-grid">
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>Common deliverables</h3>
+                        <p>
+                            Identity routes, logo refinement, typography and color
+                            direction, visual rules, and guidance for real-world use.
+                        </p>
+                    </article>
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>Where this creates value</h3>
+                        <p>
+                            It creates the most value when the business is growing faster
+                            than the current identity system can support.
+                        </p>
+                    </article>
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>Related work</h3>
+                        <p>
+                            <a href="portfolio.html#brand">View brand identity work in the portfolio.</a>
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="page-section">
+            <div class="section-inner">
+                <div class="section-head">
+                    <div class="reveal max-w-2xl">
+                        <p class="eyebrow">Scope</p>
+                        <h2 class="section-title">What this service usually covers.</h2>
+                    </div>
+                </div>
+                <div class="interactive-badge-row reveal">
+                    <div class="interactive-badge">Logo development</div>
+                    <div class="interactive-badge">Color direction</div>
+                    <div class="interactive-badge">Typography logic</div>
+                    <div class="interactive-badge">Visual language</div>
+                    <div class="interactive-badge">Usage consistency</div>
+                </div>
+            </div>
+        </section>
+        <section class="page-section">
+            <div class="section-inner">
+                <div class="detail-grid">
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>Collaboration model</h3>
+                        <p>
+                            This usually works best with clear review rounds so the
+                            identity can evolve deliberately instead of drifting through
+                            endless preference changes.
+                        </p>
+                    </article>
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>Best timing</h3>
+                        <p>
+                            It is ideal ahead of a website redesign, a launch, or any
+                            growth phase where visual inconsistency will become more
+                            obvious.
+                        </p>
+                    </article>
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>What clients usually bring</h3>
+                        <p>
+                            Brand history, visual references, competitor context, market
+                            tone cues, and a sense of where the company wants to be
+                            perceived next.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="page-section">
+            <div class="section-inner">
+                <div class="section-head">
+                    <div class="reveal max-w-2xl">
+                        <p class="eyebrow">Signals</p>
+                        <h2 class="section-title">
+                            When identity work is usually the right move.
+                        </h2>
+                    </div>
+                </div>
+                <div class="interactive-badge-row reveal">
+                    <div class="interactive-badge">The brand feels generic</div>
+                    <div class="interactive-badge">Visuals lack consistency</div>
+                    <div class="interactive-badge">The offer outgrew the look</div>
+                    <div class="interactive-badge">Launch materials feel weak</div>
+                    <div class="interactive-badge">Recognition is low</div>
+                </div>
+            </div>
+        </section>
+    </main>
+</x-app-layout>

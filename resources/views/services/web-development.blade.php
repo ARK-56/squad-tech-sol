@@ -1,0 +1,151 @@
+<x-app-layout :page="'services'">
+    <main>
+        <section class="page-section inner-hero">
+            <div class="section-inner inner-hero-grid">
+                <div>
+                    <p class="eyebrow reveal">Service</p>
+                    <h1 class="page-title reveal">Web Development</h1>
+                    <p class="section-copy reveal max-w-3xl">We build responsive digital experiences that feel refined
+                        in the details and remain easier to manage after launch.</p>
+                </div>
+                <div class="hero-side-card reveal interactive-card" data-tilt>
+                    <p class="eyebrow">Best fit</p>
+                    <h3>Teams that need higher-quality implementation, cleaner responsiveness, and a stronger frontend
+                        finish.</h3>
+                    <p class="section-copy">This is especially useful when the brand or design direction already exists
+                        but the execution quality needs to catch up.</p>
+                </div>
+            </div>
+        </section>
+        <section class="page-section">
+            <div class="section-inner">
+                <div class="section-head">
+                    <div class="reveal max-w-2xl">
+                        <p class="eyebrow">Workflow</p>
+                        <h2 class="section-title">How the development workflow runs.</h2>
+                        <p class="section-copy">The process is built to keep execution clean from structure to polish,
+                            so the final output feels intentional across devices.</p>
+                    </div>
+                </div>
+                <div class="detail-grid">
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>01. Scope and structure</h3>
+                        <p>We align on architecture, page hierarchy, responsive requirements, content dependencies, and
+                            what success looks like at launch.</p>
+                    </article>
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>02. Interface build and component logic</h3>
+                        <p>The interface is implemented with attention to maintainability, consistency, and cleaner
+                            relationships between sections and states.</p>
+                    </article>
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>03. Interaction and responsive refinement</h3>
+                        <p>We tune motion, spacing, hover behavior, mobile rhythm, and the visual details that make the
+                            build feel more premium.</p>
+                    </article>
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>04. QA and launch readiness</h3>
+                        <p>We test breakpoints, edge cases, and final content integration before preparing the build for
+                            cleaner handoff or deployment.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="page-section">
+            <div class="section-inner">
+                <div class="detail-grid">
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>What is included</h3>
+                        <p>Frontend implementation, responsive tuning, interaction polish, QA review, and a cleaner
+                            production finish.</p>
+                    </article>
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>How engagements usually work</h3>
+                        <p>This usually runs alongside a redesign, marketing-site refresh, or a higher-end
+                            implementation pass after strategy and design are clearer.</p>
+                    </article>
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>What usually improves</h3>
+                        <p>Usability, visual consistency, launch confidence, and the overall quality of the shipped
+                            experience.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="page-section">
+            <div class="section-inner">
+                <div class="detail-grid">
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>Common deliverables</h3>
+                        <p>Responsive page builds, polished sections, component structures, QA-ready outputs, and launch
+                            preparation support.</p>
+                    </article>
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>Where this creates value</h3>
+                        <p>It creates value when the idea is strong but the current execution still feels generic,
+                            inconsistent, or production-fragile.</p>
+                    </article>
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>Related work</h3>
+                        <p><a href="portfolio.html#web">View web development work in the portfolio.</a></p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="page-section">
+            <div class="section-inner">
+                <div class="section-head">
+                    <div class="reveal max-w-2xl">
+                        <p class="eyebrow">Scope</p>
+                        <h2 class="section-title">What this service usually covers.</h2>
+                    </div>
+                </div>
+                <div class="interactive-badge-row reveal">
+                    <div class="interactive-badge">Responsive builds</div>
+                    <div class="interactive-badge">Section polish</div>
+                    <div class="interactive-badge">Interaction tuning</div>
+                    <div class="interactive-badge">QA review</div>
+                    <div class="interactive-badge">Launch preparation</div>
+                </div>
+            </div>
+        </section>
+        <section class="page-section">
+            <div class="section-inner">
+                <div class="detail-grid">
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>Collaboration model</h3>
+                        <p>Development moves best with clear design ownership, timely review feedback, and realistic
+                            content readiness.</p>
+                    </article>
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>Best timing</h3>
+                        <p>This is most useful when a launch surface is close to being ready but still needs stronger
+                            execution quality before release.</p>
+                    </article>
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>What clients usually bring</h3>
+                        <p>Design files or direction, content drafts, page priorities, and clarity on what matters most
+                            for launch.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="page-section">
+            <div class="section-inner">
+                <div class="section-head">
+                    <div class="reveal max-w-2xl">
+                        <p class="eyebrow">Signals</p>
+                        <h2 class="section-title">When development support is usually the right move.</h2>
+                    </div>
+                </div>
+                <div class="interactive-badge-row reveal">
+                    <div class="interactive-badge">The build feels fragile</div>
+                    <div class="interactive-badge">Mobile quality is weak</div>
+                    <div class="interactive-badge">Sections feel inconsistent</div>
+                    <div class="interactive-badge">Launch confidence is low</div>
+                    <div class="interactive-badge">Execution lacks polish</div>
+                </div>
+            </div>
+        </section>
+    </main>
+</x-app-layout>

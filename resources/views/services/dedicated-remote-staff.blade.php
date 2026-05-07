@@ -1,0 +1,198 @@
+<x-app-layout :page="'services'">
+    <main>
+        <section class="page-section inner-hero">
+            <div class="section-inner inner-hero-grid">
+                <div>
+                    <p class="eyebrow reveal">Service</p>
+                    <h1 class="page-title reveal">Dedicated Remote Staff</h1>
+                    <p class="section-copy reveal max-w-3xl">
+                        We provide execution support that helps businesses keep momentum
+                        across recurring tasks, coordination, and ongoing operational
+                        delivery.
+                    </p>
+                </div>
+                <div class="hero-side-card reveal interactive-card" data-tilt>
+                    <p class="eyebrow">Best fit</p>
+                    <h3>
+                        Businesses that need dependable remote support without losing
+                        visibility, structure, or execution quality.
+                    </h3>
+                    <p class="section-copy">
+                        This is useful when demand is rising but internal bandwidth is
+                        not expanding fast enough to match it.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="page-section">
+            <div class="section-inner">
+                <div class="section-head">
+                    <div class="reveal max-w-2xl">
+                        <p class="eyebrow">Workflow</p>
+                        <h2 class="section-title">
+                            How the remote support workflow runs.
+                        </h2>
+                        <p class="section-copy">
+                            The model is designed to give the business steadier execution
+                            coverage without creating more coordination friction.
+                        </p>
+                    </div>
+                </div>
+                <div class="detail-grid">
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>01. Role and responsibility mapping</h3>
+                        <p>
+                            We define the work scope, communication flow, task ownership,
+                            recurring activities, and what kind of support the business
+                            needs most.
+                        </p>
+                    </article>
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>02. Operating rhythm and integration</h3>
+                        <p>
+                            Support is woven into the real workflow so priorities,
+                            reporting, and day-to-day execution fit the way the business
+                            already moves.
+                        </p>
+                    </article>
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>03. Embedded execution</h3>
+                        <p>
+                            Recurring tasks, support requests, and ongoing delivery are
+                            handled with more consistency instead of relying on reactive
+                            internal bandwidth.
+                        </p>
+                    </article>
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>04. Review and optimization</h3>
+                        <p>
+                            The support model is refined over time so the role remains
+                            useful as priorities, volume, and business needs evolve.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="page-section">
+            <div class="section-inner">
+                <div class="detail-grid">
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>What is included</h3>
+                        <p>
+                            Task support structure, recurring execution coverage,
+                            communication alignment, and a steadier operational rhythm.
+                        </p>
+                    </article>
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>How engagements usually work</h3>
+                        <p>
+                            This service often runs as embedded support across marketing
+                            coordination, admin execution, project follow-through, or
+                            recurring business tasks.
+                        </p>
+                    </article>
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>What usually improves</h3>
+                        <p>
+                            Turnaround consistency, team bandwidth, execution reliability,
+                            and the ability to sustain momentum without overload.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="page-section">
+            <div class="section-inner">
+                <div class="detail-grid">
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>Common deliverables</h3>
+                        <p>
+                            Task execution coverage, support documentation, communication
+                            flow, recurring follow-through, and operational continuity.
+                        </p>
+                    </article>
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>Where this creates value</h3>
+                        <p>
+                            It creates the most value when the business is growing but
+                            daily execution is becoming harder to sustain with the current
+                            internal team alone.
+                        </p>
+                    </article>
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>Related work</h3>
+                        <p>
+                            <a href="portfolio.html#remote">View remote staff work in the portfolio.</a>
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="page-section">
+            <div class="section-inner">
+                <div class="section-head">
+                    <div class="reveal max-w-2xl">
+                        <p class="eyebrow">Scope</p>
+                        <h2 class="section-title">What this service usually covers.</h2>
+                    </div>
+                </div>
+                <div class="interactive-badge-row reveal">
+                    <div class="interactive-badge">Recurring execution</div>
+                    <div class="interactive-badge">Task coverage</div>
+                    <div class="interactive-badge">Communication support</div>
+                    <div class="interactive-badge">Operational follow-through</div>
+                    <div class="interactive-badge">Bandwidth relief</div>
+                </div>
+            </div>
+        </section>
+        <section class="page-section">
+            <div class="section-inner">
+                <div class="detail-grid">
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>Collaboration model</h3>
+                        <p>
+                            This service works best when ownership, communication
+                            channels, and review cadence are defined clearly from the
+                            start.
+                        </p>
+                    </article>
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>Best timing</h3>
+                        <p>
+                            It becomes useful when the business has enough momentum that
+                            everyday follow-through is starting to slip or bottleneck.
+                        </p>
+                    </article>
+                    <article class="detail-card reveal interactive-card" data-tilt>
+                        <h3>What clients usually bring</h3>
+                        <p>
+                            Recurring task lists, key workflows, access expectations, team
+                            structure, and clarity on where support is needed most.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="page-section">
+            <div class="section-inner">
+                <div class="section-head">
+                    <div class="reveal max-w-2xl">
+                        <p class="eyebrow">Signals</p>
+                        <h2 class="section-title">
+                            When remote staff support is usually the right move.
+                        </h2>
+                    </div>
+                </div>
+                <div class="interactive-badge-row reveal">
+                    <div class="interactive-badge">Execution is slipping</div>
+                    <div class="interactive-badge">Internal bandwidth is tight</div>
+                    <div class="interactive-badge">Tasks pile up quickly</div>
+                    <div class="interactive-badge">
+                        Follow-through is inconsistent
+                    </div>
+                    <div class="interactive-badge">Growth is straining the team</div>
+                </div>
+            </div>
+        </section>
+    </main>
+</x-app-layout>
