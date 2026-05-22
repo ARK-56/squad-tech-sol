@@ -64,6 +64,43 @@
             <div class="section-inner">
                 <div class="section-head">
                     <div class="reveal max-w-2xl">
+                        <p class="eyebrow">Visual Direction</p>
+                        <h2 class="section-title">A staged mix of video and image placeholders for future brand storytelling.</h2>
+                    </div>
+                    <p class="section-copy reveal">These slots are ready for team reels, behind-the-scenes visuals, workspace stills, or mood-driven launch assets.</p>
+                </div>
+                <div class="media-mosaic">
+                    <article class="video-placeholder reveal interactive-card" data-scroll-panel data-media-card data-tilt>
+                        <div class="video-placeholder-frame">
+                            <div class="video-placeholder-screen">
+                                <div class="video-placeholder-glow"></div>
+                                <div class="video-placeholder-play"><span></span></div>
+                                <div class="video-placeholder-meta">
+                                    <p class="mini-label">Studio Reel</p>
+                                    <h3>About page brand film placeholder</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
+                        <div class="image-placeholder-surface">
+                            <div class="image-placeholder-badge">Image Placeholder</div>
+                            <h3>Team process visual</h3>
+                        </div>
+                    </article>
+                    <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
+                        <div class="image-placeholder-surface image-placeholder-surface--alt">
+                            <div class="image-placeholder-badge">Image Placeholder</div>
+                            <h3>Creative workspace still</h3>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="page-section">
+            <div class="section-inner">
+                <div class="section-head">
+                    <div class="reveal max-w-2xl">
                         <p class="eyebrow">Principles</p>
                         <h2 class="section-title">The standards behind every Squadtech build.</h2>
                     </div>
@@ -109,6 +146,20 @@
                         <h3>Polish that performs</h3>
                         <p>We care about responsive quality, readable code, and the small details users feel even if
                             they never name them.</p>
+                    </article>
+                </div>
+                <div class="image-placeholder-grid">
+                    <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
+                        <div class="image-placeholder-surface">
+                            <div class="image-placeholder-badge">Image Placeholder</div>
+                            <h3>Principles moodboard visual</h3>
+                        </div>
+                    </article>
+                    <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
+                        <div class="image-placeholder-surface image-placeholder-surface--alt">
+                            <div class="image-placeholder-badge">Image Placeholder</div>
+                            <h3>Brand craft still</h3>
+                        </div>
                     </article>
                 </div>
             </div>

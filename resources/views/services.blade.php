@@ -123,6 +123,37 @@
                 </div>
             </div>
         </section>
+        <section class="page-section">
+            <div class="section-inner">
+                <div class="section-head">
+                    <div class="reveal max-w-2xl">
+                        <p class="eyebrow">Service Media</p>
+                        <h2 class="section-title">Image placeholder blocks for campaign stills, showcase frames, and service visuals.</h2>
+                    </div>
+                    <p class="section-copy reveal">Useful for future before-and-after visuals, campaign boards, interface stills, and performance storytelling.</p>
+                </div>
+                <div class="media-mosaic">
+                    <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
+                        <div class="image-placeholder-surface">
+                            <div class="image-placeholder-badge">Image Placeholder</div>
+                            <h3>Campaign preview board</h3>
+                        </div>
+                    </article>
+                    <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
+                        <div class="image-placeholder-surface image-placeholder-surface--alt">
+                            <div class="image-placeholder-badge">Image Placeholder</div>
+                            <h3>Services walkthrough frame</h3>
+                        </div>
+                    </article>
+                    <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
+                        <div class="image-placeholder-surface">
+                            <div class="image-placeholder-badge">Image Placeholder</div>
+                            <h3>Performance snapshot</h3>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
 
         <section class="page-section">
             <div class="section-inner">
@@ -173,6 +204,20 @@
                         <h3>Production delivery</h3>
                         <p>The final build carries the same intent as the concept, with responsive behavior, polished
                             interactions, and reusable structure.</p>
+                    </article>
+                </div>
+                <div class="image-placeholder-grid">
+                    <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
+                        <div class="image-placeholder-surface">
+                            <div class="image-placeholder-badge">Image Placeholder</div>
+                            <h3>Workflow snapshot</h3>
+                        </div>
+                    </article>
+                    <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
+                        <div class="image-placeholder-surface image-placeholder-surface--alt">
+                            <div class="image-placeholder-badge">Image Placeholder</div>
+                            <h3>Delivery system frame</h3>
+                        </div>
                     </article>
                 </div>
             </div>

@@ -43,23 +43,23 @@
             </div>
 
             <div class="stats-grid">
-                <div class="stat-card reveal stagger interactive-card" data-tilt>
+                <div class="stat-card reveal interactive-card" data-tilt>
                     <p class="stat-value" data-countup="200" data-countup-suffix="+">200+</p>
                     <p class="stat-label">Successful Projects</p>
                 </div>
-                <div class="stat-card reveal stagger interactive-card" data-tilt>
+                <div class="stat-card reveal interactive-card" data-tilt>
                     <p class="stat-value" data-countup="7">7</p>
                     <p class="stat-label">Years of Experience</p>
                 </div>
-                <div class="stat-card reveal stagger interactive-card" data-tilt>
+                <div class="stat-card reveal interactive-card" data-tilt>
                     <p class="stat-value" data-countup="98" data-countup-prefix="+" data-countup-suffix="%">+98%</p>
                     <p class="stat-label">Client Satisfaction</p>
                 </div>
-                <div class="stat-card reveal stagger interactive-card" data-tilt>
+                <div class="stat-card reveal interactive-card" data-tilt>
                     <p class="stat-value" data-countup="10" data-countup-suffix="M+">10M+</p>
                     <p class="stat-label">Impressions</p>
                 </div>
-                <div class="stat-card reveal stagger interactive-card" data-tilt>
+                <div class="stat-card reveal interactive-card" data-tilt>
                     <p class="stat-value" data-countup="67" data-countup-suffix="+">67+</p>
                     <p class="stat-label">Global Clients</p>
                 </div>
@@ -158,6 +158,20 @@
                                 target="_blank" rel="noreferrer">Dedicated Remote Staff</a></h3>
                         <p>Reliable remote team support for ongoing marketing, operations, design, and execution needs
                             as your business grows.</p>
+                    </article>
+                </div>
+                <div class="image-placeholder-grid">
+                    <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
+                        <div class="image-placeholder-surface">
+                            <div class="image-placeholder-badge">Image Placeholder</div>
+                            <h3>Service campaign visual</h3>
+                        </div>
+                    </article>
+                    <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
+                        <div class="image-placeholder-surface image-placeholder-surface--alt">
+                            <div class="image-placeholder-badge">Image Placeholder</div>
+                            <h3>Brand asset showcase</h3>
+                        </div>
                     </article>
                 </div>
                 <div class="section-action reveal">
@@ -322,6 +336,20 @@
                         </article>
                     </div>
                 </div>
+                <div class="image-placeholder-grid">
+                    <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
+                        <div class="image-placeholder-surface">
+                            <div class="image-placeholder-badge">Image Placeholder</div>
+                            <h3>Featured interface still</h3>
+                        </div>
+                    </article>
+                    <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
+                        <div class="image-placeholder-surface image-placeholder-surface--alt">
+                            <div class="image-placeholder-badge">Image Placeholder</div>
+                            <h3>Campaign presentation frame</h3>
+                        </div>
+                    </article>
+                </div>
             </div>
         </section>
 
@@ -376,6 +404,20 @@
                                 <p class="testimonial-role">Product Director, Metric Forge</p>
                             </div>
                             <p class="eyebrow">Product</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="image-placeholder-grid">
+                    <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
+                        <div class="image-placeholder-surface">
+                            <div class="image-placeholder-badge">Image Placeholder</div>
+                            <h3>Client success snapshot</h3>
+                        </div>
+                    </article>
+                    <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
+                        <div class="image-placeholder-surface image-placeholder-surface--alt">
+                            <div class="image-placeholder-badge">Image Placeholder</div>
+                            <h3>Social proof visual</h3>
                         </div>
                     </article>
                 </div>

@@ -27,6 +27,13 @@ const cursorTargets = document.querySelectorAll(
 const scrollPanels = document.querySelectorAll("[data-scroll-panel]");
 const pageSections = document.querySelectorAll(".page-section");
 const heroVideoPlaceholder = document.querySelector(".hero-video-placeholder");
+const mediaCards = document.querySelectorAll("[data-media-card]");
+const scrollProgress = document.querySelector(".scroll-progress");
+const interactiveBadges = document.querySelectorAll(".interactive-badge");
+const cardIcons = document.querySelectorAll(".card-icon");
+const itemFlowGroups = document.querySelectorAll(
+    ".services-grid, .detail-grid, .testimonial-grid, .portfolio-page-grid, .portfolio-stack, .stats-grid, .video-placeholder-grid, .image-placeholder-grid, .media-mosaic, .interactive-badge-row, .feature-list, .contact-grid, .faq-category-accordion",
+);
 
 if (hasScrollTrigger) {
     window.gsap.registerPlugin(window.ScrollTrigger);
@@ -393,6 +400,91 @@ function initGsapExperience() {
     const showcaseColumns = document.querySelectorAll(
         ".tag-card, .stat-card, .service-card, .portfolio-card, .testimonial-card, .video-placeholder",
     );
+    const siteHeader = document.querySelector(".site-header");
+    const variationSeed = (value) => {
+        const raw = Math.sin(value * 12.9898) * 43758.5453;
+        return raw - Math.floor(raw);
+    };
+    const range = (seed, min, max) => min + (max - min) * seed;
+    const pickSigned = (seed, magnitude) =>
+        (seed > 0.5 ? 1 : -1) * magnitude;
+    const indexOfElement = (element, collection) =>
+        Array.from(collection).indexOf(element);
+    const buildVariant = (index, family = "default") => {
+        const base = index + 1;
+        const seedA = variationSeed(base * 1.17 + family.length);
+        const seedB = variationSeed(base * 2.31 + family.length * 0.5);
+        const seedC = variationSeed(base * 3.73 + family.length * 0.9);
+        const x = pickSigned(seedA, Math.round(range(seedB, 12, 36)));
+        const y = Math.round(range(seedB, 30, 88));
+        const scale = range(seedC, 0.935, 0.982);
+        const rotate = pickSigned(seedB, range(seedA, 3, 10));
+        const rotateX = pickSigned(seedC, range(seedB, 2, 7));
+        const rotateY = pickSigned(seedA, range(seedC, 3, 9));
+        const scrub = range(seedA, 1.05, 2.2);
+        const drift = pickSigned(seedB, range(seedC, 2, 7));
+
+        return {
+            x,
+            y,
+            scale,
+            rotate,
+            rotateX,
+            rotateY,
+            scrub,
+            drift,
+        };
+    };
+    const buildRenderVariant = (index, family = "render") => {
+        const variant = buildVariant(index, family);
+        const horizontalBias = variationSeed(index * 2.13 + family.length);
+        const verticalBias = variationSeed(index * 3.41 + family.length * 0.7);
+        const dominantHorizontal = horizontalBias > 0.42;
+        const xDistance = range(horizontalBias, 28, 88);
+        const yDistance = dominantHorizontal
+            ? range(verticalBias, 10, 32)
+            : range(verticalBias, 52, 96);
+
+        return {
+            x: dominantHorizontal ? pickSigned(horizontalBias, xDistance) : pickSigned(horizontalBias, xDistance * 0.24),
+            y: yDistance,
+            scale: range(variationSeed(index + family.length), 0.972, 0.988),
+            scrub: range(variationSeed(index * 1.7 + family.length), 1.1, 1.9),
+        };
+    };
+    const isStackCard = (element) =>
+        element.matches(
+            ".stat-card, .service-card, .feature-list-card, .portfolio-card, .portfolio-feature, .testimonial-card, .detail-card, .contact-panel, .image-placeholder, .video-placeholder, .hero-side-card",
+        );
+
+    if (scrollProgress && hasScrollTrigger) {
+        gsap.to(scrollProgress, {
+            scaleX: 1,
+            ease: "none",
+            scrollTrigger: {
+                trigger: document.documentElement,
+                start: "top top",
+                end: "bottom bottom",
+                scrub: true,
+            },
+        });
+    }
+
+    if (siteHeader && hasScrollTrigger) {
+        gsap.to(siteHeader, {
+            backgroundColor: "color-mix(in srgb, var(--bg) 88%, transparent)",
+            borderColor: "rgba(245, 142, 30, 0.18)",
+            backdropFilter: "blur(28px)",
+            boxShadow: "0 14px 42px rgba(0, 0, 0, 0.18)",
+            ease: "none",
+            scrollTrigger: {
+                trigger: document.documentElement,
+                start: "top top",
+                end: "+=180",
+                scrub: true,
+            },
+        });
+    }
 
     if (heroSection && !prefersReducedMotion) {
         const heroTimeline = gsap.timeline({
@@ -489,23 +581,29 @@ function initGsapExperience() {
     }
 
     revealNodes.forEach((node, index) => {
+        const variant = buildRenderVariant(index, "reveal");
+
         gsap.fromTo(
             node,
             {
                 autoAlpha: heroSection?.contains(node) ? 1 : 0,
-                y: heroSection?.contains(node) ? 0 : 34,
+                x: heroSection?.contains(node) ? 0 : variant.x,
+                y: heroSection?.contains(node) ? 0 : variant.y,
+                scale: heroSection?.contains(node) ? 1 : variant.scale,
             },
             {
                 autoAlpha: 1,
+                x: 0,
                 y: 0,
+                scale: 1,
                 duration: 1,
-                ease: "expo.out",
-                delay: node.classList.contains("stagger") ? index * 0.035 : 0,
+                ease: "none",
                 overwrite: "auto",
                 scrollTrigger: {
                     trigger: node,
-                    start: "top 90%",
-                    once: true,
+                    start: "top 94%",
+                    end: "top 64%",
+                    scrub: variant.scrub,
                 },
                 onStart: () => {
                     node.classList.add("visible");
@@ -540,22 +638,221 @@ function initGsapExperience() {
             return;
         }
 
+        const variant = buildRenderVariant(
+            indexOfElement(section, pageSections),
+            "section",
+        );
+
         gsap.fromTo(
             sectionInner,
             {
-                y: 28,
-                autoAlpha: 0.94,
+                x: variant.x * 0.2,
+                y: variant.y * 0.68,
+                autoAlpha: 0.72,
+                scale: variant.scale,
             },
             {
+                x: 0,
                 y: 0,
                 autoAlpha: 1,
+                scale: 1,
                 duration: 1.1,
-                ease: "expo.out",
+                ease: "none",
                 scrollTrigger: {
                     trigger: section,
-                    start: "top 78%",
-                    toggleActions: "play none none none",
-                    once: true,
+                    start: "top 88%",
+                    end: "top 54%",
+                    scrub: range(variationSeed(variant.x), 1.3, 2),
+                },
+            },
+        );
+    });
+
+    itemFlowGroups.forEach((group) => {
+        const items = Array.from(group.children).filter(
+            (item) => !item.classList.contains("section-head"),
+        );
+
+        if (!items.length) {
+            return;
+        }
+
+        gsap.set(items, {
+            willChange: "transform, opacity",
+        });
+
+        items.forEach((item, index) => {
+            const variant = buildRenderVariant(
+                index + indexOfElement(group, itemFlowGroups),
+                "group",
+            );
+            const stackCard = isStackCard(item);
+            const stackDepth = items.length - index - 1;
+            const stackOffsetY = stackCard ? stackDepth * 22 : 0;
+            const stackOffsetX = stackCard ? stackDepth * (variant.x > 0 ? 6 : -6) : 0;
+            const stackScale = stackCard
+                ? Math.max(0.94, variant.scale - stackDepth * 0.01)
+                : variant.scale;
+
+            if (stackCard) {
+                gsap.set(item, {
+                    zIndex: items.length - index,
+                    transformOrigin: "center top",
+                });
+            }
+
+            gsap.fromTo(
+                item,
+                {
+                    x: variant.x + stackOffsetX,
+                    y: variant.y + stackOffsetY,
+                    autoAlpha: 0,
+                    scale: stackScale,
+                },
+                {
+                    x: 0,
+                    y: 0,
+                    autoAlpha: 1,
+                    scale: 1,
+                    duration: 1,
+                    ease: "none",
+                    scrollTrigger: {
+                        trigger: item,
+                        start: "top 96%",
+                        end: "top 58%",
+                        scrub: variant.scrub,
+                    },
+                },
+            );
+
+            gsap.to(item, {
+                xPercent: variant.x > 0 ? -0.6 : 0.6,
+                yPercent: range(variationSeed(index + 40), -2.8, -5.4),
+                z: stackCard ? stackDepth * -2 : 0,
+                ease: "none",
+                scrollTrigger: {
+                    trigger: item,
+                    start: "top bottom",
+                    end: "bottom top",
+                    scrub: range(variationSeed(index + 10), 1.7, 2.6),
+                },
+            });
+        });
+    });
+
+    mediaCards.forEach((card, index) => {
+        const variant = buildRenderVariant(index, "media");
+        const imageSurface = card.querySelector(".image-placeholder-surface");
+        const videoScreen = card.querySelector(".video-placeholder-screen");
+
+        gsap.fromTo(
+            card,
+            {
+                x: variant.x,
+                y: variant.y + 10,
+                scale: variant.scale,
+                autoAlpha: 0,
+            },
+            {
+                x: 0,
+                y: 0,
+                scale: 1,
+                autoAlpha: 1,
+                duration: 1.2,
+                ease: "none",
+                scrollTrigger: {
+                    trigger: card,
+                    start: "top 96%",
+                    end: "top 58%",
+                    scrub: variant.scrub,
+                },
+            },
+        );
+
+        if (imageSurface) {
+            gsap.fromTo(
+                imageSurface,
+                {
+                    backgroundPosition: "0% 0%, 100% 0%, 0% 0%",
+                },
+                {
+                    backgroundPosition: "8% 10%, 86% 12%, 0% 0%",
+                    ease: "none",
+                    scrollTrigger: {
+                        trigger: card,
+                        start: "top bottom",
+                        end: "bottom top",
+                        scrub: true,
+                    },
+                },
+            );
+        }
+
+        if (videoScreen) {
+            gsap.to(videoScreen, {
+                backgroundPosition: "0% 0%, 24% 26%, 76% 20%, 0% 0%",
+                ease: "none",
+                scrollTrigger: {
+                    trigger: card,
+                    start: "top bottom",
+                    end: "bottom top",
+                    scrub: true,
+                },
+            });
+        }
+    });
+
+    interactiveBadges.forEach((badge, index) => {
+        const variant = buildRenderVariant(index, "badge");
+
+        gsap.fromTo(
+            badge,
+            {
+                x: variant.x * 0.5,
+                y: variant.y * 0.5,
+                autoAlpha: 0,
+                scale: variant.scale,
+            },
+            {
+                x: 0,
+                y: 0,
+                autoAlpha: 1,
+                scale: 1,
+                duration: 0.8,
+                ease: "none",
+                scrollTrigger: {
+                    trigger: badge,
+                    start: "top 96%",
+                    end: "top 68%",
+                    scrub: range(variationSeed(index + 21), 1.05, 1.6),
+                },
+            },
+        );
+    });
+
+    cardIcons.forEach((icon, index) => {
+        const variant = buildRenderVariant(index, "icon");
+
+        gsap.fromTo(
+            icon,
+            {
+                x: variant.x * 0.28,
+                y: range(variationSeed(index + 30), 12, 24),
+                scale: range(variationSeed(index + 31), 0.92, 0.97),
+                autoAlpha: 0,
+            },
+            {
+                x: 0,
+                y: 0,
+                scale: 1,
+                autoAlpha: 1,
+                duration: 0.9,
+                ease: "none",
+                scrollTrigger: {
+                    trigger: icon,
+                    start: "top 96%",
+                    end: "top 72%",
+                    scrub: range(variationSeed(index + 32), 1, 1.5),
                 },
             },
         );
@@ -917,10 +1214,20 @@ window.addEventListener("load", () => {
     pageLoader.classList.add("is-hidden");
 });
 
-revealNodes.forEach((node, index) => {
-    if (node.classList.contains("stagger")) {
-        node.style.setProperty("--delay", `${index * 90}ms`);
+const staggerGroups = new Map();
+
+revealNodes.forEach((node) => {
+    if (!node.classList.contains("stagger")) {
+        return;
     }
+
+    const group =
+        node.closest(".stats-grid, .testimonial-grid, .services-grid, .detail-grid, .image-placeholder-grid, .video-placeholder-grid, .media-mosaic, .portfolio-page-grid, .portfolio-stack") ||
+        node.parentElement;
+    const currentIndex = staggerGroups.get(group) || 0;
+
+    node.style.setProperty("--delay", `${currentIndex * 90}ms`);
+    staggerGroups.set(group, currentIndex + 1);
 });
 
 if (!hasScrollTrigger) {

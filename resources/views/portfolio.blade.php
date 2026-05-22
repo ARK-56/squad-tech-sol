@@ -99,6 +99,37 @@
     </section>
     <section class="page-section">
       <div class="section-inner">
+        <div class="section-head">
+          <div class="reveal max-w-2xl">
+            <p class="eyebrow">Presentation Layer</p>
+            <h2 class="section-title">Additional image placeholders for future case-study previews and launch assets.</h2>
+          </div>
+          <p class="section-copy reveal">A clean place to introduce still imagery, interface previews, campaign boards, or before-and-after storytelling.</p>
+        </div>
+        <div class="media-mosaic">
+          <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
+            <div class="image-placeholder-surface">
+              <div class="image-placeholder-badge">Image Placeholder</div>
+              <h3>Portfolio hero still</h3>
+            </div>
+          </article>
+          <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
+            <div class="image-placeholder-surface image-placeholder-surface--alt">
+              <div class="image-placeholder-badge">Image Placeholder</div>
+              <h3>Interface still frame</h3>
+            </div>
+          </article>
+          <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
+            <div class="image-placeholder-surface">
+              <div class="image-placeholder-badge">Image Placeholder</div>
+              <h3>Campaign moodboard frame</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="page-section">
+      <div class="section-inner">
         <div class="detail-grid">
           <article class="detail-card reveal interactive-card" data-tilt>
             <span class="card-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -138,6 +169,20 @@
             <h3>Real business movement</h3>
             <p>We treat interface decisions as growth decisions, tying design quality back to trust, action, and
               retention.</p>
+          </article>
+        </div>
+        <div class="image-placeholder-grid">
+          <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
+            <div class="image-placeholder-surface">
+              <div class="image-placeholder-badge">Image Placeholder</div>
+              <h3>Results dashboard still</h3>
+            </div>
+          </article>
+          <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
+            <div class="image-placeholder-surface image-placeholder-surface--alt">
+              <div class="image-placeholder-badge">Image Placeholder</div>
+              <h3>Project showcase frame</h3>
+            </div>
           </article>
         </div>
       </div>

@@ -62,6 +62,43 @@
             <div class="section-inner">
                 <div class="section-head">
                     <div class="reveal max-w-2xl">
+                        <p class="eyebrow">Contact Media</p>
+                        <h2 class="section-title">Space for future intro clips, founder messages, and supporting visuals.</h2>
+                    </div>
+                    <p class="section-copy reveal">These placeholders can later become short welcome videos, behind-the-scenes stills, or trust-building project snapshots.</p>
+                </div>
+                <div class="media-mosaic">
+                    <article class="video-placeholder reveal interactive-card" data-scroll-panel data-media-card data-tilt>
+                        <div class="video-placeholder-frame">
+                            <div class="video-placeholder-screen">
+                                <div class="video-placeholder-glow"></div>
+                                <div class="video-placeholder-play"><span></span></div>
+                                <div class="video-placeholder-meta">
+                                    <p class="mini-label">Intro Message</p>
+                                    <h3>Contact page welcome video placeholder</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
+                        <div class="image-placeholder-surface">
+                            <div class="image-placeholder-badge">Image Placeholder</div>
+                            <h3>Team contact still</h3>
+                        </div>
+                    </article>
+                    <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
+                        <div class="image-placeholder-surface image-placeholder-surface--alt">
+                            <div class="image-placeholder-badge">Image Placeholder</div>
+                            <h3>Project kickoff frame</h3>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="page-section">
+            <div class="section-inner">
+                <div class="section-head">
+                    <div class="reveal max-w-2xl">
                         <p class="eyebrow">Inquiry Form</p>
                         <h2 class="section-title">Send your project details directly.</h2>
                         <p class="section-copy">Share your name, email, and a short message about what you need. We will
@@ -149,6 +186,20 @@
                         <h3>If you need speed</h3>
                         <p>We keep scope and collaboration tight so the project can move quickly without collapsing into
                             generic design shortcuts.</p>
+                    </article>
+                </div>
+                <div class="image-placeholder-grid">
+                    <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
+                        <div class="image-placeholder-surface">
+                            <div class="image-placeholder-badge">Image Placeholder</div>
+                            <h3>Kickoff planning still</h3>
+                        </div>
+                    </article>
+                    <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
+                        <div class="image-placeholder-surface image-placeholder-surface--alt">
+                            <div class="image-placeholder-badge">Image Placeholder</div>
+                            <h3>Discovery session visual</h3>
+                        </div>
                     </article>
                 </div>
             </div>

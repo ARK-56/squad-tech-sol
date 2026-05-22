@@ -19,6 +19,7 @@
 
 <body class="font-poppins is-loading" data-page="{{ $page }}">
     <div data-site-loader></div>
+    <div class="scroll-progress" aria-hidden="true"></div>
     <div class="site-shell">
         <div data-site-header></div>
 
