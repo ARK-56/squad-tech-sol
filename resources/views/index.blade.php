@@ -20,41 +20,23 @@
                 <div class="reveal relative">
                     <div class="floating-orb orb-one"></div>
                     <div class="floating-orb orb-two"></div>
-                    <div class="hero-console interactive-card" data-tilt>
-                        <div class="feature-panel">
-                            <div class="feature-heading">
-                                <div>
-                                    <p class="mini-label">Live system</p>
-                                    <h2>Agency Pulse</h2>
+                    <div class="hero-console hero-video-placeholder video-placeholder interactive-card" data-tilt>
+                        <div class="video-placeholder-frame">
+                            <div class="video-placeholder-screen">
+                                <div class="video-placeholder-glow"></div>
+                                <div class="video-placeholder-play">
+                                    <span></span>
                                 </div>
-                                <div class="status-pill">
-                                    <span class="status-dot"></span>
-                                    Active delivery
-                                </div>
-                            </div>
-                            <div class="feature-grid">
-                                <div class="highlight-card">
-                                    <p class="mini-label">Conversion lift</p>
-                                    <p class="highlight-value">+178%</p>
-                                    <p class="soft-copy">Designed for impact with custom UX systems and cinematic
-                                        content rhythm.</p>
-                                </div>
-                                <div class="mini-panels">
-                                    <div class="mini-card">
-                                        <p class="mini-label">Launch speed</p>
-                                        <p class="mini-value">3.4x faster</p>
-                                    </div>
-                                    <div class="mini-card">
-                                        <p class="mini-label">UX satisfaction</p>
-                                        <p class="mini-value">4.9/5</p>
-                                    </div>
+                                <div class="video-placeholder-meta">
+                                    <p class="mini-label">Hero Video</p>
+                                    <h3>Homepage brand film placeholder</h3>
                                 </div>
                             </div>
                         </div>
                         <div class="hero-tags">
-                            <div class="tag-card">Product strategy</div>
-                            <div class="tag-card">Immersive UI systems</div>
-                            <div class="tag-card">Scalable engineering</div>
+                            <div class="tag-card">Launch reel</div>
+                            <div class="tag-card">Product teaser</div>
+                            <div class="tag-card">Brand story</div>
                         </div>
                     </div>
                 </div>
@@ -62,23 +44,23 @@
 
             <div class="stats-grid">
                 <div class="stat-card reveal stagger interactive-card" data-tilt>
-                    <p class="stat-value">200+</p>
+                    <p class="stat-value" data-countup="200" data-countup-suffix="+">200+</p>
                     <p class="stat-label">Successful Projects</p>
                 </div>
                 <div class="stat-card reveal stagger interactive-card" data-tilt>
-                    <p class="stat-value">7</p>
+                    <p class="stat-value" data-countup="7">7</p>
                     <p class="stat-label">Years of Experience</p>
                 </div>
                 <div class="stat-card reveal stagger interactive-card" data-tilt>
-                    <p class="stat-value">+98%</p>
+                    <p class="stat-value" data-countup="98" data-countup-prefix="+" data-countup-suffix="%">+98%</p>
                     <p class="stat-label">Client Satisfaction</p>
                 </div>
                 <div class="stat-card reveal stagger interactive-card" data-tilt>
-                    <p class="stat-value">10M+</p>
+                    <p class="stat-value" data-countup="10" data-countup-suffix="M+">10M+</p>
                     <p class="stat-label">Impressions</p>
                 </div>
                 <div class="stat-card reveal stagger interactive-card" data-tilt>
-                    <p class="stat-value">67+</p>
+                    <p class="stat-value" data-countup="67" data-countup-suffix="+">67+</p>
                     <p class="stat-label">Global Clients</p>
                 </div>
             </div>
@@ -180,6 +162,73 @@
                 </div>
                 <div class="section-action reveal">
                     <a href="services" class="secondary-button magnetic-button">Open Services Page</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-section">
+            <div class="section-inner">
+                <div class="section-head">
+                    <div class="reveal max-w-2xl">
+                        <p class="eyebrow">Video Presence</p>
+                        <h2 class="section-title">Scroll-led placeholders for future reels, testimonials, and product stories.</h2>
+                    </div>
+                    <p class="section-copy reveal">
+                        These blocks can later be swapped with real MP4, Vimeo, or YouTube embeds without changing the homepage structure.
+                    </p>
+                </div>
+                <div class="video-placeholder-grid">
+                    <article class="video-placeholder reveal interactive-card" data-scroll-panel data-tilt>
+                        <div class="video-placeholder-frame">
+                            <div class="video-placeholder-screen">
+                                <div class="video-placeholder-glow"></div>
+                                <div class="video-placeholder-play">
+                                    <span></span>
+                                </div>
+                                <div class="video-placeholder-meta">
+                                    <p class="mini-label">Brand Reel</p>
+                                    <h3>Homepage intro video placeholder</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-placeholder-copy">
+                            <p class="soft-copy">Use this slot for a cinematic agency reel or launch montage.</p>
+                        </div>
+                    </article>
+                    <article class="video-placeholder reveal interactive-card" data-scroll-panel data-tilt>
+                        <div class="video-placeholder-frame">
+                            <div class="video-placeholder-screen">
+                                <div class="video-placeholder-glow"></div>
+                                <div class="video-placeholder-play">
+                                    <span></span>
+                                </div>
+                                <div class="video-placeholder-meta">
+                                    <p class="mini-label">Case Study</p>
+                                    <h3>Portfolio walkthrough placeholder</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-placeholder-copy">
+                            <p class="soft-copy">Ideal for showing a redesign breakdown, dashboard demo, or campaign recap.</p>
+                        </div>
+                    </article>
+                    <article class="video-placeholder reveal interactive-card" data-scroll-panel data-tilt>
+                        <div class="video-placeholder-frame">
+                            <div class="video-placeholder-screen">
+                                <div class="video-placeholder-glow"></div>
+                                <div class="video-placeholder-play">
+                                    <span></span>
+                                </div>
+                                <div class="video-placeholder-meta">
+                                    <p class="mini-label">Testimonial</p>
+                                    <h3>Client story placeholder</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-placeholder-copy">
+                            <p class="soft-copy">A clean spot for founder testimonials, team interviews, or social proof clips.</p>
+                        </div>
+                    </article>
                 </div>
             </div>
         </section>

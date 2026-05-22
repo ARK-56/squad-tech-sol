@@ -11,6 +11,26 @@ const pageLinks = document.querySelectorAll('a[href$=".html"]');
 const themeLogos = document.querySelectorAll("[data-logo-dark]");
 const formStatusNode = document.querySelector("[data-form-status]");
 const faqGroups = document.querySelectorAll("[data-faq-categories]");
+const magneticButtons = document.querySelectorAll(".magnetic-button");
+const countUpNodes = document.querySelectorAll("[data-countup]");
+const heroSection = document.querySelector(".hero-section");
+const hasGsap = typeof window.gsap !== "undefined";
+const hasScrollTrigger =
+    hasGsap && typeof window.ScrollTrigger !== "undefined";
+const prefersReducedMotion = window.matchMedia(
+    "(prefers-reduced-motion: reduce)",
+).matches;
+const supportsFinePointer = window.matchMedia("(pointer: fine)").matches;
+const cursorTargets = document.querySelectorAll(
+    "a, button, [data-tilt], .filter-chip, .accordion-trigger, .theme-toggle",
+);
+const scrollPanels = document.querySelectorAll("[data-scroll-panel]");
+const pageSections = document.querySelectorAll(".page-section");
+const heroVideoPlaceholder = document.querySelector(".hero-video-placeholder");
+
+if (hasScrollTrigger) {
+    window.gsap.registerPlugin(window.ScrollTrigger);
+}
 
 const faqs = [
     {
@@ -195,6 +215,7 @@ function initFaqCategoryToggles() {
 
             toggle.addEventListener("click", () => {
                 const target = toggle.dataset.faqToggle;
+                const nextPanel = group.querySelector(`[data-faq-panel="${target}"]`);
 
                 toggles.forEach((item) => {
                     item.classList.toggle("is-active", item === toggle);
@@ -206,8 +227,61 @@ function initFaqCategoryToggles() {
                         panel.dataset.faqPanel === target,
                     );
                 });
+
+                if (hasGsap && nextPanel) {
+                    window.gsap.fromTo(
+                        nextPanel,
+                        { autoAlpha: 0, y: 18 },
+                        {
+                            autoAlpha: 1,
+                            y: 0,
+                            duration: 0.45,
+                            ease: "power2.out",
+                            clearProps: "opacity,visibility,transform",
+                        },
+                    );
+                }
             });
         });
+    });
+}
+
+function setAccordionState(item, isOpen, animate = false) {
+    const trigger = item.querySelector(".accordion-trigger");
+    const content = item.querySelector(".accordion-content");
+
+    if (!trigger || !content) {
+        return;
+    }
+
+    item.classList.toggle("is-open", isOpen);
+    trigger.setAttribute("aria-expanded", String(isOpen));
+
+    if (!hasGsap || !animate) {
+        content.style.height = isOpen ? "auto" : "0px";
+        return;
+    }
+
+    window.gsap.killTweensOf(content);
+
+    if (isOpen) {
+        window.gsap.set(content, { height: content.offsetHeight || 0 });
+        window.gsap.to(content, {
+            height: content.scrollHeight,
+            duration: 0.42,
+            ease: "power2.out",
+            onComplete: () => {
+                content.style.height = "auto";
+            },
+        });
+        return;
+    }
+
+    window.gsap.set(content, { height: content.offsetHeight });
+    window.gsap.to(content, {
+        height: 0,
+        duration: 0.34,
+        ease: "power2.inOut",
     });
 }
 
@@ -220,17 +294,571 @@ function initAccordions() {
         }
 
         const trigger = item.querySelector(".accordion-trigger");
+        const isOpen = item.classList.contains("is-open");
+
         if (!trigger) {
             return;
         }
 
         item.dataset.accordionBound = "true";
+        setAccordionState(item, isOpen, false);
 
         trigger.addEventListener("click", () => {
-            const isOpen = item.classList.toggle("is-open");
-            trigger.setAttribute("aria-expanded", String(isOpen));
+            setAccordionState(item, !item.classList.contains("is-open"), true);
         });
     });
+}
+
+function initMagneticButtons() {
+    if (!hasGsap || prefersReducedMotion || !supportsFinePointer) {
+        return;
+    }
+
+    magneticButtons.forEach((button) => {
+        if (button.dataset.magneticBound === "true") {
+            return;
+        }
+
+        button.dataset.magneticBound = "true";
+
+        button.addEventListener("pointermove", (event) => {
+            if (!hasGsap) {
+                return;
+            }
+
+            const rect = button.getBoundingClientRect();
+            const moveX = (event.clientX - (rect.left + rect.width / 2)) * 0.12;
+            const moveY = (event.clientY - (rect.top + rect.height / 2)) * 0.18;
+
+            window.gsap.to(button, {
+                x: moveX,
+                y: moveY,
+                duration: 0.28,
+                ease: "power3.out",
+            });
+        });
+
+        button.addEventListener("pointerleave", () => {
+            if (!hasGsap) {
+                return;
+            }
+
+            window.gsap.to(button, {
+                x: 0,
+                y: 0,
+                duration: 0.38,
+                ease: "elastic.out(1, 0.5)",
+            });
+        });
+    });
+}
+
+function initCountUps() {
+    if (!hasScrollTrigger || prefersReducedMotion) {
+        return;
+    }
+
+    countUpNodes.forEach((node) => {
+        const endValue = Number(node.dataset.countup || "0");
+        const prefix = node.dataset.countupPrefix || "";
+        const suffix = node.dataset.countupSuffix || "";
+        const counter = { value: 0 };
+        const tween = window.gsap.to(counter, {
+            value: endValue,
+            duration: 1.6,
+            ease: "power2.out",
+            paused: true,
+            onUpdate: () => {
+                node.textContent = `${prefix}${Math.round(counter.value)}${suffix}`;
+            },
+            scrollTrigger: {
+                trigger: node,
+                start: "top 88%",
+                once: true,
+                onEnter: () => {
+                    node.textContent = `${prefix}0${suffix}`;
+                    tween.play(0);
+                },
+            },
+        });
+    });
+}
+
+function initGsapExperience() {
+    if (!hasGsap) {
+        return;
+    }
+
+    const { gsap } = window;
+    const showcaseColumns = document.querySelectorAll(
+        ".tag-card, .stat-card, .service-card, .portfolio-card, .testimonial-card, .video-placeholder",
+    );
+
+    if (heroSection && !prefersReducedMotion) {
+        const heroTimeline = gsap.timeline({
+            defaults: { ease: "expo.out" },
+        });
+
+        heroTimeline
+            .from(".hero-section .eyebrow", {
+                autoAlpha: 0,
+                y: 18,
+                duration: 0.7,
+            })
+            .from(
+                ".hero-section .hero-title",
+                {
+                    autoAlpha: 0,
+                    y: 26,
+                    duration: 1,
+                },
+                "-=0.42",
+            )
+            .from(
+                ".hero-section .hero-copy, .hero-section .primary-button, .hero-section .secondary-button",
+                {
+                    autoAlpha: 0,
+                    y: 20,
+                    duration: 0.82,
+                    stagger: 0.1,
+                },
+                "-=0.62",
+            )
+            .from(
+                ".hero-video-placeholder",
+                {
+                    autoAlpha: 0,
+                    y: 24,
+                    rotateX: -7,
+                    duration: 1.1,
+                },
+                "-=0.78",
+            )
+            .from(
+                ".hero-video-placeholder .video-placeholder-frame, .hero-video-placeholder .video-placeholder-play, .hero-video-placeholder .video-placeholder-meta, .hero-video-placeholder .tag-card",
+                {
+                    autoAlpha: 0,
+                    y: 14,
+                    duration: 0.72,
+                    stagger: 0.08,
+                },
+                "-=0.82",
+            );
+
+        gsap.to(".orb-one", {
+            y: -14,
+            x: 12,
+            duration: 5.6,
+            repeat: -1,
+            yoyo: true,
+            ease: "sine.inOut",
+        });
+
+        gsap.to(".orb-two", {
+            y: 18,
+            x: -10,
+            duration: 6.4,
+            repeat: -1,
+            yoyo: true,
+            ease: "sine.inOut",
+        });
+    }
+
+    showcaseColumns.forEach((node) => {
+        node.addEventListener("pointerenter", () => {
+            gsap.to(node, {
+                y: -4,
+                scale: 1.008,
+                duration: 0.42,
+                ease: "power3.out",
+            });
+        });
+
+        node.addEventListener("pointerleave", () => {
+            gsap.to(node, {
+                y: 0,
+                scale: 1,
+                duration: 0.48,
+                ease: "power3.out",
+            });
+        });
+    });
+
+    if (!hasScrollTrigger || prefersReducedMotion) {
+        return;
+    }
+
+    revealNodes.forEach((node, index) => {
+        gsap.fromTo(
+            node,
+            {
+                autoAlpha: heroSection?.contains(node) ? 1 : 0,
+                y: heroSection?.contains(node) ? 0 : 34,
+            },
+            {
+                autoAlpha: 1,
+                y: 0,
+                duration: 1,
+                ease: "expo.out",
+                delay: node.classList.contains("stagger") ? index * 0.035 : 0,
+                overwrite: "auto",
+                scrollTrigger: {
+                    trigger: node,
+                    start: "top 90%",
+                    once: true,
+                },
+                onStart: () => {
+                    node.classList.add("visible");
+                },
+            },
+        );
+    });
+
+    document
+        .querySelectorAll(".floating-orb, .hero-video-placeholder, .about-visual, .portfolio-feature, .cta-panel")
+        .forEach((node) => {
+            gsap.to(node, {
+                yPercent: node.classList.contains("floating-orb") ? 12 : -4,
+                ease: "none",
+                scrollTrigger: {
+                    trigger: node.closest(".page-section") || node,
+                    start: "top bottom",
+                    end: "bottom top",
+                    scrub: true,
+                },
+            });
+        });
+
+    pageSections.forEach((section) => {
+        if (section.classList.contains("hero-section")) {
+            return;
+        }
+
+        const sectionInner = section.querySelector(".section-inner");
+
+        if (!sectionInner) {
+            return;
+        }
+
+        gsap.fromTo(
+            sectionInner,
+            {
+                y: 28,
+                autoAlpha: 0.94,
+            },
+            {
+                y: 0,
+                autoAlpha: 1,
+                duration: 1.1,
+                ease: "expo.out",
+                scrollTrigger: {
+                    trigger: section,
+                    start: "top 78%",
+                    toggleActions: "play none none none",
+                    once: true,
+                },
+            },
+        );
+    });
+
+    scrollPanels.forEach((panel, index) => {
+        const screen = panel.querySelector(".video-placeholder-screen");
+        const playButton = panel.querySelector(".video-placeholder-play");
+        const glow = panel.querySelector(".video-placeholder-glow");
+
+        gsap.fromTo(
+            panel,
+            {
+                y: 54,
+                rotateX: 8,
+                scale: 0.96,
+                autoAlpha: 0,
+            },
+            {
+                y: 0,
+                rotateX: 0,
+                scale: 1,
+                autoAlpha: 1,
+                duration: 1.15,
+                ease: "expo.out",
+                delay: index * 0.06,
+                scrollTrigger: {
+                    trigger: panel,
+                    start: "top 86%",
+                    once: true,
+                },
+            },
+        );
+
+        if (screen) {
+            gsap.fromTo(
+                screen,
+                {
+                    clipPath: "inset(16% 12% 16% 12% round 1.6rem)",
+                },
+                {
+                    clipPath: "inset(0% 0% 0% 0% round 1.6rem)",
+                    duration: 1.2,
+                    ease: "expo.out",
+                    scrollTrigger: {
+                        trigger: panel,
+                        start: "top 86%",
+                        once: true,
+                    },
+                },
+            );
+        }
+
+        if (playButton) {
+            gsap.to(playButton, {
+                scale: 1.08,
+                duration: 1.2,
+                repeat: -1,
+                yoyo: true,
+                ease: "sine.inOut",
+            });
+        }
+
+        if (glow) {
+            gsap.to(glow, {
+                xPercent: 10,
+                yPercent: -8,
+                duration: 3.4,
+                repeat: -1,
+                yoyo: true,
+                ease: "sine.inOut",
+            });
+        }
+    });
+}
+
+function initHeroVideoPopup() {
+    if (
+        !hasGsap ||
+        prefersReducedMotion ||
+        !heroVideoPlaceholder ||
+        !heroSection
+    ) {
+        return;
+    }
+
+    const popup = heroVideoPlaceholder.cloneNode(true);
+    const backdrop = document.createElement("div");
+    const popupState = {
+        progress: 0,
+        startX: 0,
+        startY: 0,
+        startScale: 1,
+        startRotate: -4,
+        startBackdrop: 0.82,
+        targetWidth: 0,
+        targetHeight: 0,
+    };
+    let isDocked = false;
+    let touchStartY = null;
+
+    popup.classList.add("hero-video-popup");
+    popup.removeAttribute("data-tilt");
+    popup.querySelectorAll("[data-tilt]").forEach((node) => {
+        node.removeAttribute("data-tilt");
+    });
+
+    backdrop.className = "hero-video-popup-backdrop";
+
+    body.append(backdrop, popup);
+    heroVideoPlaceholder.classList.add("hero-video-placeholder--ghost");
+    body.classList.add("hero-intro-lock");
+    window.scrollTo(0, 0);
+
+    function updatePopupProgress(progress) {
+        const clamped = window.gsap.utils.clamp(0, 1, progress);
+        popupState.progress = clamped;
+
+        window.gsap.set(popup, {
+            x: window.gsap.utils.interpolate(
+                popupState.startX,
+                0,
+                clamped,
+            ),
+            y: window.gsap.utils.interpolate(
+                popupState.startY,
+                0,
+                clamped,
+            ),
+            scale: window.gsap.utils.interpolate(
+                popupState.startScale,
+                1,
+                clamped,
+            ),
+            rotate: window.gsap.utils.interpolate(
+                popupState.startRotate,
+                0,
+                clamped,
+            ),
+        });
+
+        window.gsap.set(backdrop, {
+            autoAlpha: window.gsap.utils.interpolate(
+                popupState.startBackdrop,
+                0,
+                clamped,
+            ),
+        });
+
+        if (clamped >= 1) {
+            finishDock();
+        }
+    }
+
+    function placePopup() {
+        const rect = heroVideoPlaceholder.getBoundingClientRect();
+        const viewportPadding = 32;
+        const maxScale = Math.min(
+            (window.innerWidth - viewportPadding * 2) / rect.width,
+            (window.innerHeight - 140) / rect.height,
+            1.55,
+        );
+        const targetCenterX = rect.left + rect.width / 2;
+        const targetCenterY = rect.top + rect.height / 2;
+        const viewportCenterX = window.innerWidth / 2;
+        const viewportCenterY = window.innerHeight / 2;
+        popupState.targetWidth = rect.width;
+        popupState.targetHeight = rect.height;
+        popupState.startX = viewportCenterX - targetCenterX;
+        popupState.startY = viewportCenterY - targetCenterY;
+        popupState.startScale = Math.max(1.05, maxScale);
+
+        window.gsap.set(popup, {
+            left: rect.left,
+            top: rect.top,
+            width: rect.width,
+            height: rect.height,
+            autoAlpha: 1,
+        });
+
+        updatePopupProgress(popupState.progress);
+
+        window.gsap.set(popup, {
+            x: window.gsap.utils.interpolate(
+                popupState.startX,
+                0,
+                popupState.progress,
+            ),
+            y: window.gsap.utils.interpolate(
+                popupState.startY,
+                0,
+                popupState.progress,
+            ),
+            scale: window.gsap.utils.interpolate(
+                popupState.startScale,
+                1,
+                popupState.progress,
+            ),
+            rotate: window.gsap.utils.interpolate(
+                popupState.startRotate,
+                0,
+                popupState.progress,
+            ),
+            autoAlpha: 1,
+        });
+    }
+
+    function cleanup() {
+        body.classList.remove("hero-intro-lock");
+        popup.remove();
+        backdrop.remove();
+        heroVideoPlaceholder.classList.remove("hero-video-placeholder--ghost");
+        window.removeEventListener("resize", placePopup);
+        window.removeEventListener("wheel", handleWheel);
+        window.removeEventListener("touchstart", handleTouchStart);
+        window.removeEventListener("touchmove", handleTouchMove);
+        window.removeEventListener("scroll", handleWindowScroll);
+        window.removeEventListener("keydown", handleKeyDown);
+    }
+
+    function finishDock() {
+        if (isDocked) {
+            return;
+        }
+
+        isDocked = true;
+        window.gsap.killTweensOf(popup);
+        window.gsap.killTweensOf(backdrop);
+        cleanup();
+    }
+
+    function applyDelta(delta) {
+        if (isDocked) {
+            return;
+        }
+
+        const nextProgress = popupState.progress + delta;
+        updatePopupProgress(nextProgress);
+    }
+
+    function handleWheel(event) {
+        if (isDocked) {
+            return;
+        }
+
+        event.preventDefault();
+        const delta = Math.max(event.deltaY, 0) / 1400;
+        applyDelta(delta);
+    }
+
+    function handleTouchStart(event) {
+        touchStartY = event.touches[0]?.clientY ?? null;
+    }
+
+    function handleTouchMove(event) {
+        if (isDocked) {
+            return;
+        }
+
+        event.preventDefault();
+
+        const currentY = event.touches[0]?.clientY;
+        if (touchStartY == null || currentY == null) {
+            return;
+        }
+
+        const delta = Math.max(touchStartY - currentY, 0) / 180;
+        touchStartY = currentY;
+        applyDelta(delta);
+    }
+
+    function handleWindowScroll() {
+        if (!isDocked) {
+            window.scrollTo(0, 0);
+        }
+    }
+
+    function handleKeyDown(event) {
+        if (isDocked) {
+            return;
+        }
+
+        const scrollingKeys = [
+            "ArrowDown",
+            "PageDown",
+            "Space",
+        ];
+
+        if (!scrollingKeys.includes(event.code) && !scrollingKeys.includes(event.key)) {
+            return;
+        }
+
+        event.preventDefault();
+        applyDelta(0.14);
+    }
+
+    placePopup();
+    window.addEventListener("resize", placePopup);
+    window.addEventListener("wheel", handleWheel, { passive: false });
+    window.addEventListener("touchstart", handleTouchStart, { passive: true });
+    window.addEventListener("touchmove", handleTouchMove, { passive: false });
+    window.addEventListener("scroll", handleWindowScroll, { passive: true });
+    window.addEventListener("keydown", handleKeyDown);
 }
 
 renderFaqGroups();
@@ -262,7 +890,27 @@ if (formStatusNode) {
 window.addEventListener("load", () => {
     body.classList.remove("is-loading");
 
+    initHeroVideoPopup();
+
     if (!pageLoader) {
+        return;
+    }
+
+    if (hasGsap) {
+        window.gsap.to(".loader-core", {
+            scale: 0.88,
+            autoAlpha: 0,
+            duration: 0.45,
+            ease: "power2.in",
+        });
+        window.gsap.to(pageLoader, {
+            autoAlpha: 0,
+            duration: 0.55,
+            ease: "power2.out",
+            onComplete: () => {
+                pageLoader.classList.add("is-hidden");
+            },
+        });
         return;
     }
 
@@ -275,24 +923,26 @@ revealNodes.forEach((node, index) => {
     }
 });
 
-const observer = new IntersectionObserver(
-    (entries) => {
-        entries.forEach((entry) => {
-            if (!entry.isIntersecting) {
-                return;
-            }
+if (!hasScrollTrigger) {
+    const observer = new IntersectionObserver(
+        (entries) => {
+            entries.forEach((entry) => {
+                if (!entry.isIntersecting) {
+                    return;
+                }
 
-            entry.target.classList.add("visible");
-            observer.unobserve(entry.target);
-        });
-    },
-    {
-        threshold: 0.16,
-        rootMargin: "0px 0px -8% 0px",
-    },
-);
+                entry.target.classList.add("visible");
+                observer.unobserve(entry.target);
+            });
+        },
+        {
+            threshold: 0.16,
+            rootMargin: "0px 0px -8% 0px",
+        },
+    );
 
-revealNodes.forEach((node) => observer.observe(node));
+    revealNodes.forEach((node) => observer.observe(node));
+}
 
 themeToggles.forEach((toggle) => {
     toggle.addEventListener("click", () => {
@@ -322,13 +972,39 @@ tiltNodes.forEach((node) => {
 
         node.style.setProperty("--mx", `${x}%`);
         node.style.setProperty("--my", `${y}%`);
+
+        if (hasGsap) {
+            window.gsap.to(node, {
+                rotateX,
+                rotateY,
+                y: -8,
+                duration: 0.4,
+                ease: "power3.out",
+                transformPerspective: 1200,
+                transformOrigin: "center",
+            });
+            return;
+        }
+
         node.style.transform = `perspective(1200px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-8px)`;
     });
 
     node.addEventListener("pointerleave", () => {
-        node.style.transform = "";
         node.style.removeProperty("--mx");
         node.style.removeProperty("--my");
+
+        if (hasGsap) {
+            window.gsap.to(node, {
+                rotateX: 0,
+                rotateY: 0,
+                y: 0,
+                duration: 0.6,
+                ease: "power3.out",
+            });
+            return;
+        }
+
+        node.style.transform = "";
     });
 });
 
@@ -391,3 +1067,84 @@ pageLinks.forEach((link) => {
         }
     });
 });
+
+function initAnimatedCursor() {
+    if (!hasGsap || prefersReducedMotion || !supportsFinePointer) {
+        return;
+    }
+
+    const cursorDot = document.createElement("div");
+    const cursorRing = document.createElement("div");
+
+    cursorDot.className = "cursor-dot";
+    cursorRing.className = "cursor-ring";
+
+    body.append(cursorRing, cursorDot);
+    body.classList.add("has-custom-cursor");
+    window.gsap.set([cursorDot, cursorRing], {
+        xPercent: -50,
+        yPercent: -50,
+    });
+
+    const cursorState = {
+        x: window.innerWidth / 2,
+        y: window.innerHeight / 2,
+        ringX: window.innerWidth / 2,
+        ringY: window.innerHeight / 2,
+    };
+
+    const showCursor = () => {
+        body.classList.add("cursor-visible");
+    };
+
+    const hideCursor = () => {
+        body.classList.remove("cursor-visible", "cursor-hovering", "cursor-pressing");
+    };
+
+    window.addEventListener("pointermove", (event) => {
+        cursorState.x = event.clientX;
+        cursorState.y = event.clientY;
+        showCursor();
+    });
+
+    window.gsap.ticker.add(() => {
+        cursorState.ringX += (cursorState.x - cursorState.ringX) * 0.18;
+        cursorState.ringY += (cursorState.y - cursorState.ringY) * 0.18;
+
+        window.gsap.set(cursorDot, {
+            x: cursorState.x,
+            y: cursorState.y,
+        });
+
+        window.gsap.set(cursorRing, {
+            x: cursorState.ringX,
+            y: cursorState.ringY,
+        });
+    });
+
+    window.addEventListener("pointerdown", () => {
+        body.classList.add("cursor-pressing");
+    });
+
+    window.addEventListener("pointerup", () => {
+        body.classList.remove("cursor-pressing");
+    });
+
+    window.addEventListener("pointerleave", hideCursor);
+    document.addEventListener("mouseleave", hideCursor);
+
+    cursorTargets.forEach((target) => {
+        target.addEventListener("pointerenter", () => {
+            body.classList.add("cursor-hovering");
+        });
+
+        target.addEventListener("pointerleave", () => {
+            body.classList.remove("cursor-hovering", "cursor-pressing");
+        });
+    });
+}
+
+initMagneticButtons();
+initCountUps();
+initGsapExperience();
+initAnimatedCursor();
