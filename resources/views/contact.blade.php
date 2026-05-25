@@ -63,21 +63,21 @@
                 <div class="section-head">
                     <div class="reveal max-w-2xl">
                         <p class="eyebrow">Contact Media</p>
-                        <h2 class="section-title">Space for future intro clips, founder messages, and supporting visuals.</h2>
+                        <h2 class="section-title">Space for future intro clips, founder messages, and supporting
+                            visuals.</h2>
                     </div>
-                    <p class="section-copy reveal">These placeholders can later become short welcome videos, behind-the-scenes stills, or trust-building project snapshots.</p>
+                    <p class="section-copy reveal">
+                        {{-- These placeholders can later become short welcome videos,
+                        behind-the-scenes stills, or trust-building project snapshots. --}}
+                    </p>
                 </div>
                 <div class="media-mosaic">
-                    <article class="video-placeholder reveal interactive-card" data-scroll-panel data-media-card data-tilt>
+                    <article class="video-placeholder reveal interactive-card" data-scroll-panel data-media-card
+                        data-tilt>
                         <div class="video-placeholder-frame">
-                            <div class="video-placeholder-screen">
-                                <div class="video-placeholder-glow"></div>
-                                <div class="video-placeholder-play"><span></span></div>
-                                <div class="video-placeholder-meta">
-                                    <p class="mini-label">Intro Message</p>
-                                    <h3>Contact page welcome video placeholder</h3>
-                                </div>
-                            </div>
+                            <video autoplay>
+                                <source src="{{ asset('videos/contact.mp4') }}" type="video/mp4">
+                            </video>
                         </div>
                     </article>
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>

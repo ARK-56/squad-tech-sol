@@ -65,20 +65,22 @@
                 <div class="section-head">
                     <div class="reveal max-w-2xl">
                         <p class="eyebrow">Visual Direction</p>
-                        <h2 class="section-title">A staged mix of video and image placeholders for future brand storytelling.</h2>
+                        <h2 class="section-title">A staged mix of video and image placeholders for future brand
+                            storytelling.</h2>
                     </div>
-                    <p class="section-copy reveal">These slots are ready for team reels, behind-the-scenes visuals, workspace stills, or mood-driven launch assets.</p>
+                    <p class="section-copy reveal">
+                        {{-- These slots are ready for team reels, behind-the-scenes visuals,
+                        workspace stills, or mood-driven launch assets. --}}
+                    </p>
                 </div>
                 <div class="media-mosaic">
-                    <article class="video-placeholder reveal interactive-card" data-scroll-panel data-media-card data-tilt>
+                    <article class="video-placeholder reveal interactive-card" data-scroll-panel data-media-card
+                        data-tilt>
                         <div class="video-placeholder-frame">
                             <div class="video-placeholder-screen">
-                                <div class="video-placeholder-glow"></div>
-                                <div class="video-placeholder-play"><span></span></div>
-                                <div class="video-placeholder-meta">
-                                    <p class="mini-label">Studio Reel</p>
-                                    <h3>About page brand film placeholder</h3>
-                                </div>
+                                <video autoplay>
+                                    <source src="{{ asset('videos/Dedicated Teams.mp4') }}" type="video/mp4">
+                                </video>
                             </div>
                         </div>
                     </article>

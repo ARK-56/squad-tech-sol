@@ -22,16 +22,10 @@
                     <div class="floating-orb orb-two"></div>
                     <div class="hero-console hero-video-placeholder video-placeholder interactive-card" data-tilt>
                         <div class="video-placeholder-frame">
-                            <div class="video-placeholder-screen">
-                                <div class="video-placeholder-glow"></div>
-                                <div class="video-placeholder-play">
-                                    <span></span>
-                                </div>
-                                <div class="video-placeholder-meta">
-                                    <p class="mini-label">Hero Video</p>
-                                    <h3>Homepage brand film placeholder</h3>
-                                </div>
-                            </div>
+                            <video autoplay>
+                                <source src="{{ asset('videos/Promotional-Intro-Squad-Tech-Solution.mp4') }}"
+                                    type="video/mp4">
+                            </video>
                         </div>
                         <div class="hero-tags">
                             <div class="tag-card">Launch reel</div>
@@ -185,62 +179,38 @@
                 <div class="section-head">
                     <div class="reveal max-w-2xl">
                         <p class="eyebrow">Video Presence</p>
-                        <h2 class="section-title">Scroll-led placeholders for future reels, testimonials, and product stories.</h2>
+                        <h2 class="section-title">Scroll-led placeholders for future reels, testimonials, and product
+                            stories.</h2>
                     </div>
                     <p class="section-copy reveal">
-                        These blocks can later be swapped with real MP4, Vimeo, or YouTube embeds without changing the homepage structure.
+                        These blocks can later be swapped with real MP4, Vimeo, or YouTube embeds without changing the
+                        homepage structure.
                     </p>
                 </div>
                 <div class="video-placeholder-grid">
                     <article class="video-placeholder reveal interactive-card" data-scroll-panel data-tilt>
                         <div class="video-placeholder-frame">
                             <div class="video-placeholder-screen">
-                                <div class="video-placeholder-glow"></div>
-                                <div class="video-placeholder-play">
-                                    <span></span>
-                                </div>
-                                <div class="video-placeholder-meta">
-                                    <p class="mini-label">Brand Reel</p>
-                                    <h3>Homepage intro video placeholder</h3>
-                                </div>
+                                <video autoplay>
+                                    <source src="{{ asset('videos/Social Media Marketing.mp4') }}" type="video/mp4">
+                                </video>
                             </div>
-                        </div>
-                        <div class="video-placeholder-copy">
-                            <p class="soft-copy">Use this slot for a cinematic agency reel or launch montage.</p>
                         </div>
                     </article>
                     <article class="video-placeholder reveal interactive-card" data-scroll-panel data-tilt>
                         <div class="video-placeholder-frame">
                             <div class="video-placeholder-screen">
-                                <div class="video-placeholder-glow"></div>
-                                <div class="video-placeholder-play">
-                                    <span></span>
-                                </div>
-                                <div class="video-placeholder-meta">
-                                    <p class="mini-label">Case Study</p>
-                                    <h3>Portfolio walkthrough placeholder</h3>
-                                </div>
+                                <video autoplay>
+                                    <source src="{{ asset('videos/Dedicated Teams.mp4') }}" type="video/mp4">
+                                </video>
                             </div>
-                        </div>
-                        <div class="video-placeholder-copy">
-                            <p class="soft-copy">Ideal for showing a redesign breakdown, dashboard demo, or campaign recap.</p>
                         </div>
                     </article>
                     <article class="video-placeholder reveal interactive-card" data-scroll-panel data-tilt>
                         <div class="video-placeholder-frame">
-                            <div class="video-placeholder-screen">
-                                <div class="video-placeholder-glow"></div>
-                                <div class="video-placeholder-play">
-                                    <span></span>
-                                </div>
-                                <div class="video-placeholder-meta">
-                                    <p class="mini-label">Testimonial</p>
-                                    <h3>Client story placeholder</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="video-placeholder-copy">
-                            <p class="soft-copy">A clean spot for founder testimonials, team interviews, or social proof clips.</p>
+                            <video autoplay>
+                                <source src="{{ asset('videos/contact.mp4') }}" type="video/mp4">
+                            </video>
                         </div>
                     </article>
                 </div>

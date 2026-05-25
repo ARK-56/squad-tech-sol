@@ -1289,7 +1289,7 @@ body.light-theme .highlight-card {
     background:
         linear-gradient(145deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.02)),
         color-mix(in srgb, var(--bg) 80%, transparent);
-    aspect-ratio: 16 / 10;
+    aspect-ratio: 17.9 / 10;
 }
 
 .video-placeholder-screen {
@@ -1298,7 +1298,6 @@ body.light-theme .highlight-card {
     align-items: end;
     width: 100%;
     height: 100%;
-    padding: 1.2rem;
     background:
         linear-gradient(180deg, rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.56)),
         radial-gradient(circle at 18% 22%, rgba(245, 142, 30, 0.24), transparent 24%),
@@ -2137,6 +2136,7 @@ body.light-theme .portfolio-feature {
 }
 
 @media (pointer: coarse) {
+
     .cursor-dot,
     .cursor-ring {
         display: none;
