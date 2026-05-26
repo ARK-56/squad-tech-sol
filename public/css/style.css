@@ -1384,8 +1384,6 @@ body.light-theme .highlight-card {
     display: flex;
     flex-direction: column;
     justify-content: end;
-    min-height: 100%;
-    padding: 1.35rem;
     border-radius: 1.6rem;
     border: 1px solid rgba(255, 255, 255, 0.08);
     background:

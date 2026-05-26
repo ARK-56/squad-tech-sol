@@ -86,14 +86,12 @@
                     </article>
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface">
-                            <div class="image-placeholder-badge">Image Placeholder</div>
-                            <h3>Team process visual</h3>
+                            <img src="{{ asset('images/visual-direction-1.jpg') }}" alt="">
                         </div>
                     </article>
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface image-placeholder-surface--alt">
-                            <div class="image-placeholder-badge">Image Placeholder</div>
-                            <h3>Creative workspace still</h3>
+                            <img src="{{ asset('images/visual-direction-2.jpg') }}" alt="">
                         </div>
                     </article>
                 </div>
@@ -153,14 +151,12 @@
                 <div class="image-placeholder-grid">
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface">
-                            <div class="image-placeholder-badge">Image Placeholder</div>
-                            <h3>Principles moodboard visual</h3>
+                            <img src="{{ asset('images/principles-1.jpg') }}" alt="">
                         </div>
                     </article>
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface image-placeholder-surface--alt">
-                            <div class="image-placeholder-badge">Image Placeholder</div>
-                            <h3>Brand craft still</h3>
+                            <img src="{{ asset('images/principles-2.jpg') }}" alt="">
                         </div>
                     </article>
                 </div>

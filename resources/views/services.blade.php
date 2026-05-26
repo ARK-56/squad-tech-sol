@@ -128,27 +128,32 @@
                 <div class="section-head">
                     <div class="reveal max-w-2xl">
                         <p class="eyebrow">Service Media</p>
-                        <h2 class="section-title">Image placeholder blocks for campaign stills, showcase frames, and service visuals.</h2>
+                        <h2 class="section-title">Image placeholder blocks for campaign stills, showcase frames, and
+                            service visuals.</h2>
                     </div>
-                    <p class="section-copy reveal">Useful for future before-and-after visuals, campaign boards, interface stills, and performance storytelling.</p>
+                    <p class="section-copy reveal">Useful for future before-and-after visuals, campaign boards,
+                        interface stills, and performance storytelling.</p>
                 </div>
                 <div class="media-mosaic">
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface">
-                            <div class="image-placeholder-badge">Image Placeholder</div>
-                            <h3>Campaign preview board</h3>
+                            <video autoplay>
+                                <source src="{{ asset('videos/Social Media Marketing.mp4') }}" type="video/mp4">
+                            </video>
                         </div>
                     </article>
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface image-placeholder-surface--alt">
-                            <div class="image-placeholder-badge">Image Placeholder</div>
-                            <h3>Services walkthrough frame</h3>
+                            <video autoplay>
+                                <source src="{{ asset('videos/video-presence-2.mp4') }}" type="video/mp4">
+                            </video>
                         </div>
                     </article>
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface">
-                            <div class="image-placeholder-badge">Image Placeholder</div>
-                            <h3>Performance snapshot</h3>
+                            <video autoplay>
+                                <source src="{{ asset('videos/video-presence-3.mp4') }}" type="video/mp4">
+                            </video>
                         </div>
                     </article>
                 </div>
@@ -209,14 +214,12 @@
                 <div class="image-placeholder-grid">
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface">
-                            <div class="image-placeholder-badge">Image Placeholder</div>
-                            <h3>Workflow snapshot</h3>
+                            <img src="{{ asset('images/how-we-work-1.jpg') }}" alt="">
                         </div>
                     </article>
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface image-placeholder-surface--alt">
-                            <div class="image-placeholder-badge">Image Placeholder</div>
-                            <h3>Delivery system frame</h3>
+                            <img src="{{ asset('images/how-we-work-2.png') }}" alt="">
                         </div>
                     </article>
                 </div>

@@ -82,14 +82,12 @@
                     </article>
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface">
-                            <div class="image-placeholder-badge">Image Placeholder</div>
-                            <h3>Team contact still</h3>
+                            <img src="{{ asset('images/contact-media-1.jpeg') }}" alt="">
                         </div>
                     </article>
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface image-placeholder-surface--alt">
-                            <div class="image-placeholder-badge">Image Placeholder</div>
-                            <h3>Project kickoff frame</h3>
+                            <img src="{{ asset('images/contact-media-2.png') }}" alt="">
                         </div>
                     </article>
                 </div>
@@ -191,14 +189,12 @@
                 <div class="image-placeholder-grid">
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface">
-                            <div class="image-placeholder-badge">Image Placeholder</div>
-                            <h3>Kickoff planning still</h3>
+                            <img src="{{ asset('images/project-rediness-1.jpg') }}" alt="">
                         </div>
                     </article>
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface image-placeholder-surface--alt">
-                            <div class="image-placeholder-badge">Image Placeholder</div>
-                            <h3>Discovery session visual</h3>
+                            <img src="{{ asset('images/project-rediness-2.jpg') }}" alt="">
                         </div>
                     </article>
                 </div>

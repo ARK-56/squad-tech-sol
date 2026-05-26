@@ -102,27 +102,28 @@
         <div class="section-head">
           <div class="reveal max-w-2xl">
             <p class="eyebrow">Presentation Layer</p>
-            <h2 class="section-title">Additional image placeholders for future case-study previews and launch assets.</h2>
+            <h2 class="section-title">Additional image placeholders for future case-study previews and launch assets.
+            </h2>
           </div>
-          <p class="section-copy reveal">A clean place to introduce still imagery, interface previews, campaign boards, or before-and-after storytelling.</p>
+          <p class="section-copy reveal">A clean place to introduce still imagery, interface previews, campaign boards,
+            or before-and-after storytelling.</p>
         </div>
         <div class="media-mosaic">
           <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
             <div class="image-placeholder-surface">
-              <div class="image-placeholder-badge">Image Placeholder</div>
-              <h3>Portfolio hero still</h3>
+              <video autoplay loop>
+                <source src="{{ asset('videos/presentation-layer-1.mp4') }}" type="video/mp4">
+              </video>
             </div>
           </article>
           <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
             <div class="image-placeholder-surface image-placeholder-surface--alt">
-              <div class="image-placeholder-badge">Image Placeholder</div>
-              <h3>Interface still frame</h3>
+              <img src="{{ asset('images/presentation-layer-2.png') }}" alt="">
             </div>
           </article>
           <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
             <div class="image-placeholder-surface">
-              <div class="image-placeholder-badge">Image Placeholder</div>
-              <h3>Campaign moodboard frame</h3>
+              <img src="{{ asset('images/presentation-layer-3.png') }}" alt="">
             </div>
           </article>
         </div>
@@ -174,14 +175,14 @@
         <div class="image-placeholder-grid">
           <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
             <div class="image-placeholder-surface">
-              <div class="image-placeholder-badge">Image Placeholder</div>
-              <h3>Results dashboard still</h3>
+              <img src="{{ asset('images/presentation-layer-4.png') }}" alt="">
             </div>
           </article>
           <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
             <div class="image-placeholder-surface image-placeholder-surface--alt">
-              <div class="image-placeholder-badge">Image Placeholder</div>
-              <h3>Project showcase frame</h3>
+              <video autoplay loop>
+                <source src="{{ asset('videos/presentation-layer-3.mp4') }}" type="video/mp4">
+              </video>
             </div>
           </article>
         </div>

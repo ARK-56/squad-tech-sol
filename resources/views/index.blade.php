@@ -157,14 +157,12 @@
                 <div class="image-placeholder-grid">
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface">
-                            <div class="image-placeholder-badge">Image Placeholder</div>
-                            <h3>Service campaign visual</h3>
+                            <img src="{{ asset('images/service-1.jpg') }}" alt="">
                         </div>
                     </article>
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface image-placeholder-surface--alt">
-                            <div class="image-placeholder-badge">Image Placeholder</div>
-                            <h3>Brand asset showcase</h3>
+                            <img src="{{ asset('images/service-2.png') }}" alt="">
                         </div>
                     </article>
                 </div>
@@ -201,7 +199,7 @@
                         <div class="video-placeholder-frame">
                             <div class="video-placeholder-screen">
                                 <video autoplay>
-                                    <source src="{{ asset('videos/Dedicated Teams.mp4') }}" type="video/mp4">
+                                    <source src="{{ asset('videos/video-presence-2.mp4') }}" type="video/mp4">
                                 </video>
                             </div>
                         </div>
@@ -209,7 +207,7 @@
                     <article class="video-placeholder reveal interactive-card" data-scroll-panel data-tilt>
                         <div class="video-placeholder-frame">
                             <video autoplay>
-                                <source src="{{ asset('videos/contact.mp4') }}" type="video/mp4">
+                                <source src="{{ asset('videos/video-presence-3.mp4') }}" type="video/mp4">
                             </video>
                         </div>
                     </article>
@@ -309,14 +307,12 @@
                 <div class="image-placeholder-grid">
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface">
-                            <div class="image-placeholder-badge">Image Placeholder</div>
-                            <h3>Featured interface still</h3>
+                            <img src="{{ asset('images/portfolio-1.png') }}" alt="">
                         </div>
                     </article>
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface image-placeholder-surface--alt">
-                            <div class="image-placeholder-badge">Image Placeholder</div>
-                            <h3>Campaign presentation frame</h3>
+                            <img src="{{ asset('images/portfolio-2.png') }}" alt="">
                         </div>
                     </article>
                 </div>
@@ -380,14 +376,12 @@
                 <div class="image-placeholder-grid">
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface">
-                            <div class="image-placeholder-badge">Image Placeholder</div>
-                            <h3>Client success snapshot</h3>
+                            <img src="{{ asset('images/testimonials-1.png') }}" alt="">
                         </div>
                     </article>
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface image-placeholder-surface--alt">
-                            <div class="image-placeholder-badge">Image Placeholder</div>
-                            <h3>Social proof visual</h3>
+                            <img src="{{ asset('images/testimonials-2.png') }}" alt="">
                         </div>
                     </article>
                 </div>
