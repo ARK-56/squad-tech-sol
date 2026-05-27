@@ -190,9 +190,9 @@ function renderFooter(activeKey) {
           <div class="brand-lockup footer-logo">
             <img src="/images/logo.png" data-logo-dark="/images/logo.png" data-logo-light="/images/logo-light.webp" alt="Squadtech Solution">
           </div>
-          <p class="footer-copy">Premium digital experiences for modern brands.</p>
+          <p class="footer-copy">Hungry minds delivering risk-free engineering</p>
           <div class="footer-contact">
-            <p><strong>Address</strong><span>971 US HIGHWAY 202N #8010,  BRANCHBURG, NJ 08876</span></p>
+            <p><strong>Address</strong><span>276 Holten Ave, New York, NY, United States, New York</span></p>
             <p><strong>Phone</strong><a href="tel:+12018206889">+1 (201) 820-6889</a></p>
             <p><strong>Email</strong><a href="mailto:inquiry@squadtechsol.com">inquiry@squadtechsol.com</a></p>
           </div>

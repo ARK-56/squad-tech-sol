@@ -4,16 +4,15 @@
             <div class="section-inner inner-hero-grid">
                 <div>
                     <p class="eyebrow reveal">About</p>
-                    <h1 class="page-title reveal">We bring agency-level visual ambition together with product-grade
-                        execution.</h1>
-                    <p class="section-copy reveal max-w-3xl">Squadtech Solution exists for teams that want premium
-                        digital experiences without settling for generic layouts or surface-level design thinking.</p>
+                    <h1 class="page-title reveal">Hyper-aggressive growth with zero upfront risk</h1>
+                    <p class="section-copy reveal max-w-3xl">Squad Tech Solution breaks the standard agency mold. We
+                        scale your business with total transparency, zero upfront risk, and pure relentless hustle</p>
                 </div>
                 <div class="hero-side-card reveal interactive-card" data-tilt>
                     <p class="eyebrow">Positioning</p>
-                    <h3>We help brands look more precise, more premium, and more intentional.</h3>
-                    <p class="section-copy">That comes from clarity in story, consistency in UI, and quality in
-                        execution.</p>
+                    <h3>We build elite digital platforms that turn cold traffic into active revenue</h3>
+                    <p class="section-copy">Our results stem from raw conversion loops, flawless engineering, and our
+                        guaranteed high-impact SMM framework</p>
                 </div>
             </div>
         </section>
@@ -23,7 +22,7 @@
                     <div class="about-badge">Process</div>
                     <div class="about-visual-copy">
                         <p class="mini-label">Discover, shape, build</p>
-                        <h3>We stay close to the story, the interface, and the outcome.</h3>
+                        <h3>Ruthlessly focused on the story, interface, and business outcome</h3>
                     </div>
                     <div class="about-metrics">
                         <div class="about-metric">
@@ -35,26 +34,26 @@
                     </div>
                 </div>
                 <div class="about-copy reveal">
-                    <h2 class="section-title">Our approach is collaborative, fast-moving, and detail obsessed.</h2>
-                    <p class="section-copy">We work with founders, marketing teams, and product leaders to define what
-                        the interface needs to say, what users need to feel, and how the build needs to perform in
-                        production. That means strong hierarchy, elegant motion, clear systems, and thoughtful
-                        engineering from day one.</p>
+                    <h2 class="section-title">Collaborative, fast-moving, and detail-obsessed</h2>
+                    <p class="section-copy">Our approach is fast-moving, collaborative, and completely
+                        conversion-obsessed. We partner with founders and marketing teams to command market attention,
+                        capture qualified leads, and perform flawlessly in production. That means razor-sharp visual
+                        hierarchy, clear systems, and technical precision from day one</p>
                     <div class="feature-list">
                         <div class="feature-list-card interactive-card" data-tilt>
                             <h3>Visual conviction</h3>
-                            <p>We avoid template patterns and shape every interface around brand personality, not
-                                convenience.</p>
+                            <p>Zero templates. Every interface is custom-built around your brand identity to dominate
+                                your market, not for our convenience</p>
                         </div>
                         <div class="feature-list-card interactive-card" data-tilt>
                             <h3>Technical clarity</h3>
-                            <p>Reusable structures, scalable frontends, and production-minded code are part of the
-                                design process, not an afterthought.</p>
+                            <p>Scalable architectures, reusable frontends, and lightning-fast deployment are engineered
+                                right into the initial design process</p>
                         </div>
                         <div class="feature-list-card interactive-card" data-tilt>
                             <h3>Business alignment</h3>
-                            <p>Every section, interaction, and CTA is designed to support a business goal, not just look
-                                refined.</p>
+                            <p>Every single section, user interaction, and CTA is designed to drive a specific business
+                                outcome, not just look refined</p>
                         </div>
                     </div>
                 </div>
@@ -65,8 +64,7 @@
                 <div class="section-head">
                     <div class="reveal max-w-2xl">
                         <p class="eyebrow">Visual Direction</p>
-                        <h2 class="section-title">A staged mix of video and image placeholders for future brand
-                            storytelling.</h2>
+                        <h2 class="section-title">Real proof of raw execution and premium production</h2>
                     </div>
                     <p class="section-copy reveal">
                         {{-- These slots are ready for team reels, behind-the-scenes visuals,
@@ -102,7 +100,7 @@
                 <div class="section-head">
                     <div class="reveal max-w-2xl">
                         <p class="eyebrow">Principles</p>
-                        <h2 class="section-title">The standards behind every Squadtech build.</h2>
+                        <h2 class="section-title">The elite standards driving our deployments</h2>
                     </div>
                 </div>
                 <div class="detail-grid">
@@ -117,8 +115,8 @@
                                 <circle cx="17.5" cy="17.5" r="3.5" />
                             </svg></span>
                         <h3>Clarity over clutter</h3>
-                        <p>We remove visual noise so the brand message lands faster and the interface feels more
-                            confident.</p>
+                        <p>We strip away the visual noise so your brand message hits hard and your interface commands
+                            immediate authority</p>
                     </article>
                     <article class="detail-card reveal interactive-card" data-tilt>
                         <span class="card-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24"
@@ -129,8 +127,8 @@
                                 <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
                             </svg></span>
                         <h3>Depth with restraint</h3>
-                        <p>Gradients, shadows, layering, and motion are used to build atmosphere without making the
-                            experience heavy.</p>
+                        <p>Sleek layering, subtle gradients, and clean motion design build premium atmosphere without
+                            dragging down load speeds</p>
                     </article>
                     <article class="detail-card reveal interactive-card" data-tilt>
                         <span class="card-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24"
@@ -144,8 +142,8 @@
                                     d="M9 8c-1.804 2.71-3.97 3.46-6.583 3.948a.507.507 0 0 0-.302.819l7.32 8.883a1 1 0 0 0 1.185.204C12.735 20.405 16 16.792 16 15" />
                             </svg></span>
                         <h3>Polish that performs</h3>
-                        <p>We care about responsive quality, readable code, and the small details users feel even if
-                            they never name them.</p>
+                        <p>We obsess over hyper-responsive quality, clean code, and micro-interactions that users
+                            instinctively feel and trust</p>
                     </article>
                 </div>
                 <div class="image-placeholder-grid">
@@ -168,9 +166,10 @@
                 <div class="section-head">
                     <div class="reveal max-w-2xl">
                         <p class="eyebrow">What Clients Feel</p>
-                        <h2 class="section-title">The experience we try to create inside every project.</h2>
-                        <p class="section-copy">Beyond visuals, we want the process to feel clear, collaborative, and
-                            steadily moving forward from first direction to final delivery.</p>
+                        <h2 class="section-title">High-velocity experiences engineered into every project
+                        </h2>
+                        <p class="section-copy">Beyond premium visuals, our workflow ensures total clarity and rapid
+                            momentum from the initial strategy call to final delivery</p>
                     </div>
                 </div>
                 <div class="detail-grid">
@@ -185,8 +184,8 @@
                                 <path d="m9 10 3-3 3 3" />
                             </svg></span>
                         <h3>Confidence</h3>
-                        <p>Strong hierarchy and clear page logic help teams feel certain that the work is saying the
-                            right thing to the right audience.</p>
+                        <p>Crystal-clear page logic and data-driven frameworks prove your message is hitting the exact
+                            target audience</p>
                     </article>
                     <article class="detail-card reveal interactive-card" data-tilt>
                         <span class="card-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24"
@@ -197,8 +196,8 @@
                                 <path d="M2 12H22" />
                             </svg></span>
                         <h3>Momentum</h3>
-                        <p>We keep the process moving with focused feedback loops so quality improves without the
-                            project losing energy.</p>
+                        <p>We maintain rapid execution with tight, focused feedback loops to keep project velocity at
+                            its absolute peak.</p>
                     </article>
                     <article class="detail-card reveal interactive-card" data-tilt>
                         <span class="card-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24"
@@ -215,8 +214,8 @@
                                 <circle cx="4" cy="7" r="2" />
                             </svg></span>
                         <h3>Ownership</h3>
-                        <p>The end result should not feel like a template handoff. It should feel like a digital
-                            presence your team is proud to stand behind.</p>
+                        <p>Zero template handoffs. You get a high-performing, custom digital asset your team is proud to
+                            stand behind and weaponize.</p>
                     </article>
                 </div>
             </div>
@@ -227,9 +226,10 @@
                 <div class="section-head">
                     <div class="reveal max-w-2xl">
                         <p class="eyebrow">Working Style</p>
-                        <h2 class="section-title">How we try to make collaboration feel during the project.</h2>
-                        <p class="section-copy">We prefer focused communication, visible progress, and design decisions
-                            that can always be explained in plain language.</p>
+                        <h2 class="section-title">Fast-tracking collaboration and communication during execution
+                        </h2>
+                        <p class="section-copy">No corporate fluff. Just direct communication, daily visible progress,
+                            and strategic design choices explained in plain language</p>
                     </div>
                 </div>
                 <div class="interactive-badge-row reveal">
@@ -237,7 +237,7 @@
                     <div class="interactive-badge">Clear design rationale</div>
                     <div class="interactive-badge">Production-minded delivery</div>
                     <div class="interactive-badge">Low-friction collaboration</div>
-                    <div class="interactive-badge">High visual standards</div>
+                    <div class="interactive-badge">Elite visual standards</div>
                 </div>
             </div>
         </section>
@@ -247,7 +247,7 @@
                 <div class="section-head">
                     <div class="reveal max-w-2xl">
                         <p class="eyebrow">FAQ</p>
-                        <h2 class="section-title">Answers to the questions teams usually ask before we build together.
+                        <h2 class="section-title">Answers to questions teams ask before we build
                         </h2>
                     </div>
                 </div>

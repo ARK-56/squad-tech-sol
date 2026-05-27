@@ -4,18 +4,17 @@
             <div class="section-inner inner-hero-grid">
                 <div>
                     <p class="eyebrow reveal">Services</p>
-                    <h1 class="page-title reveal">Growth-focused services designed to strengthen brands, visibility, and
-                        execution.</h1>
+                    <h1 class="page-title reveal">Aggressive digital solutions engineered to scale revenue</h1>
                     <p class="section-copy reveal max-w-3xl">
-                        From marketing momentum to web delivery and embedded remote support, our service stack helps
-                        businesses grow with more consistency and less friction.
+                        From viral marketing to elite web deployment, we crush conversion friction and build the precise
+                        assets your business needs to scale fast.
                     </p>
                 </div>
                 <div class="hero-side-card reveal interactive-card" data-tilt>
                     <p class="eyebrow">Core model</p>
-                    <h3>Strategy, design, and implementation in one connected workflow.</h3>
-                    <p class="section-copy">That means fewer disconnects between the idea, the interface, and the
-                        shipped result.</p>
+                    <h3>Flawless strategy and rapid deployment in one unified pipeline</h3>
+                    <p class="section-copy">We eliminate all delays between your initial concept and active market
+                        revenue.</p>
                 </div>
             </div>
         </section>
@@ -33,9 +32,8 @@
                         </div>
                         <h3>Social Media Marketing</h3>
                         <p>
-                            Content calendars, campaign planning, and platform execution
-                            that keep your brand active, visible, and relevant to the
-                            right audience.
+                            High-impact campaigns engineered to turn attention into cash. Backed by our bold 30-day
+                            money-back guarantee
                         </p>
                     </a>
                     <a class="service-card service-card-link reveal interactive-card" data-tilt
@@ -48,9 +46,8 @@
                         </div>
                         <h3>SEO &amp; PPC</h3>
                         <p>
-                            Organic search improvement and paid campaign management
-                            designed to increase qualified traffic, lead flow, and
-                            measurable performance.
+                            Dominant search visibility and high-ROI ad management built to flood your pipeline with
+                            qualified buyer traffic
                         </p>
                     </a>
                     <a class="service-card service-card-link reveal interactive-card" data-tilt
@@ -63,9 +60,8 @@
                         </div>
                         <h3>Brand Identity</h3>
                         <p>
-                            Logo systems, brand direction, and presentation assets that
-                            help businesses show up with consistency and stronger visual
-                            recall.
+                            Striking logos and visual frameworks engineered to command absolute authority and dominate
+                            your market.
                         </p>
                     </a>
                     <a class="service-card service-card-link reveal interactive-card" data-tilt
@@ -78,9 +74,8 @@
                         </div>
                         <h3>Media Production</h3>
                         <p>
-                            Campaign visuals, video assets, and supporting media crafted
-                            to raise production quality across ads, websites, and branded
-                            content.
+                            Premium video and disruptive social content designed to make your brand impossible for your
+                            market to ignore.
                         </p>
                     </a>
                     <a class="service-card service-card-link reveal interactive-card" data-tilt
@@ -95,9 +90,8 @@
                         </div>
                         <h3>Web Development</h3>
                         <p>
-                            Business websites and custom web experiences developed for
-                            performance, responsiveness, and dependable day-to-day
-                            usability.
+                            Elite, high-converting websites built to maximize revenue. Risk-free offer: if you don't
+                            love it, you don't pay.
                         </p>
                     </a>
                     <a class="service-card service-card-link reveal interactive-card" data-tilt
@@ -115,9 +109,8 @@
                         </div>
                         <h3>Dedicated Remote Staff</h3>
                         <p>
-                            Embedded remote professionals who support ongoing marketing,
-                            coordination, creative production, and operational
-                            follow-through.
+                            Pre-vetted, top-tier remote professionals seamlessly embedded into your team to multiply
+                            your output and cut overhead.
                         </p>
                     </a>
                 </div>
@@ -128,11 +121,10 @@
                 <div class="section-head">
                     <div class="reveal max-w-2xl">
                         <p class="eyebrow">Service Media</p>
-                        <h2 class="section-title">Image placeholder blocks for campaign stills, showcase frames, and
-                            service visuals.</h2>
+                        <h2 class="section-title">Real-time proof of raw execution and visual production.</h2>
                     </div>
-                    <p class="section-copy reveal">Useful for future before-and-after visuals, campaign boards,
-                        interface stills, and performance storytelling.</p>
+                    <p class="section-copy reveal">Real-time look at active revenue pipelines, brand overhauls, and
+                        disruptive digital media.</p>
                 </div>
                 <div class="media-mosaic">
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
@@ -165,7 +157,8 @@
                 <div class="section-head">
                     <div class="reveal max-w-2xl">
                         <p class="eyebrow">How We Work</p>
-                        <h2 class="section-title">A service stack built to keep ambition high and execution clean.</h2>
+                        <h2 class="section-title">High-velocity execution with zero fluff
+                        </h2>
                     </div>
                 </div>
                 <div class="detail-grid">
@@ -178,8 +171,8 @@
                                 <circle cx="11" cy="11" r="8" />
                             </svg></span>
                         <h3>Discovery and positioning</h3>
-                        <p>We align on audience, offer strength, and what the site needs to communicate before the
-                            visual system starts taking shape.</p>
+                        <p>We lock down your target audience, weaponize your offer, and define the core revenue metrics
+                            before writing a single line of code</p>
                     </article>
                     <article class="detail-card reveal interactive-card" data-tilt>
                         <span class="card-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24"
@@ -192,8 +185,8 @@
                                     d="M2.354 10.354a1.207 1.207 0 0 1 0-1.708l2.06-2.06A2 2 0 0 1 5.828 6h12.344a2 2 0 0 1 1.414.586l2.06 2.06a1.207 1.207 0 0 1 0 1.708l-2.06 2.06a2 2 0 0 1-1.414.586H5.828a2 2 0 0 1-1.414-.586z" />
                             </svg></span>
                         <h3>Visual direction</h3>
-                        <p>Layout rhythm, hierarchy, depth, and brand expression are developed as a system, not as
-                            disconnected screen decisions.</p>
+                        <p>High-end interface layout, visual hierarchy, and strategic brand positioning are engineered
+                            as a high-converting revenue ecosystem</p>
                     </article>
                     <article class="detail-card reveal interactive-card" data-tilt>
                         <span class="card-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24"
@@ -207,8 +200,8 @@
                                 <path d="m7.5 4.27 9 5.15" />
                             </svg></span>
                         <h3>Production delivery</h3>
-                        <p>The final build carries the same intent as the concept, with responsive behavior, polished
-                            interactions, and reusable structure.</p>
+                        <p>The finished asset is deployed flawlessly with ultra-fast responsiveness, sleek motion
+                            design, and scalable infrastructure</p>
                     </article>
                 </div>
                 <div class="image-placeholder-grid">
@@ -231,9 +224,9 @@
                 <div class="section-head">
                     <div class="reveal max-w-2xl">
                         <p class="eyebrow">Engagements</p>
-                        <h2 class="section-title">The kind of service work we usually get called in for.</h2>
-                        <p class="section-copy">Some clients need a launch-ready homepage. Others need a full visual
-                            reset with cleaner frontend execution behind it.</p>
+                        <h2 class="section-title">High-stakes growth projects we are built to execute</h2>
+                        <p class="section-copy">Whether you need a rapid market launch or a complete digital overhaul,
+                            we bring the firepower to maximize your conversions</p>
                     </div>
                 </div>
                 <div class="detail-grid">
@@ -249,9 +242,9 @@
                                     d="M9 12a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.4 22.4 0 0 1-4 2z" />
                                 <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 .05 5 .05" />
                             </svg></span>
-                        <h3>Launch websites</h3>
-                        <p>Ideal for new products, investor-facing launches, and campaigns that need a sharper first
-                            impression and stronger conversion flow.</p>
+                        <h3>Rebrand rollouts</h3>
+                        <p>When your current presence looks dated, we completely overhaul your visual identity into an
+                            elite, high-authority brand system</p>
                     </article>
                     <article class="detail-card reveal interactive-card" data-tilt>
                         <span class="card-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24"
@@ -264,9 +257,9 @@
                                 <path d="M2 6h1.972a4 4 0 0 1 3.6 2.2" />
                                 <path d="M22 18h-6.041a4 4 0 0 1-3.3-1.8l-.359-.45" />
                             </svg></span>
-                        <h3>Rebrand rollouts</h3>
-                        <p>When the brand has evolved but the digital presence still looks dated, we rebuild the visual
-                            language into a cleaner, more premium system.</p>
+                        <h3>Product marketing refreshes</h3>
+                        <p>We sharpen your core messaging, amplify trust signals, and transform complex product features
+                            into compelling revenue drivers</p>
                     </article>
                     <article class="detail-card reveal interactive-card" data-tilt>
                         <span class="card-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24"
@@ -276,9 +269,9 @@
                                 <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
                                 <path d="M3 3v5h5" />
                             </svg></span>
-                        <h3>Product marketing refreshes</h3>
-                        <p>We help SaaS and platform teams tighten messaging, improve trust signals, and bring more
-                            refinement to feature storytelling.</p>
+                        <h3>Launch websites</h3>
+                        <p>Let's build for new products and fast-moving campaigns that demand an unforgettable first
+                            impression and an aggressive conversion flow</p>
                     </article>
                 </div>
             </div>
@@ -289,17 +282,17 @@
                 <div class="section-head">
                     <div class="reveal max-w-2xl">
                         <p class="eyebrow">Focus Areas</p>
-                        <h2 class="section-title">The outcomes we usually optimize for across service work.</h2>
-                        <p class="section-copy">Different projects ask for different deliverables, but the goals tend to
-                            cluster around clarity, differentiation, and stronger conversion behavior.</p>
+                        <h2 class="section-title">Core metrics we relentlessly optimize</h2>
+                        <p class="section-copy">We strip away vanity metrics to obsess over immediate visual authority,
+                            market differentiation, and hyper-aggressive user conversions</p>
                     </div>
                 </div>
                 <div class="interactive-badge-row reveal">
-                    <div class="interactive-badge">Higher trust on first visit</div>
-                    <div class="interactive-badge">Sharper product storytelling</div>
-                    <div class="interactive-badge">Cleaner mobile responsiveness</div>
-                    <div class="interactive-badge">Stronger CTA sequencing</div>
-                    <div class="interactive-badge">More premium brand perception</div>
+                    <div class="interactive-badge">Instant Authority on First Visit</div>
+                    <div class="interactive-badge">Ruthless Value Storytelling</div>
+                    <div class="interactive-badge">Flawless Mobile Monetization</div>
+                    <div class="interactive-badge">Aggressive CTA Conversion Flow</div>
+                    <div class="interactive-badge">Elite Market Positioning</div>
                 </div>
             </div>
         </section>

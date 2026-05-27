@@ -3,17 +3,18 @@
         <section class="hero-section page-section">
             <div class="section-inner hero-grid">
                 <div class="reveal space-y-8">
-                    <p class="eyebrow">Premium Digital Engineering</p>
+                    <p class="eyebrow">OUTCOME-DRIVEN TECH AGENCY</p>
                     <div class="space-y-6">
-                        <h1 class="hero-title">Bold product experiences for brands that want to lead, not blend in.</h1>
+                        <h1 class="hero-title">Risk-Free Digital Products
+                        </h1>
                         <p class="hero-copy">
-                            Squadtech Solution designs and builds high-performance digital products with striking visual
-                            systems, sharp story structure, and modern frontend craft.
+                            Squad Tech Solution delivers elite software, marketing, and design. Try our 100% free
+                            website offer: if you don't love the design, we walk right away.
                         </p>
                     </div>
                     <div class="flex flex-col gap-4 sm:flex-row">
-                        <a href="portfolio" class="primary-button magnetic-button">Explore Our Work</a>
-                        <a href="services" class="secondary-button magnetic-button">View Services</a>
+                        <a href="portfolio" class="primary-button magnetic-button">Claim Free Offer</a>
+                        <a href="services" class="secondary-button magnetic-button">Book Free Call</a>
                     </div>
                 </div>
 
@@ -28,9 +29,9 @@
                             </video>
                         </div>
                         <div class="hero-tags">
-                            <div class="tag-card">Launch reel</div>
-                            <div class="tag-card">Product teaser</div>
-                            <div class="tag-card">Brand story</div>
+                            <div class="tag-card">Free preview</div>
+                            <div class="tag-card">Our philosophy</div>
+                            <div class="tag-card">Why we fight</div>
                         </div>
                     </div>
                 </div>
@@ -65,12 +66,11 @@
                 <div class="section-head">
                     <div class="reveal max-w-2xl">
                         <p class="eyebrow">Services</p>
-                        <h2 class="section-title">Integrated growth services built to help modern brands scale with
-                            clarity.</h2>
+                        <h2 class="section-title">Seven Breakthrough Services to Scale Your Business</h2>
                     </div>
                     <p class="section-copy reveal">
-                        From brand foundations to performance marketing and delivery support, we help businesses build
-                        stronger visibility, sharper communication, and dependable execution.
+                        From zero-risk high-speed websites to hyper-targeted marketing campaigns, we deploy relentless
+                        creative execution and custom tech to prove our absolute worth
                     </p>
                 </div>
                 <div class="services-grid">
@@ -83,8 +83,8 @@
                         </div>
                         <h3><a href="https://www.behance.net/squadtechsolution/services/808305/Social-Media-Marketing"
                                 target="_blank" rel="noreferrer">Social Media Marketing</a></h3>
-                        <p>Campaign planning, creative direction, and platform-ready content that keeps your brand
-                            visible and consistently active.</p>
+                        <p>High-conversion content, paid strategy, and multi-channel growth campaigns backed by an
+                            absolute 30-day money-back guarantee</p>
                     </article>
                     <article class="service-card reveal interactive-card" data-tilt>
                         <div class="service-icon" aria-hidden="true">
@@ -95,8 +95,8 @@
                         </div>
                         <h3><a href="https://www.behance.net/squadtechsolution/services/809467/SEO-PPC" target="_blank"
                                 rel="noreferrer">SEO &amp; PPC</a></h3>
-                        <p>Search visibility and paid acquisition strategies structured to drive qualified traffic,
-                            measurable leads, and better return.</p>
+                        <p>Aggressive search ranking and optimized ad structures deployed to capture targeted traffic,
+                            hot leads, and verified revenue</p>
                     </article>
                     <article class="service-card reveal interactive-card" data-tilt>
                         <div class="service-icon" aria-hidden="true">
@@ -107,8 +107,8 @@
                         </div>
                         <h3><a href="https://www.behance.net/squadtechsolution/services/798393/Brand-Identity"
                                 target="_blank" rel="noreferrer">Brand Identity</a></h3>
-                        <p>Distinct visual systems, messaging cues, and brand assets that help businesses present
-                            themselves with confidence.</p>
+                        <p>Striking brand books, custom assets, and memorable messaging systems built to command
+                            attention over competitors</p>
                     </article>
                     <article class="service-card reveal interactive-card" data-tilt>
                         <div class="service-icon" aria-hidden="true">
@@ -119,8 +119,8 @@
                         </div>
                         <h3><a href="https://www.behance.net/squadtechsolution/services/809529/Media-Production"
                                 target="_blank" rel="noreferrer">Media Production</a></h3>
-                        <p>Photo, video, and campaign-ready media built to elevate storytelling across web, ads, and
-                            social touchpoints.</p>
+                        <p>Premium cinematic videos, custom photos, and high-converting creative media built to maximize
+                            ad retention</p>
                     </article>
                     <article class="service-card reveal interactive-card" data-tilt>
                         <div class="service-icon" aria-hidden="true">
@@ -133,8 +133,8 @@
                         </div>
                         <h3><a href="https://www.behance.net/squadtechsolution/services/807663/Website-Design-Development"
                                 target="_blank" rel="noreferrer">Web Development</a></h3>
-                        <p>Responsive websites and digital platforms developed for speed, polish, and long-term
-                            maintainability.</p>
+                        <p>Stunning custom websites designed 100% free up front. If you absolutely love the results, you
+                            pay us</p>
                     </article>
                     <article class="service-card reveal interactive-card" data-tilt>
                         <div class="service-icon" aria-hidden="true">
@@ -150,8 +150,8 @@
                         </div>
                         <h3><a href="https://www.behance.net/squadtechsolution/services/809535/Dedicated-Remote-Staff"
                                 target="_blank" rel="noreferrer">Dedicated Remote Staff</a></h3>
-                        <p>Reliable remote team support for ongoing marketing, operations, design, and execution needs
-                            as your business grows.</p>
+                        <p>Vetted tech and marketing experts ready to integrate into your workflow instantly to
+                            accelerate scaling pipelines</p>
                     </article>
                 </div>
                 <div class="image-placeholder-grid">
@@ -176,13 +176,12 @@
             <div class="section-inner">
                 <div class="section-head">
                     <div class="reveal max-w-2xl">
-                        <p class="eyebrow">Video Presence</p>
-                        <h2 class="section-title">Scroll-led placeholders for future reels, testimonials, and product
-                            stories.</h2>
+                        <p class="eyebrow">OUR WORK ETHIC</p>
+                        <h2 class="section-title">The Hungry Agency Built to Out-Work the Rest</h2>
                     </div>
                     <p class="section-copy reveal">
-                        These blocks can later be swapped with real MP4, Vimeo, or YouTube embeds without changing the
-                        homepage structure.
+                        We don't settle for average frameworks. Watch how our rapid digital engineering sprints turn
+                        concepts into cash
                     </p>
                 </div>
                 <div class="video-placeholder-grid">
@@ -218,44 +217,43 @@
         <section class="page-section">
             <div class="section-inner split-layout">
                 <div class="about-visual reveal interactive-card" data-tilt>
-                    <div class="about-badge">Why Squadtech</div>
+                    <div class="about-badge">OUR ZERO RISK</div>
                     <div class="about-visual-copy">
-                        <p class="mini-label">Creative + Technical</p>
-                        <h3>We design digital presence with the precision of a product team.</h3>
+                        <p class="mini-label">We build digital solutions with the extreme hustle of an elite squad</p>
+                        <h3>Digital Presence Designed with Product Precision</h3>
                     </div>
                     <div class="about-metrics">
                         <div class="about-metric">
-                            <p>12</p>
-                            <span>Industries served</span>
+                            <p>0$</p>
+                            <span>Upfront Design Fee</span>
                         </div>
                         <div class="about-metric">
-                            <p>8yr</p>
-                            <span>Combined agency depth</span>
+                            <p>30d</p>
+                            <span>Full Cash Back Promise</span>
                         </div>
                     </div>
                 </div>
                 <div class="about-copy reveal">
                     <p class="eyebrow">About</p>
-                    <h2 class="section-title">A premium tech agency built for ambitious launches and sharper digital
-                        storytelling.</h2>
+                    <h2 class="section-title">Sparking Rapid Growth and Authentic Scaling</h2>
                     <p class="section-copy">
-                        Squadtech Solution partners with startups, service brands, and product-led companies that need
-                        more than a standard website. We blend bold visual direction, strategic UX thinking, and clean
-                        frontend execution to create experiences that feel elevated from every angle.
+                        Squad Tech Solution pairs up with ambitious startups and scaling enterprises that demand genuine
+                        business outcomes over empty promises. We inject extreme creative energy, aggressive conversion
+                        strategies, and flawless technical architecture to outpace competitors
                     </p>
                     <div class="feature-list">
                         <div class="feature-list-card interactive-card" data-tilt>
-                            <h3>Strategic discovery</h3>
-                            <p>We translate positioning, offers, and user goals into clear design decisions before
-                                pixels start moving.</p>
+                            <h3>Outcome-driven work</h3>
+                            <p>We anchor your product positioning and user acquisition goals into raw conversion maps
+                                before coding</p>
                         </div>
                         <div class="feature-list-card interactive-card" data-tilt>
-                            <h3>Refined execution</h3>
-                            <p>The final layer matters: motion timing, edge treatment, spacing rhythm, and performance
-                                tuning.</p>
+                            <h3>Ruthless execution</h3>
+                            <p>Every detail counts: ultra-fast page speeds, flawless interface animations, and pristine
+                                code.</p>
                         </div>
                     </div>
-                    <a href="about.html" class="secondary-button magnetic-button">Read the Full Story</a>
+                    <a href="about.html" class="secondary-button magnetic-button"> Meet The Hungry Team</a>
                 </div>
             </div>
         </section>
@@ -265,41 +263,41 @@
                 <div class="section-head">
                     <div class="reveal max-w-2xl">
                         <p class="eyebrow">Portfolio</p>
-                        <h2 class="section-title">Selected work that proves aesthetics and performance can scale
-                            together.</h2>
+                        <h2 class="section-title">Engineered case studies showcasing raw conversions and flawless
+                            styling</h2>
                     </div>
-                    <a href="portfolio.html" class="secondary-button magnetic-button reveal">See All Projects</a>
+                    <a href="portfolio.html" class="secondary-button magnetic-button reveal">View All Outcomes</a>
                 </div>
                 <div class="portfolio-grid">
                     <article class="portfolio-feature reveal interactive-card" data-tilt>
                         <div class="portfolio-content">
-                            <p class="eyebrow">Fintech Platform</p>
-                            <h3>A sophisticated dashboard redesign that turned complexity into confidence.</h3>
-                            <p class="soft-copy">Crafted a modular analytics experience with cleaner data hierarchy,
-                                faster navigation paths, and a more premium enterprise feel.</p>
+                            <p class="eyebrow">SMM & MARKETING</p>
+                            <h3>A high-velocity viral social campaign that scaled pipeline metrics fast</h3>
+                            <p class="soft-copy">Deployed hyper-targeted paid ads paired with dynamic content loops to
+                                optimize lead capture and drive transactional volume</p>
                             <div class="portfolio-metrics">
                                 <div class="metric-chip">
-                                    <strong>+41%</strong>
-                                    <span>Activation</span>
+                                    <strong>+180%</strong>
+                                    <span>Leads Generated</span>
                                 </div>
                                 <div class="metric-chip">
-                                    <strong>-32%</strong>
-                                    <span>Drop-off</span>
+                                    <strong>-45%</strong>
+                                    <span>Ad Spend Waste</span>
                                 </div>
                             </div>
                         </div>
                     </article>
                     <div class="portfolio-stack">
                         <article class="portfolio-card reveal interactive-card" data-tilt>
-                            <p class="eyebrow">SaaS Launch</p>
-                            <h3>Launch funnel engineered for demo bookings and polished credibility.</h3>
-                            <p>Narrative-led homepage architecture, stronger content pacing, and premium visual
-                                presentation.</p>
+                            <p class="eyebrow">WEB DESIGN</p>
+                            <h3>Custom website architecture designed completely free to clear risk</h3>
+                            <p>High-converting landing page layouts built to establish massive trust and accelerate book
+                                calls.</p>
                         </article>
                         <article class="portfolio-card reveal interactive-card" data-tilt>
-                            <p class="eyebrow">E-commerce Brand</p>
-                            <h3>Luxury storefront refresh with bolder imagery and faster mobile browsing.</h3>
-                            <p>Sharper category journeys, premium editorial styling, and improved purchasing momentum.
+                            <p class="eyebrow">SEO & ACQUISITION</p>
+                            <h3> Aggressive keyword ranking sprint that secured immediate inbound calls</h3>
+                            <p>Technical code optimization and intent-focused content mapping to dominate organic lists
                             </p>
                         </article>
                     </div>
@@ -324,23 +322,22 @@
                 <div class="section-head">
                     <div class="reveal max-w-2xl">
                         <p class="eyebrow">Testimonials</p>
-                        <h2 class="section-title">Trusted by teams that needed sharper positioning, cleaner execution,
-                            and a more premium digital presence.</h2>
+                        <h2 class="section-title">Validated by Founders Who Demand Direct Outcomes</h2>
                     </div>
                     <p class="section-copy reveal">
-                        The common thread is clarity: stronger messaging, better visual authority, and frontend quality
-                        that supports growth instead of slowing it down.
+                        Our clients value speed and certainty: bold conversion pipelines, striking creative assets, and
+                        software optimized to close inbound deals.
                     </p>
                 </div>
                 <div class="testimonial-grid">
                     <article class="testimonial-card reveal interactive-card" data-tilt>
                         <blockquote>
-                            “Squadtech gave our product launch the level of polish we were missing. The site finally
-                            felt like the company we were trying to become.”
+                            “Their marketing guarantee gave us complete peace of mind. Within weeks, our content views
+                            multiplied and user acquisition costs dropped”
                         </blockquote>
                         <div class="testimonial-meta">
                             <div>
-                                <h3>Rayan Malik</h3>
+                                <h3>Amna Shah</h3>
                                 <p class="testimonial-role">Founder, Vertex Cloud</p>
                             </div>
                             <p class="eyebrow">SaaS</p>
@@ -348,8 +345,8 @@
                     </article>
                     <article class="testimonial-card reveal interactive-card" data-tilt>
                         <blockquote>
-                            “The redesign wasn’t just better looking. Our narrative became clearer, the product felt
-                            easier to trust, and conversions followed quickly.”
+                            “Because they are a hungry team, they worked around the clock to deliver. The tailored
+                            software application works absolutely flawlessly”
                         </blockquote>
                         <div class="testimonial-meta">
                             <div>
@@ -393,7 +390,7 @@
                 <div class="section-head">
                     <div class="reveal max-w-2xl">
                         <p class="eyebrow">FAQ</p>
-                        <h2 class="section-title">Answers to the questions teams usually ask before we build together.
+                        <h2 class="section-title">Everything you need to know about our zero-risk development model
                         </h2>
                     </div>
                 </div>
@@ -406,11 +403,10 @@
                 <div class="cta-panel reveal interactive-card" data-tilt>
                     <div class="cta-copy">
                         <p class="eyebrow">Let's build</p>
-                        <h2 class="section-title">Ready for a site that looks premium, feels intentional, and helps your
-                            brand win attention?</h2>
+                        <h2 class="section-title">Deploy a High-Converting Strategy, Risk-Free</h2>
                         <p class="section-copy">
-                            Bring us the ambition, the timeline, or even the rough brief. We'll shape the product story
-                            and interface system into something that feels unmistakably high-end.
+                            Book a free breakthrough call with our hungry engineering team today. Let us draft your
+                            layout risk-free and build a digital identity worth talking about.
                         </p>
                     </div>
                     <div class="cta-actions">
