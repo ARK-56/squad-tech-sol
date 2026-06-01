@@ -192,7 +192,7 @@ function renderFooter(activeKey) {
           </div>
           <p class="footer-copy">Hungry minds delivering risk-free engineering</p>
           <div class="footer-contact">
-            <p><strong>Address</strong><span>276 Holten Ave, New York, NY, United States, New York</span></p>
+            <p><strong>Address</strong><span>276 Holten Ave, New York, United States</span></p>
             <p><strong>Phone</strong><a href="tel:+12018206889">+1 (201) 820-6889</a></p>
             <p><strong>Email</strong><a href="mailto:inquiry@squadtechsol.com">inquiry@squadtechsol.com</a></p>
           </div>
