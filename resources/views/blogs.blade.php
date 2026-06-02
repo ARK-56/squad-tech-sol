@@ -107,7 +107,7 @@
                         <h2 class="section-title">Turn insight into execution with a sharper digital presence.</h2>
                     </div>
                     <div class="cta-actions">
-                        <a href="https://calendly.com/squadtechsolution/30min" class="primary-button magnetic-button"
+                        <a href="https://calendly.com/squadtechsolution/inquiry" class="primary-button magnetic-button"
                             target="_blank" rel="noreferrer">Book a Strategy Call</a>
                         <a href="/contact" class="secondary-button magnetic-button">Contact Squadtech</a>
                     </div>
