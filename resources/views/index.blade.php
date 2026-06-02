@@ -13,8 +13,9 @@
                         </p>
                     </div>
                     <div class="flex flex-col gap-4 sm:flex-row">
-                        <a href="portfolio" class="primary-button magnetic-button">Claim Free Offer</a>
-                        <a href="services" class="secondary-button magnetic-button">Book Free Call</a>
+                        <a href="/services" class="primary-button magnetic-button">Claim Free Offer</a>
+                        <a href="https://calendly.com/squadtechsolution/inquiry"
+                            class="secondary-button magnetic-button">Book Free Call</a>
                     </div>
                 </div>
 
@@ -412,8 +413,9 @@
                     <div class="cta-actions">
                         <a href="mailto:inquiry@squadtechsol.com"
                             class="primary-button magnetic-button">inquiry@squadtechsol.com</a>
-                        <a href="https://calendly.com/squadtechsolution/30min" class="secondary-button magnetic-button"
-                            target="_blank" rel="noreferrer">Schedule a Discovery Call</a>
+                        <a href="https://calendly.com/squadtechsolution/inquiry"
+                            class="secondary-button magnetic-button" target="_blank" rel="noreferrer">Schedule a
+                            Discovery Call</a>
                     </div>
                 </div>
             </div>
