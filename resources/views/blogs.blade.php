@@ -109,7 +109,7 @@
                     <div class="cta-actions">
                         <a href="https://calendly.com/squadtechsolution/30min" class="primary-button magnetic-button"
                             target="_blank" rel="noreferrer">Book a Strategy Call</a>
-                        <a href="contact.html" class="secondary-button magnetic-button">Contact Squadtech</a>
+                        <a href="/contact" class="secondary-button magnetic-button">Contact Squadtech</a>
                     </div>
                 </div>
             </div>

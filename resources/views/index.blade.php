@@ -253,7 +253,7 @@
                                 code.</p>
                         </div>
                     </div>
-                    <a href="about.html" class="secondary-button magnetic-button"> Meet The Hungry Team</a>
+                    <a href="/about" class="secondary-button magnetic-button"> Meet The Hungry Team</a>
                 </div>
             </div>
         </section>
@@ -266,7 +266,7 @@
                         <h2 class="section-title">Engineered case studies showcasing raw conversions and flawless
                             styling</h2>
                     </div>
-                    <a href="portfolio.html" class="secondary-button magnetic-button reveal">View All Outcomes</a>
+                    <a href="/portfolio" class="secondary-button magnetic-button reveal">View All Outcomes</a>
                 </div>
                 <div class="portfolio-grid">
                     <article class="portfolio-feature reveal interactive-card" data-tilt>
