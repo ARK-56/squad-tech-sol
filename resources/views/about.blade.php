@@ -76,7 +76,7 @@
                         data-tilt>
                         <div class="video-placeholder-frame">
                             <div class="video-placeholder-screen">
-                                <video autoplay>
+                                <video autoplay muted>
                                     <source src="{{ asset('videos/Dedicated Teams.mp4') }}" type="video/mp4">
                                 </video>
                             </div>

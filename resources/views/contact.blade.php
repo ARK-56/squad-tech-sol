@@ -75,7 +75,7 @@
                     <article class="video-placeholder reveal interactive-card" data-scroll-panel data-media-card
                         data-tilt>
                         <div class="video-placeholder-frame">
-                            <video autoplay>
+                            <video autoplay muted>
                                 <source src="{{ asset('videos/contact.webm') }}" type="video/webm">
                             </video>
                         </div>

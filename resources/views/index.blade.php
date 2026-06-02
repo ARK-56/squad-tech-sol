@@ -188,7 +188,7 @@
                     <article class="video-placeholder reveal interactive-card" data-scroll-panel data-tilt>
                         <div class="video-placeholder-frame">
                             <div class="video-placeholder-screen">
-                                <video autoplay>
+                                <video autoplay muted>
                                     <source src="{{ asset('videos/Social Media Marketing.mp4') }}" type="video/mp4">
                                 </video>
                             </div>
@@ -197,7 +197,7 @@
                     <article class="video-placeholder reveal interactive-card" data-scroll-panel data-tilt>
                         <div class="video-placeholder-frame">
                             <div class="video-placeholder-screen">
-                                <video autoplay>
+                                <video autoplay muted>
                                     <source src="{{ asset('videos/video-presence-2.mp4') }}" type="video/mp4">
                                 </video>
                             </div>
@@ -205,7 +205,7 @@
                     </article>
                     <article class="video-placeholder reveal interactive-card" data-scroll-panel data-tilt>
                         <div class="video-placeholder-frame">
-                            <video autoplay>
+                            <video autoplay muted>
                                 <source src="{{ asset('videos/video-presence-3.mp4') }}" type="video/mp4">
                             </video>
                         </div>

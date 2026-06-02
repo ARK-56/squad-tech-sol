@@ -129,21 +129,21 @@
                 <div class="media-mosaic">
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface">
-                            <video autoplay>
+                            <video autoplay muted>
                                 <source src="{{ asset('videos/Social Media Marketing.mp4') }}" type="video/mp4">
                             </video>
                         </div>
                     </article>
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface image-placeholder-surface--alt">
-                            <video autoplay>
+                            <video autoplay muted>
                                 <source src="{{ asset('videos/video-presence-2.mp4') }}" type="video/mp4">
                             </video>
                         </div>
                     </article>
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface">
-                            <video autoplay>
+                            <video autoplay muted>
                                 <source src="{{ asset('videos/video-presence-3.mp4') }}" type="video/mp4">
                             </video>
                         </div>

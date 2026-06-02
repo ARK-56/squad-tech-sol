@@ -112,7 +112,7 @@
         <div class="media-mosaic">
           <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
             <div class="image-placeholder-surface">
-              <video autoplay loop>
+              <video autoplay loop muted>
                 <source src="{{ asset('videos/presentation-layer-1.mp4') }}" type="video/mp4">
               </video>
             </div>
@@ -181,7 +181,7 @@
           </article>
           <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
             <div class="image-placeholder-surface image-placeholder-surface--alt">
-              <video autoplay loop>
+              <video autoplay loop muted>
                 <source src="{{ asset('videos/presentation-layer-3.mp4') }}" type="video/mp4">
               </video>
             </div>
