@@ -126,7 +126,7 @@ function renderLoader() {
     <div class="page-loader" aria-hidden="true">
       <div class="loader-core">
         <div class="loader-ring"></div>
-        <div class="loader-mark"><img src="/images/loader-icon.png" alt=""></div>
+        <div class="loader-mark"><img src="/images/loader-icon.avif" alt=""></div>
       </div>
     </div>
   `;
@@ -137,7 +137,7 @@ function renderHeader(activeKey) {
     <header class="site-header">
       <nav class="site-nav">
         <a href="index" class="brand-lockup" aria-label="Squadtech Solution home">
-          <img src="/images/logo.png" data-logo-dark="/images/logo.png" data-logo-light="/images/logo-light.webp" alt="Squadtech Solution">
+          <img src="/images/logo.avif" data-logo-dark="/images/logo.avif" data-logo-light="/images/logo-light.avif" alt="Squadtech Solution">
         </a>
         <button class="menu-toggle md:hidden" type="button" aria-expanded="false" aria-controls="mobile-menu">
           <span></span>
@@ -188,7 +188,7 @@ function renderFooter(activeKey) {
       <div class="section-inner footer-grid">
         <div class="footer-brand-block">
           <div class="brand-lockup footer-logo">
-            <img src="/images/logo.png" data-logo-dark="/images/logo.png" data-logo-light="/images/logo-light.webp" alt="Squadtech Solution">
+            <img src="/images/logo.avif" data-logo-dark="/images/logo.avif" data-logo-light="/images/logo-light.avif" alt="Squadtech Solution">
           </div>
           <p class="footer-copy">Hungry minds delivering risk-free engineering</p>
           <div class="footer-contact">

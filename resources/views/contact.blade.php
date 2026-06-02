@@ -76,18 +76,18 @@
                         data-tilt>
                         <div class="video-placeholder-frame">
                             <video autoplay>
-                                <source src="{{ asset('videos/contact.mp4') }}" type="video/mp4">
+                                <source src="{{ asset('videos/contact.webm') }}" type="video/webm">
                             </video>
                         </div>
                     </article>
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface">
-                            <img src="{{ asset('images/contact-media-1.jpeg') }}" alt="">
+                            <img src="{{ asset('images/contact-media-1.avif') }}" alt="">
                         </div>
                     </article>
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface image-placeholder-surface--alt">
-                            <img src="{{ asset('images/contact-media-2.png') }}" alt="">
+                            <img src="{{ asset('images/contact-media-2.avif') }}" alt="">
                         </div>
                     </article>
                 </div>
@@ -189,12 +189,12 @@
                 <div class="image-placeholder-grid">
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface">
-                            <img src="{{ asset('images/project-rediness-1.jpg') }}" alt="">
+                            <img src="{{ asset('images/project-rediness-1.avif') }}" alt="">
                         </div>
                     </article>
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface image-placeholder-surface--alt">
-                            <img src="{{ asset('images/project-rediness-2.jpg') }}" alt="">
+                            <img src="{{ asset('images/project-rediness-2.avif') }}" alt="">
                         </div>
                     </article>
                 </div>

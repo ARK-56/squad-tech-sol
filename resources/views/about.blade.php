@@ -84,12 +84,12 @@
                     </article>
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface">
-                            <img src="{{ asset('images/visual-direction-1.jpg') }}" alt="">
+                            <img src="{{ asset('images/visual-direction-1.avif') }}" alt="">
                         </div>
                     </article>
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface image-placeholder-surface--alt">
-                            <img src="{{ asset('images/visual-direction-2.jpg') }}" alt="">
+                            <img src="{{ asset('images/visual-direction-2.avif') }}" alt="">
                         </div>
                     </article>
                 </div>
@@ -149,12 +149,12 @@
                 <div class="image-placeholder-grid">
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface">
-                            <img src="{{ asset('images/principles-1.jpg') }}" alt="">
+                            <img src="{{ asset('images/principles-1.avif') }}" alt="">
                         </div>
                     </article>
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface image-placeholder-surface--alt">
-                            <img src="{{ asset('images/principles-2.jpg') }}" alt="">
+                            <img src="{{ asset('images/principles-2.avif') }}" alt="">
                         </div>
                     </article>
                 </div>

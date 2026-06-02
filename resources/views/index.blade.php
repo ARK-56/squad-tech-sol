@@ -157,12 +157,12 @@
                 <div class="image-placeholder-grid">
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface">
-                            <img src="{{ asset('images/service-1.jpg') }}" alt="">
+                            <img src="{{ asset('images/service-1.avif') }}" alt="">
                         </div>
                     </article>
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface image-placeholder-surface--alt">
-                            <img src="{{ asset('images/service-2.png') }}" alt="">
+                            <img src="{{ asset('images/service-2.avif') }}" alt="">
                         </div>
                     </article>
                 </div>
@@ -305,12 +305,12 @@
                 <div class="image-placeholder-grid">
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface">
-                            <img src="{{ asset('images/portfolio-1.png') }}" alt="">
+                            <img src="{{ asset('images/portfolio-1.avif') }}" alt="">
                         </div>
                     </article>
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface image-placeholder-surface--alt">
-                            <img src="{{ asset('images/portfolio-2.png') }}" alt="">
+                            <img src="{{ asset('images/portfolio-2.avif') }}" alt="">
                         </div>
                     </article>
                 </div>
@@ -373,12 +373,12 @@
                 <div class="image-placeholder-grid">
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface">
-                            <img src="{{ asset('images/testimonials-1.png') }}" alt="">
+                            <img src="{{ asset('images/testimonials-1.avif') }}" alt="">
                         </div>
                     </article>
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface image-placeholder-surface--alt">
-                            <img src="{{ asset('images/testimonials-2.png') }}" alt="">
+                            <img src="{{ asset('images/testimonials-2.avif') }}" alt="">
                         </div>
                     </article>
                 </div>

@@ -119,12 +119,12 @@
           </article>
           <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
             <div class="image-placeholder-surface image-placeholder-surface--alt">
-              <img src="{{ asset('images/presentation-layer-2.png') }}" alt="">
+              <img src="{{ asset('images/presentation-layer-2.avif') }}" alt="">
             </div>
           </article>
           <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
             <div class="image-placeholder-surface">
-              <img src="{{ asset('images/presentation-layer-3.png') }}" alt="">
+              <img src="{{ asset('images/presentation-layer-3.avif') }}" alt="">
             </div>
           </article>
         </div>
@@ -176,7 +176,7 @@
         <div class="image-placeholder-grid">
           <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
             <div class="image-placeholder-surface">
-              <img src="{{ asset('images/presentation-layer-4.png') }}" alt="">
+              <img src="{{ asset('images/presentation-layer-4.avif') }}" alt="">
             </div>
           </article>
           <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
