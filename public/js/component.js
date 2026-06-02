@@ -136,7 +136,7 @@ function renderHeader(activeKey) {
     return `
     <header class="site-header">
       <nav class="site-nav">
-        <a href="index" class="brand-lockup" aria-label="Squadtech Solution home">
+        <a href="/" class="brand-lockup" aria-label="Squadtech Solution home">
           <img src="/images/logo.avif" data-logo-dark="/images/logo.avif" data-logo-light="/images/logo-light.avif" alt="Squadtech Solution">
         </a>
         <button class="menu-toggle md:hidden" type="button" aria-expanded="false" aria-controls="mobile-menu">
