@@ -32,7 +32,7 @@ const scrollProgress = document.querySelector(".scroll-progress");
 const interactiveBadges = document.querySelectorAll(".interactive-badge");
 const cardIcons = document.querySelectorAll(".card-icon");
 const itemFlowGroups = document.querySelectorAll(
-    ".services-grid, .detail-grid, .testimonial-grid, .portfolio-page-grid, .portfolio-stack, .stats-grid, .video-placeholder-grid, .image-placeholder-grid, .media-mosaic, .interactive-badge-row, .feature-list, .contact-grid, .faq-category-accordion",
+    ".services-grid, .detail-grid, .testimonial-grid, .portfolio-stack, .stats-grid, .video-placeholder-grid, .image-placeholder-grid, .media-mosaic, .interactive-badge-row, .feature-list, .contact-grid, .faq-category-accordion",
 );
 
 if (heroVideoPlaceholder) {
@@ -587,6 +587,10 @@ function initGsapExperience() {
     }
 
     revealNodes.forEach((node, index) => {
+        if (node.classList.contains("filter-item")) {
+            return;
+        }
+
         const variant = buildRenderVariant(index, "reveal");
 
         gsap.fromTo(
@@ -745,6 +749,33 @@ function initGsapExperience() {
             });
         });
     });
+
+    if (filterItems.length) {
+        gsap.fromTo(
+            filterItems,
+            {
+                autoAlpha: 0,
+                y: 42,
+                scale: 0.985,
+            },
+            {
+                autoAlpha: 1,
+                y: 0,
+                scale: 1,
+                ease: "none",
+                stagger: 0.08,
+                scrollTrigger: {
+                    trigger: ".portfolio-page-grid",
+                    start: "top 92%",
+                    end: "top 58%",
+                    scrub: 1.2,
+                },
+                onStart: () => {
+                    filterItems.forEach((item) => item.classList.add("visible"));
+                },
+            },
+        );
+    }
 
     mediaCards.forEach((card, index) => {
         const variant = buildRenderVariant(index, "media");
@@ -1385,12 +1416,16 @@ function applyPortfolioFilter(filter, shouldUpdateUrl = true) {
     });
 
     if (hasGsap && visibleItems.length) {
+        window.gsap.set(visibleItems, {
+            clearProps: "opacity,visibility,transform",
+        });
         window.gsap.fromTo(
             visibleItems,
-            { autoAlpha: 0, y: 18 },
+            { autoAlpha: 0, y: 22, scale: 0.985 },
             {
                 autoAlpha: 1,
                 y: 0,
+                scale: 1,
                 duration: 0.42,
                 ease: "power2.out",
                 stagger: 0.045,
