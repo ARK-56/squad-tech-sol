@@ -35,6 +35,12 @@ const itemFlowGroups = document.querySelectorAll(
     ".services-grid, .detail-grid, .testimonial-grid, .portfolio-page-grid, .portfolio-stack, .stats-grid, .video-placeholder-grid, .image-placeholder-grid, .media-mosaic, .interactive-badge-row, .feature-list, .contact-grid, .faq-category-accordion",
 );
 
+if (heroVideoPlaceholder) {
+    heroVideoPlaceholder.querySelectorAll("video").forEach((video) => {
+        video.pause();
+    });
+}
+
 if (hasScrollTrigger) {
     window.gsap.registerPlugin(window.ScrollTrigger);
 }
@@ -963,6 +969,30 @@ function initHeroVideoPopup() {
     backdrop.className = "hero-video-popup-backdrop";
 
     body.append(backdrop, popup);
+    const originalVideos = Array.from(heroVideoPlaceholder.querySelectorAll("video"));
+    const popupVideos = Array.from(popup.querySelectorAll("video"));
+
+    originalVideos.forEach((video) => {
+        video.pause();
+    });
+
+    popupVideos.forEach((video, index) => {
+        const originalVideo = originalVideos[index];
+
+        video.muted = true;
+        video.playsInline = true;
+
+        if (originalVideo && Number.isFinite(originalVideo.currentTime)) {
+            video.currentTime = originalVideo.currentTime;
+        }
+
+        const playPromise = video.play();
+
+        if (playPromise && typeof playPromise.catch === "function") {
+            playPromise.catch(() => {});
+        }
+    });
+
     heroVideoPlaceholder.classList.add("hero-video-placeholder--ghost");
     body.classList.add("hero-intro-lock");
     window.scrollTo(0, 0);
@@ -1061,6 +1091,24 @@ function initHeroVideoPopup() {
     }
 
     function cleanup() {
+        popupVideos.forEach((video, index) => {
+            const originalVideo = originalVideos[index];
+
+            if (!originalVideo) {
+                return;
+            }
+
+            if (Number.isFinite(video.currentTime)) {
+                originalVideo.currentTime = video.currentTime;
+            }
+
+            const playPromise = originalVideo.play();
+
+            if (playPromise && typeof playPromise.catch === "function") {
+                playPromise.catch(() => {});
+            }
+        });
+
         body.classList.remove("hero-intro-lock");
         popup.remove();
         backdrop.remove();
@@ -1315,28 +1363,63 @@ tiltNodes.forEach((node) => {
     });
 });
 
+function applyPortfolioFilter(filter, shouldUpdateUrl = true) {
+    const activeFilter = filter || "all";
+    const visibleItems = [];
+
+    filterChips.forEach((button) => {
+        button.classList.toggle("is-active", button.dataset.filter === activeFilter);
+    });
+
+    filterItems.forEach((item) => {
+        const categories = (item.dataset.category || "")
+            .split(/\s+/)
+            .filter(Boolean);
+        const matches = activeFilter === "all" || categories.includes(activeFilter);
+
+        item.classList.toggle("is-hidden", !matches);
+
+        if (matches) {
+            visibleItems.push(item);
+        }
+    });
+
+    if (hasGsap && visibleItems.length) {
+        window.gsap.fromTo(
+            visibleItems,
+            { autoAlpha: 0, y: 18 },
+            {
+                autoAlpha: 1,
+                y: 0,
+                duration: 0.42,
+                ease: "power2.out",
+                stagger: 0.045,
+                overwrite: true,
+            },
+        );
+    }
+
+    if (hasScrollTrigger) {
+        window.ScrollTrigger.refresh();
+    }
+
+    if (!shouldUpdateUrl) {
+        return;
+    }
+
+    const path = window.location.pathname || "/portfolio";
+
+    if (activeFilter === "all") {
+        history.replaceState(null, "", path);
+        return;
+    }
+
+    history.replaceState(null, "", `${path}#${activeFilter}`);
+}
+
 filterChips.forEach((chip) => {
     chip.addEventListener("click", () => {
-        const filter = chip.dataset.filter;
-
-        filterChips.forEach((button) => button.classList.remove("is-active"));
-        chip.classList.add("is-active");
-
-        filterItems.forEach((item) => {
-            const categories = (item.dataset.category || "")
-                .split(/\s+/)
-                .filter(Boolean);
-            const matches = filter === "all" || categories.includes(filter);
-            item.classList.toggle("is-hidden", !matches);
-        });
-
-        if (window.location.pathname.endsWith("portfolio.html")) {
-            if (filter === "all") {
-                history.replaceState(null, "", "portfolio.html");
-            } else {
-                history.replaceState(null, "", `portfolio.html#${filter}`);
-            }
-        }
+        applyPortfolioFilter(chip.dataset.filter);
     });
 });
 
@@ -1347,7 +1430,7 @@ if (filterChips.length && filterItems.length) {
             (chip) => chip.dataset.filter === filterFromHash,
         );
         if (targetChip) {
-            targetChip.click();
+            applyPortfolioFilter(filterFromHash, false);
         }
     }
 }
