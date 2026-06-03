@@ -22,6 +22,10 @@
         <section class="page-section">
             <div class="section-inner">
                 <article class="article-shell reveal interactive-card" data-tilt>
+                    <div class="article-hero-image">
+                        <img src="{{ asset('images/blogs/Blogs/The Benefits and Risks of BYOD policies.png') }}"
+                            alt="The Benefits and Risks of BYOD policies">
+                    </div>
                     <div class="article-meta">
                         <span class="blog-tag">Security</span><span class="article-date">May 7, 2023</span>
                     </div>

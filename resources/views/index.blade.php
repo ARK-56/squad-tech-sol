@@ -67,7 +67,7 @@
                 <div class="section-head">
                     <div class="reveal max-w-2xl">
                         <p class="eyebrow">Services</p>
-                        <h2 class="section-title">Seven Breakthrough Services to Scale Your Business</h2>
+                        <h2 class="section-title">Six Breakthrough Services to Scale Your Business</h2>
                     </div>
                     <p class="section-copy reveal">
                         From zero-risk high-speed websites to hyper-targeted marketing campaigns, we deploy relentless

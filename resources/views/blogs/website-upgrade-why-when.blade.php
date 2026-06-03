@@ -24,6 +24,10 @@
         <section class="page-section">
             <div class="section-inner">
                 <article class="article-shell reveal interactive-card" data-tilt>
+                    <div class="article-hero-image">
+                        <img src="{{ asset('images/blogs/Blogs/Why & When Do You Need a Website Upgrade.png') }}"
+                            alt="Why and When Do You Need a Website Upgrade">
+                    </div>
                     <div class="article-meta">
                         <span class="blog-tag">Website Strategy</span>
                         <span class="article-date">March 14, 2023</span>

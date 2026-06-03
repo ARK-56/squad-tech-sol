@@ -22,6 +22,10 @@
         <section class="page-section">
             <div class="section-inner">
                 <article class="article-shell reveal interactive-card" data-tilt>
+                    <div class="article-hero-image">
+                        <img src="{{ asset('images/blogs/Blogs/The Benefits of Virtualization in IT Environments.png') }}"
+                            alt="The Benefits of Virtualization in IT Environments">
+                    </div>
                     <div class="article-meta">
                         <span class="blog-tag">Infrastructure</span><span class="article-date">May 23, 2023</span>
                     </div>

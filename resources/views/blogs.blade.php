@@ -24,13 +24,17 @@
                 <div class="section-head">
                     <div class="reveal max-w-2xl">
                         <p class="eyebrow">Latest Articles</p>
-                        <h2 class="section-title">Six articles currently featured from Squadtech Solution.</h2>
+                        <h2 class="section-title">Six core execution playbooks live from our growth team</h2>
                     </div>
-                    <p class="section-copy reveal">Each card links directly to the original article so visitors can
-                        continue reading on the live blog.</p>
+                    <p class="section-copy reveal">We don't write fluff. Explore the exact blueprints, risk assessments,
+                        and technical playbooks our engineering team uses to build scalable digital infrastructure</p>
                 </div>
                 <div class="blog-grid">
                     <article class="blog-card reveal interactive-card" data-tilt>
+                        <div class="blog-card-media">
+                            <img src="{{ asset('images/blogs/Blogs/The Pros and Cons of Outsourcing IT Services.png') }}"
+                                alt="The Pros and Cons of Outsourcing IT Services">
+                        </div>
                         <div class="blog-meta">
                             <span class="blog-date">June 7, 2023</span>
                             <span class="blog-tag">Outsourcing</span>
@@ -42,6 +46,10 @@
                     </article>
 
                     <article class="blog-card reveal interactive-card" data-tilt>
+                        <div class="blog-card-media">
+                            <img src="{{ asset('images/blogs/Blogs/The Benefits of Virtualization in IT Environments.png') }}"
+                                alt="The Benefits of Virtualization in IT Environments">
+                        </div>
                         <div class="blog-meta">
                             <span class="blog-date">May 23, 2023</span>
                             <span class="blog-tag">Infrastructure</span>
@@ -53,6 +61,10 @@
                     </article>
 
                     <article class="blog-card reveal interactive-card" data-tilt>
+                        <div class="blog-card-media">
+                            <img src="{{ asset('images/blogs/Blogs/The Benefits and Risks of BYOD policies.png') }}"
+                                alt="The Benefits and Risks of BYOD policies">
+                        </div>
                         <div class="blog-meta">
                             <span class="blog-date">May 7, 2023</span>
                             <span class="blog-tag">Security</span>
@@ -64,6 +76,10 @@
                     </article>
 
                     <article class="blog-card reveal interactive-card" data-tilt>
+                        <div class="blog-card-media">
+                            <img src="{{ asset('images/blogs/Blogs/Digital Transformation_ The Key to Business Success.png') }}"
+                                alt="Digital Transformation: The Key to Business Success">
+                        </div>
                         <div class="blog-meta">
                             <span class="blog-date">April 29, 2023</span>
                             <span class="blog-tag">Strategy</span>
@@ -75,6 +91,10 @@
                     </article>
 
                     <article class="blog-card reveal interactive-card" data-tilt>
+                        <div class="blog-card-media">
+                            <img src="{{ asset('images/blogs/Blogs/Things to Consider while Upgrading Your Website.png') }}"
+                                alt="Things to Consider while Upgrading Your Website">
+                        </div>
                         <div class="blog-meta">
                             <span class="blog-date">April 5, 2023</span>
                             <span class="blog-tag">Web Upgrade</span>
@@ -86,6 +106,10 @@
                     </article>
 
                     <article class="blog-card reveal interactive-card" data-tilt>
+                        <div class="blog-card-media">
+                            <img src="{{ asset('images/blogs/Blogs/Why & When Do You Need a Website Upgrade.png') }}"
+                                alt="Why and When Do You Need a Website Upgrade">
+                        </div>
                         <div class="blog-meta">
                             <span class="blog-date">March 14, 2023</span>
                             <span class="blog-tag">Website Strategy</span>

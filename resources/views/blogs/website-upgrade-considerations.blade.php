@@ -22,6 +22,10 @@
         <section class="page-section">
             <div class="section-inner">
                 <article class="article-shell reveal interactive-card" data-tilt>
+                    <div class="article-hero-image">
+                        <img src="{{ asset('images/blogs/Blogs/Things to Consider while Upgrading Your Website.png') }}"
+                            alt="Things to Consider while Upgrading Your Website">
+                    </div>
                     <div class="article-meta">
                         <span class="blog-tag">Web Upgrade</span><span class="article-date">April 5, 2023</span>
                     </div>

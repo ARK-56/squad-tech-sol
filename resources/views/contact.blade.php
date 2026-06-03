@@ -4,27 +4,87 @@
             <div class="section-inner inner-hero-grid">
                 <div>
                     <p class="eyebrow reveal">Contact</p>
-                    <h1 class="page-title reveal">Bring the brief, the ambition, or the rough idea. We'll shape the
-                        rest.</h1>
-                    <p class="section-copy reveal max-w-3xl">Reach out to plan a premium website, product redesign, or a
-                        focused growth-oriented digital launch.</p>
+                    <h1 class="page-title reveal">Bring your growth target or your raw ambition. We will execute the
+                        rest</h1>
+                    <p class="section-copy reveal max-w-3xl">Secure high-impact marketing, elite web scaling, or a
+                        dominant digital rollout with zero friction</p>
                 </div>
                 <div class="hero-side-card reveal interactive-card" data-tilt>
                     <p class="eyebrow">Best fit</p>
-                    <h3>Teams looking for a site that feels more intentional, more premium, and more conversion-ready.
+                    <h3>Ambitious teams ready for ruthless market execution, explosive visibility, and pure conversions
                     </h3>
-                    <p class="section-copy">If you already know the direction or just know the current site is not
-                        enough, we can work from there.</p>
+                    <p class="section-copy">Whether you have a locked blueprint or just know your current presence is
+                        failing, we deploy fast</p>
                 </div>
+            </div>
+        </section>
+        <section class="page-section">
+            <div class="section-inner">
+                <div class="section-head">
+                    <div class="reveal max-w-2xl">
+                        <p class="eyebrow">Inquiry Form</p>
+                        <h2 class="section-title">Send your project details directly.</h2>
+                        <p class="section-copy">Share a few details about your company, service need, and timeline. We
+                            will route inquiries to <a
+                                href="mailto:inquiry@squadtechsol.com">inquiry@squadtechsol.com</a>
+                            and follow up from there.</p>
+                    </div>
+                </div>
+                <form class="contact-form contact-panel reveal interactive-card" data-tilt>
+                    <div class="form-status is-hidden" data-form-status></div>
+                    <div class="form-grid">
+                        <label class="form-field">
+                            <span>Name</span>
+                            <input class="form-input" type="text" name="name" maxlength="120" required
+                                autocomplete="name" placeholder="Your full name">
+                        </label>
+                        <label class="form-field">
+                            <span>Email</span>
+                            <input class="form-input" type="email" name="email" maxlength="180" required
+                                autocomplete="email" placeholder="you@company.com">
+                        </label>
+                        <label class="form-field">
+                            <span>Company Name</span>
+                            <input class="form-input" type="text" name="company" maxlength="160"
+                                autocomplete="organization" placeholder="Company or brand name">
+                        </label>
+                        <label class="form-field">
+                            <span>Phone Number</span>
+                            <input class="form-input" type="tel" name="phone" maxlength="40" autocomplete="tel"
+                                placeholder="+1 (555) 000-0000">
+                        </label>
+                    </div>
+                    <label class="form-field">
+                        <span>Service</span>
+                        <select class="form-input" name="service" required>
+                            <option value="">Choose a service</option>
+                            <option value="Social Media Marketing">Social Media Marketing</option>
+                            <option value="SEO & PPC">SEO & PPC</option>
+                            <option value="Brand Identity">Brand Identity</option>
+                            <option value="Media Production">Media Production</option>
+                            <option value="Web Development">Web Development</option>
+                            <option value="Dedicated Remote Staff">Dedicated Remote Staff</option>
+                        </select>
+                    </label>
+                    <label class="form-field">
+                        <span>Message</span>
+                        <textarea class="form-input form-textarea" name="message" rows="7" maxlength="3000" required
+                            placeholder="Tell us about your project, goals, timeline, or anything else that helps."></textarea>
+                    </label>
+                    <div class="form-actions">
+                        <button type="submit" class="primary-button magnetic-button">Send Inquiry</button>
+                        <p class="form-note">Form inquiries are sent to inquiry@squadtechsol.com.</p>
+                    </div>
+                </form>
             </div>
         </section>
         <section class="page-section">
             <div class="section-inner contact-grid">
                 <div class="contact-panel reveal interactive-card" data-tilt>
                     <p class="eyebrow">Start a conversation</p>
-                    <h2 class="section-title">Tell us what you're building.</h2>
-                    <p class="section-copy">We typically align around goals, timeline, audience, and the level of
-                        creative ambition you want the site to carry.</p>
+                    <h2 class="section-title">Detail your growth target</h2>
+                    <p class="section-copy">We lock down your concrete goals, immediate timelines, target audiences, and
+                        the exact marketing firepower you need</p>
                     <div class="contact-list"><a href="mailto:inquiry@squadtechsol.com"><span class="contact-link-icon"
                                 aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -48,12 +108,13 @@
                 <div class="contact-panel reveal interactive-card" data-tilt>
                     <p class="eyebrow">What to expect</p>
                     <div class="timeline-list">
-                        <div class="timeline-item"><strong>01. Discovery</strong><span>We align on goals, users, and
-                                tone.</span></div>
-                        <div class="timeline-item"><strong>02. Concept</strong><span>We shape visual direction and page
-                                narrative.</span></div>
-                        <div class="timeline-item"><strong>03. Build</strong><span>We turn the approved direction into a
-                                polished frontend.</span></div>
+                        <div class="timeline-item"><strong>01. Target</strong><span>We lock down metrics, audience,
+                                and offer</span></div>
+                        <div class="timeline-item"><strong>02. Strategy</strong><span>We map high-converting visuals and
+                                raw copy loops</span></div>
+                        <div class="timeline-item"><strong>03. Deployment</strong><span>We turn approved assets into
+                                active
+                                market revenue pipelines</span></div>
                     </div>
                 </div>
             </div>
@@ -93,44 +154,6 @@
                 </div>
             </div>
         </section>
-        <section class="page-section">
-            <div class="section-inner">
-                <div class="section-head">
-                    <div class="reveal max-w-2xl">
-                        <p class="eyebrow">Inquiry Form</p>
-                        <h2 class="section-title">Send your project details directly.</h2>
-                        <p class="section-copy">Share your name, email, and a short message about what you need. We will
-                            route inquiries to <a href="mailto:inquiry@squadtechsol.com">inquiry@squadtechsol.com</a>
-                            and follow up from there.</p>
-                    </div>
-                </div>
-                <form class="contact-form contact-panel reveal interactive-card" data-tilt>
-                    <div class="form-status is-hidden" data-form-status></div>
-                    <div class="form-grid">
-                        <label class="form-field">
-                            <span>Name</span>
-                            <input class="form-input" type="text" name="name" maxlength="120" required
-                                autocomplete="name" placeholder="Your full name">
-                        </label>
-                        <label class="form-field">
-                            <span>Email</span>
-                            <input class="form-input" type="email" name="email" maxlength="180" required
-                                autocomplete="email" placeholder="you@company.com">
-                        </label>
-                    </div>
-                    <label class="form-field">
-                        <span>Message</span>
-                        <textarea class="form-input form-textarea" name="message" rows="7" maxlength="3000" required
-                            placeholder="Tell us about your project, goals, timeline, or anything else that helps."></textarea>
-                    </label>
-                    <div class="form-actions">
-                        <button type="submit" class="primary-button magnetic-button">Send Inquiry</button>
-                        <p class="form-note">Form inquiries are sent to inquiry@squadtechsol.com.</p>
-                    </div>
-                </form>
-            </div>
-        </section>
-
         <section class="page-section">
             <div class="section-inner">
                 <div class="section-head">
