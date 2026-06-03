@@ -595,6 +595,19 @@ body.light-theme .theme-toggle-track::before {
     transition: border-color 220ms ease, box-shadow 220ms ease, background 220ms ease;
 }
 
+select.form-input {
+    appearance: none;
+    background-image:
+        linear-gradient(45deg, transparent 50%, var(--brand-orange) 50%),
+        linear-gradient(135deg, var(--brand-orange) 50%, transparent 50%);
+    background-position:
+        calc(100% - 1.15rem) 50%,
+        calc(100% - 0.82rem) 50%;
+    background-size: 0.36rem 0.36rem, 0.36rem 0.36rem;
+    background-repeat: no-repeat;
+    padding-right: 2.6rem;
+}
+
 .form-input::placeholder {
     color: var(--text-muted);
 }
@@ -671,6 +684,38 @@ body.light-theme .theme-toggle-track::before {
     transform: translateY(-8px);
     box-shadow: var(--shadow);
     border-color: rgba(245, 142, 30, 0.26);
+}
+
+.blog-card-media,
+.article-hero-image {
+    position: relative;
+    overflow: hidden;
+    border-radius: 1.35rem;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    background: color-mix(in srgb, var(--bg) 84%, transparent);
+}
+
+.blog-card-media {
+    aspect-ratio: 16 / 10;
+    margin: -0.5rem -0.5rem 0.2rem;
+}
+
+.article-hero-image {
+    aspect-ratio: 16 / 7;
+}
+
+.blog-card-media img,
+.article-hero-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 520ms ease;
+}
+
+.blog-card:hover .blog-card-media img,
+.article-shell:hover .article-hero-image img {
+    transform: scale(1.035);
 }
 
 .blog-meta {
@@ -1384,6 +1429,7 @@ body.light-theme .highlight-card {
     display: flex;
     flex-direction: column;
     justify-content: end;
+    min-height: 100%;
     border-radius: 1.6rem;
     border: 1px solid rgba(255, 255, 255, 0.08);
     background:
@@ -1759,6 +1805,42 @@ body.light-theme .about-visual {
         linear-gradient(145deg, rgba(12, 12, 12, 0.9), rgba(24, 24, 24, 0.72));
 }
 
+.portfolio-card-media {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    aspect-ratio: 16 / 10;
+    margin: -0.45rem -0.45rem 1.1rem;
+    border-radius: 1.35rem;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    background: color-mix(in srgb, var(--bg) 84%, transparent);
+}
+
+.portfolio-feature .portfolio-card-media {
+    margin: -0.45rem -0.45rem 1.4rem;
+    aspect-ratio: 16 / 9;
+}
+
+.portfolio-card-media img,
+.portfolio-card-media video,
+.image-placeholder-surface img,
+.image-placeholder-surface video,
+.video-placeholder-frame video {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.portfolio-card:hover .portfolio-card-media img,
+.portfolio-feature:hover .portfolio-card-media img {
+    transform: scale(1.045);
+}
+
+.portfolio-card-media img {
+    transition: transform 520ms ease;
+}
+
 body.light-theme .portfolio-feature {
     background:
         linear-gradient(135deg, rgba(255, 255, 255, 0.5), transparent 55%),
@@ -1850,6 +1932,36 @@ body.light-theme .portfolio-feature {
 
 .filter-item.is-hidden {
     display: none;
+}
+
+.calendly-widget {
+    position: fixed;
+    right: 1.4rem;
+    bottom: 1.4rem;
+    z-index: 115;
+    display: grid;
+    place-items: center;
+    width: 4rem;
+    height: 4rem;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    border-radius: 999px;
+    background:
+        radial-gradient(circle at 34% 28%, rgba(255, 255, 255, 0.28), transparent 20%),
+        linear-gradient(135deg, var(--brand-red), var(--brand-orange));
+    box-shadow: 0 20px 54px rgba(231, 49, 3, 0.28);
+    color: #ffffff;
+    cursor: pointer;
+    transition: transform 220ms ease, box-shadow 220ms ease;
+}
+
+.calendly-widget:hover {
+    transform: translateY(-4px) scale(1.04);
+    box-shadow: 0 24px 68px rgba(231, 49, 3, 0.36);
+}
+
+.calendly-widget svg {
+    width: 2rem;
+    height: 2rem;
 }
 
 .cta-panel {
