@@ -1946,8 +1946,9 @@ body.light-theme .portfolio-feature {
     right: 1.4rem;
     bottom: 1.4rem;
     z-index: 115;
-    display: grid;
-    place-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 3rem;
     height: 3rem;
     border: 1px solid rgba(255, 255, 255, 0.16);
@@ -1964,11 +1965,6 @@ body.light-theme .portfolio-feature {
 .calendly-widget:hover {
     transform: translateY(-4px) scale(1.04);
     box-shadow: 0 24px 68px rgba(231, 49, 3, 0.36);
-}
-
-.calendly-widget svg {
-    width: 2rem;
-    height: 2rem;
 }
 
 .cta-panel {
