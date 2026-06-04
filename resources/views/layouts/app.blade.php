@@ -44,7 +44,8 @@
 
     <!-- Calendly link widget begin -->
     <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-    <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/d/cvqf-k7c-4xq'});return false;">
+    <a href="https://calendly.com/squadtechsolution/inquiry"
+        onclick="Calendly.initPopupWidget({url: 'https://calendly.com/d/cvqf-k7c-4xq'});return false;">
         <button class="calendly-widget" title="book a demo call on calendly">
             <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="50" height="50"
                 viewBox="0 0 500.000000 500.000000" preserveAspectRatio="xMidYMid meet">
