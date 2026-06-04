@@ -16,13 +16,13 @@ class MailController extends Controller
         $service = $request->input('service');
         $message = $request->input('message');
 
-        $headers = "From: inquiry@squadtechsol.com";
+        $headers = "From: $email";
 
         $sentPayload = "
         $message for $service with the contact as $phone and company name as $company by $name
         ";
 
-        mail($email, "Inquiry Entry", $sentPayload);
+        mail("inquiry@squadtechsol.com", "Inquiry Entry", $sentPayload);
 
         return redirect()->back();
     }
