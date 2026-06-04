@@ -338,8 +338,9 @@
                         </blockquote>
                         <div class="testimonial-meta">
                             <div>
-                                <h3>Amna Shah</h3>
-                                <p class="testimonial-role">Founder, Vertex Cloud</p>
+                                <h3>Alistair Vance</h3>
+                                <p class="testimonial-role">Chief Product Officer, NexaCorp Industries (United Kingdom)
+                                </p>
                             </div>
                             <p class="eyebrow">SaaS</p>
                         </div>
@@ -351,8 +352,8 @@
                         </blockquote>
                         <div class="testimonial-meta">
                             <div>
-                                <h3>Amna Shah</h3>
-                                <p class="testimonial-role">Marketing Lead, Northlane Studio</p>
+                                <h3>Elena Rostova</h3>
+                                <p class="testimonial-role">Director of Brand Experience, Veloce Digital (Germany)</p>
                             </div>
                             <p class="eyebrow">Growth</p>
                         </div>
@@ -364,8 +365,48 @@
                         </blockquote>
                         <div class="testimonial-meta">
                             <div>
-                                <h3>Usman Qureshi</h3>
-                                <p class="testimonial-role">Product Director, Metric Forge</p>
+                                <h3>Aris Thorne</h3>
+                                <p class="testimonial-role">Founder & CEO, Lumina Ventures (United States)</p>
+                            </div>
+                            <p class="eyebrow">Product</p>
+                        </div>
+                    </article>
+                    <article class="testimonial-card reveal interactive-card" data-tilt>
+                        <blockquote>
+                            “What stood out most was the combination of design taste and implementation quality. Nothing
+                            felt generic, and nothing felt fragile.”
+                        </blockquote>
+                        <div class="testimonial-meta">
+                            <div>
+                                <h3>Marcus Vance</h3>
+                                <p class="testimonial-role">VP of Marketing at Aether Digital</p>
+                            </div>
+                            <p class="eyebrow">Product</p>
+                        </div>
+                    </article>
+                    <article class="testimonial-card reveal interactive-card" data-tilt>
+                        <blockquote>
+                            “Squad Tech is elite. They handled our platform's scale effortlessly and delivered high-end
+                            video assets, moving fast without sacrificing quality.”
+                        </blockquote>
+                        <div class="testimonial-meta">
+                            <div>
+                                <h3>Linnea Holm</h3>
+                                <p class="testimonial-role">Chief Technology Officer at Synapse Global</p>
+                            </div>
+                            <p class="eyebrow">Product</p>
+                        </div>
+                    </article>
+                    <article class="testimonial-card reveal interactive-card" data-tilt>
+                        <blockquote>
+                            “Squad Tech delivered flawlessly from web development to premium video production, operating
+                            with the speed, precision, and drive of true tech entrepreneurs.”
+                        </blockquote>
+                        <div class="testimonial-meta">
+                            <div>
+                                <h3>Sarah Jenkins</h3>
+                                <p class="testimonial-role">Chief Operating Officer at Horizon Scale Media (New York,
+                                    USA)</p>
                             </div>
                             <p class="eyebrow">Product</p>
                         </div>

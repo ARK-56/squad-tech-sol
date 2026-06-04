@@ -38,7 +38,8 @@
           </div>
           <p class="eyebrow">Website Design</p>
           <h3>Redesign Website for Digital Creative Agency</h3>
-          <p>Structured identity systems engineered to project market authority and flawless corporate consistency</p>
+          <p>We transformed an outdated digital presence into a high-octane branding ecosystem, resulting in a 45%
+            increase in high-tier inbound agency inquiries</p>
         </a><a href="https://www.behance.net/gallery/248748995/Squad-International-Brand-Identity"
           class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="brand" target="_blank"
           rel="noreferrer">
@@ -48,7 +49,8 @@
           </div>
           <p class="eyebrow">Brand Identity</p>
           <h3>Squad International - Brand Identity</h3>
-          <p>High-end visual positioning built to communicate modern clarity, luxury aesthetics, and immediate trust</p>
+          <p>A masterclass in corporate minimalism. We built a scalable visual toolkit engineered to command immediate
+            authority across competitive international markets</p>
         </a><a href="https://www.behance.net/gallery/248608779/Squad-Medical-Supplies-Branding-Stationary"
           class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="brand" target="_blank"
           rel="noreferrer">
@@ -58,8 +60,8 @@
           </div>
           <p class="eyebrow">Brand Identity</p>
           <h3>Squad Medical Supplies - Branding & Stationary</h3>
-          <p>Campaign-style presentation work shaped for stronger visibility, polished storytelling, and brand-led
-            promotion.</p>
+          <p>We designed clean, enterprise-grade stationery and brand touchpoints that seamlessly blend strict medical
+            compliance with polished visual storytelling</p>
         </a><a href="https://www.behance.net/gallery/248359285/Shinkyowa-Brand-Design"
           class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="brand" target="_blank"
           rel="noreferrer">
@@ -69,8 +71,8 @@
           </div>
           <p class="eyebrow">Brand Identity</p>
           <h3>Shinkyowa - Brand Design</h3>
-          <p>Responsive, lightning-fast digital assets focused on frictionless user journeys and premium conversion
-            rates</p>
+          <p>A rapid design sprint focused on constructing digital-first brand assets and fluid user pathways that strip
+            away customer friction</p>
         </a><a href="https://www.behance.net/gallery/248339605/AAA-DME-INC-Brand-Identity"
           class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="brand" target="_blank"
           rel="noreferrer">
@@ -80,7 +82,8 @@
           </div>
           <p class="eyebrow">Brand Identity</p>
           <h3>AAA DME INC - Brand Identity</h3>
-          <p>Operational engineering built around dependable execution, embedded alignment, and scalable remote talent.
+          <p>We delivered a rigid, reliable brand architecture that perfectly aligns this logistics powerhouse's
+            identity with its enterprise-scale capabilities
           </p>
         </a><a href="https://www.behance.net/gallery/248131599/Professional-Media-Production-for-Every-Need"
           class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="media" target="_blank"
@@ -91,8 +94,8 @@
           </div>
           <p class="eyebrow">Media Production</p>
           <h3>Photoshoot Behind the Scenes</h3>
-          <p>Creative production coverage highlighting the meticulous process and elite polish behind high-performing
-            campaign assets</p>
+          <p>An exclusive look behind the lens at the meticulous planning and elite art direction we inject into every
+            high-performing campaign asset</p>
         </a>
         <a href="https://www.behance.net/gallery/248130301/Photoshoot-Behind-the-Scenes"
           class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="media" target="_blank"
@@ -103,7 +106,8 @@
           </div>
           <p class="eyebrow">Media Production</p>
           <h3>Professional Media Production for Every Need</h3>
-          <p>Versatile commercial production framed around sharp visual storytelling and flawless execution</p>
+          <p>We produce platform-optimized, broadcast-quality digital reels and commercial spots designed to capture
+            consumer attention in under three seconds</p>
         </a>
         <a href="https://www.behance.net/gallery/248129751/Dedicated-Remote-Staff"
           class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="remote" target="_blank"
@@ -114,7 +118,8 @@
           </div>
           <p class="eyebrow">Dedicated Remote Staff</p>
           <h3>Dedicated Remote Staff</h3>
-          <p>Versatile commercial production framed around sharp visual storytelling and flawless execution</p>
+          <p>Bypass traditional hiring overhead with elite, fully integrated tech and marketing talent built to scale
+            your operational output overnight</p>
         </a>
         <a href="https://www.behance.net/gallery/248012997/Dexsora-Digital-Presence"
           class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="social" target="_blank"
@@ -125,7 +130,8 @@
           </div>
           <p class="eyebrow">Social Media Marketing</p>
           <h3>Dexsora - Digital Presence</h3>
-          <p>Versatile commercial production framed around sharp visual storytelling and flawless execution</p>
+          <p>We deployed a hyper-targeted content matrix that elevated community engagement and turned organic social
+            channels into a profitable acquisition funnel</p>
         </a>
         <a href="https://www.behance.net/gallery/247938555/Websites-Design-Showcase"
           class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="web" target="_blank"
@@ -135,7 +141,8 @@
           </div>
           <p class="eyebrow">Website Development</p>
           <h3>Websites - Design Showcase</h3>
-          <p>Versatile commercial production framed around sharp visual storytelling and flawless execution</p>
+          <p>A collection of pixel-perfect web applications built with clean code and smooth animations, engineered
+            exclusively to convert traffic into business momentum</p>
         </a>
         <a href="https://www.behance.net/gallery/247938143/LogoFolio"
           class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="brand" target="_blank"
@@ -145,7 +152,8 @@
           </div>
           <p class="eyebrow">Brand Identity</p>
           <h3>LogoFolio</h3>
-          <p>Versatile commercial production framed around sharp visual storytelling and flawless execution</p>
+          <p>A curated exhibition of standalone logos and iconic wordmarks distilled to their absolute essence for
+            maximum, long-term conceptual impact</p>
         </a>
         <a href="https://www.behance.net/gallery/246970917/Dexsora-Brand-Identity"
           class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="brand" target="_blank"
@@ -155,7 +163,8 @@
           </div>
           <p class="eyebrow">Brand Identity</p>
           <h3>Dexsora - Brand Identity</h3>
-          <p>Versatile commercial production framed around sharp visual storytelling and flawless execution</p>
+          <p>We engineered a slick, future-proof visual language that scales effortlessly from small mobile interfaces
+            to massive physical billboards</p>
         </a>
         <a href="https://www.behance.net/gallery/248123881/SEO-vs-PPC-Whats-the-Difference"
           class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="seo" target="_blank"
@@ -165,8 +174,8 @@
           </div>
           <p class="eyebrow">SEO &amp; PPC</p>
           <h3>SEO vs PPC: What's the Difference?</h3>
-          <p>Data-backed visibility strategy centered around high-intent traffic acquisition and transparent performance
-            metrics</p>
+          <p>We break down how combining aggressive PPC pipelines with bulletproof SEO architectures permanently secures
+            market dominance and recurring ROI</p>
         </a>
       </div>
     </section>
