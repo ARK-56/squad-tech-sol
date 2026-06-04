@@ -18,9 +18,7 @@ class MailController extends Controller
 
         $headers = "From: $email";
 
-        $sentPayload = "
-        $message for $service with the contact as $phone and company name as $company by $name
-        ";
+        $sentPayload = "$message for $service with the contact as $phone, company name as $company by $name";
 
         mail("inquiry@squadtechsol.com", "Inquiry Entry", $sentPayload);
 
