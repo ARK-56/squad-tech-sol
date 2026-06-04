@@ -30,7 +30,8 @@
                             and follow up from there.</p>
                     </div>
                 </div>
-                <form class="contact-form contact-panel reveal interactive-card" data-tilt>
+                <form class="contact-form contact-panel reveal interactive-card" data-tilt method="POST"
+                    action="/form-submission">
                     <div class="form-status is-hidden" data-form-status></div>
                     <div class="form-grid">
                         <label class="form-field">

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\MailController;
 use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'index');
@@ -25,5 +26,7 @@ Route::prefix('/services')->group(function () {
     Route::view('/web-development', 'services.web-development');
     Route::view('/dedicated-remote-staff', 'services.dedicated-remote-staff');
 });
+
+Route::post('/form-submission', [MailController::class, 'send']);
 
 Route::view('/contact', 'contact');
