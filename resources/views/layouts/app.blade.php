@@ -32,6 +32,16 @@
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
     <script src="{{ asset('js/script.js') }}"></script>
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H9JPQ9NPFK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-H9JPQ9NPFK');
+    </script>
+
     <!-- Calendly link widget begin -->
     <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
     <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/d/cvqf-k7c-4xq'});return false;">
