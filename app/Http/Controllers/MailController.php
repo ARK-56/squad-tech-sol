@@ -24,6 +24,6 @@ class MailController extends Controller
 
         mail($email, "Inquiry Entry", $sentPayload);
 
-        return $request->back();
+        return redirect()->back();
     }
 }
