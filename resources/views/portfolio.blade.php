@@ -29,7 +29,7 @@
     </section>
     <section class="page-section">
       <div class="section-inner portfolio-page-grid">
-        <a href="https://www.behance.net/gallery/248339605/AAA-DME-INC-Brand-Identity?tracking_source=services_modal"
+        <a href="https://www.behance.net/gallery/250491811/Redesign-Website-for-Digital-Creative-Agency"
           class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="web" target="_blank"
           rel="noreferrer">
           <div class="portfolio-card-media">
@@ -39,7 +39,7 @@
           <p class="eyebrow">Website Design</p>
           <h3>Redesign Website for Digital Creative Agency</h3>
           <p>Structured identity systems engineered to project market authority and flawless corporate consistency</p>
-        </a><a href="https://www.behance.net/gallery/246970917/Dexsora-Brand-Identity?tracking_source=services_modal"
+        </a><a href="https://www.behance.net/gallery/248748995/Squad-International-Brand-Identity"
           class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="brand" target="_blank"
           rel="noreferrer">
           <div class="portfolio-card-media">
@@ -49,7 +49,7 @@
           <p class="eyebrow">Brand Identity</p>
           <h3>Squad International - Brand Identity</h3>
           <p>High-end visual positioning built to communicate modern clarity, luxury aesthetics, and immediate trust</p>
-        </a><a href="https://www.behance.net/gallery/247938555/Websites-Design-Showcase?tracking_source=services_modal"
+        </a><a href="https://www.behance.net/gallery/248608779/Squad-Medical-Supplies-Branding-Stationary"
           class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="brand" target="_blank"
           rel="noreferrer">
           <div class="portfolio-card-media">
@@ -60,7 +60,7 @@
           <h3>Squad Medical Supplies - Branding & Stationary</h3>
           <p>Campaign-style presentation work shaped for stronger visibility, polished storytelling, and brand-led
             promotion.</p>
-        </a><a href="https://www.behance.net/gallery/247938555/Websites-Design-Showcase?tracking_source=services_modal"
+        </a><a href="https://www.behance.net/gallery/248359285/Shinkyowa-Brand-Design"
           class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="brand" target="_blank"
           rel="noreferrer">
           <div class="portfolio-card-media">
@@ -71,7 +71,7 @@
           <h3>Shinkyowa - Brand Design</h3>
           <p>Responsive, lightning-fast digital assets focused on frictionless user journeys and premium conversion
             rates</p>
-        </a><a href="https://www.behance.net/gallery/248129751/Dedicated-Remote-Staff?tracking_source=services_modal"
+        </a><a href="https://www.behance.net/gallery/248339605/AAA-DME-INC-Brand-Identity"
           class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="brand" target="_blank"
           rel="noreferrer">
           <div class="portfolio-card-media">
@@ -82,8 +82,7 @@
           <h3>AAA DME INC - Brand Identity</h3>
           <p>Operational engineering built around dependable execution, embedded alignment, and scalable remote talent.
           </p>
-        </a><a
-          href="https://www.behance.net/gallery/248130301/Photoshoot-Behind-the-Scenes?tracking_source=services_modal"
+        </a><a href="https://www.behance.net/gallery/248131599/Professional-Media-Production-for-Every-Need"
           class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="media" target="_blank"
           rel="noreferrer">
           <div class="portfolio-card-media">
@@ -95,7 +94,7 @@
           <p>Creative production coverage highlighting the meticulous process and elite polish behind high-performing
             campaign assets</p>
         </a>
-        <a href="https://www.behance.net/gallery/248131599/Professional-Media-Production-for-Every-Need?tracking_source=services_modal"
+        <a href="https://www.behance.net/gallery/248130301/Photoshoot-Behind-the-Scenes"
           class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="media" target="_blank"
           rel="noreferrer">
           <div class="portfolio-card-media">
@@ -106,7 +105,7 @@
           <h3>Professional Media Production for Every Need</h3>
           <p>Versatile commercial production framed around sharp visual storytelling and flawless execution</p>
         </a>
-        <a href="https://www.behance.net/gallery/248131599/Professional-Media-Production-for-Every-Need?tracking_source=services_modal"
+        <a href="https://www.behance.net/gallery/248129751/Dedicated-Remote-Staff"
           class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="remote" target="_blank"
           rel="noreferrer">
           <div class="portfolio-card-media">
@@ -117,7 +116,7 @@
           <h3>Dedicated Remote Staff</h3>
           <p>Versatile commercial production framed around sharp visual storytelling and flawless execution</p>
         </a>
-        <a href="https://www.behance.net/gallery/248131599/Professional-Media-Production-for-Every-Need?tracking_source=services_modal"
+        <a href="https://www.behance.net/gallery/248012997/Dexsora-Digital-Presence"
           class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="social" target="_blank"
           rel="noreferrer">
           <div class="portfolio-card-media">
@@ -128,7 +127,7 @@
           <h3>Dexsora - Digital Presence</h3>
           <p>Versatile commercial production framed around sharp visual storytelling and flawless execution</p>
         </a>
-        <a href="https://www.behance.net/gallery/248131599/Professional-Media-Production-for-Every-Need?tracking_source=services_modal"
+        <a href="https://www.behance.net/gallery/247938555/Websites-Design-Showcase"
           class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="web" target="_blank"
           rel="noreferrer">
           <div class="portfolio-card-media">
@@ -138,7 +137,7 @@
           <h3>Websites - Design Showcase</h3>
           <p>Versatile commercial production framed around sharp visual storytelling and flawless execution</p>
         </a>
-        <a href="https://www.behance.net/gallery/248131599/Professional-Media-Production-for-Every-Need?tracking_source=services_modal"
+        <a href="https://www.behance.net/gallery/247938143/LogoFolio"
           class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="brand" target="_blank"
           rel="noreferrer">
           <div class="portfolio-card-media">
@@ -148,7 +147,7 @@
           <h3>LogoFolio</h3>
           <p>Versatile commercial production framed around sharp visual storytelling and flawless execution</p>
         </a>
-        <a href="https://www.behance.net/gallery/248131599/Professional-Media-Production-for-Every-Need?tracking_source=services_modal"
+        <a href="https://www.behance.net/gallery/246970917/Dexsora-Brand-Identity"
           class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="brand" target="_blank"
           rel="noreferrer">
           <div class="portfolio-card-media">
@@ -158,7 +157,7 @@
           <h3>Dexsora - Brand Identity</h3>
           <p>Versatile commercial production framed around sharp visual storytelling and flawless execution</p>
         </a>
-        <a href="https://www.behance.net/gallery/248123881/SEO-vs-PPC-Whats-the-Difference?tracking_source=services_modal"
+        <a href="https://www.behance.net/gallery/248123881/SEO-vs-PPC-Whats-the-Difference"
           class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="seo" target="_blank"
           rel="noreferrer">
           <div class="portfolio-card-media">
