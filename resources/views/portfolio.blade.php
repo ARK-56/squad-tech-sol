@@ -7,13 +7,17 @@
           <h1 class="page-title reveal">High-End Aesthetics. Product-Grade Outcomes</h1>
           <p class="section-copy reveal max-w-3xl">Browse a selection of projects shaped around better performance,
             clearer user journeys, and stronger digital positioning.</p>
-          <div class="filter-row reveal"><button class="filter-chip is-active" type="button"
-              data-filter="all">All</button><button class="filter-chip" type="button" data-filter="social">Social Media
-              Marketing</button><button class="filter-chip" type="button" data-filter="seo">SEO &amp;
-              PPC</button><button class="filter-chip" type="button" data-filter="brand">Brand Identity</button><button
-              class="filter-chip" type="button" data-filter="media">Media Production</button><button class="filter-chip"
-              type="button" data-filter="web">Web Development</button><button class="filter-chip" type="button"
-              data-filter="remote">Dedicated Remote Staff</button></div>
+          <div class="filter-row reveal">
+            <button class="filter-chip is-active" type="button" data-filter="all">All</button>
+            <button class="filter-chip" type="button" data-filter="social">Social Media
+              Marketing</button>
+            <button class="filter-chip" type="button" data-filter="seo">SEO &amp;
+              PPC</button>
+            <button class="filter-chip" type="button" data-filter="brand">Brand Identity</button>
+            <button class="filter-chip" type="button" data-filter="media">Media Production</button>
+            <button class="filter-chip" type="button" data-filter="web">Web Development</button>
+            <button class="filter-chip" type="button" data-filter="remote">Dedicated Remote Staff</button>
+          </div>
         </div>
         <div class="hero-side-card reveal interactive-card" data-tilt>
           <p class="eyebrow">Results</p>
@@ -26,51 +30,56 @@
     <section class="page-section">
       <div class="section-inner portfolio-page-grid">
         <a href="https://www.behance.net/gallery/248339605/AAA-DME-INC-Brand-Identity?tracking_source=services_modal"
-          class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="brand" target="_blank"
+          class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="web" target="_blank"
           rel="noreferrer">
           <div class="portfolio-card-media">
-            <img src="{{ asset('images/covers/aaa-dme.png') }}" alt="AAA DME INC brand identity preview">
+            <img src="{{ asset('images/portfolio/Redesign Website - Digital Creative Agency.avif') }}"
+              alt="Redesign Website for Digital Creative Agency">
           </div>
-          <p class="eyebrow">Brand Identity</p>
-          <h3>AAA DME INC Brand Identity</h3>
+          <p class="eyebrow">Website Design</p>
+          <h3>Redesign Website for Digital Creative Agency</h3>
           <p>Structured identity systems engineered to project market authority and flawless corporate consistency</p>
         </a><a href="https://www.behance.net/gallery/246970917/Dexsora-Brand-Identity?tracking_source=services_modal"
           class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="brand" target="_blank"
           rel="noreferrer">
           <div class="portfolio-card-media">
-            <img src="{{ asset('images/portfolio-2.avif') }}" alt="Dexsora brand identity preview">
+            <img src="{{ asset('images/portfolio/Squad International (Brand Identity).avif') }}"
+              alt="Squad International Brand Identity">
           </div>
           <p class="eyebrow">Brand Identity</p>
-          <h3>Dexsora Brand Identity</h3>
+          <h3>Squad International - Brand Identity</h3>
           <p>High-end visual positioning built to communicate modern clarity, luxury aesthetics, and immediate trust</p>
         </a><a href="https://www.behance.net/gallery/247938555/Websites-Design-Showcase?tracking_source=services_modal"
-          class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="social" target="_blank"
+          class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="brand" target="_blank"
           rel="noreferrer">
           <div class="portfolio-card-media">
-            <img src="{{ asset('images/covers/website-design.png') }}" alt="Website design campaign preview">
+            <img src="{{ asset('images/portfolio/Squad Medical Supplies (Branding & Stationary).avif') }}"
+              alt="Squad Medical Supplies Branding & Stationary">
           </div>
-          <p class="eyebrow">Social Media Marketing</p>
-          <h3>Websites Design Showcase</h3>
+          <p class="eyebrow">Brand Identity</p>
+          <h3>Squad Medical Supplies - Branding & Stationary</h3>
           <p>Campaign-style presentation work shaped for stronger visibility, polished storytelling, and brand-led
             promotion.</p>
         </a><a href="https://www.behance.net/gallery/247938555/Websites-Design-Showcase?tracking_source=services_modal"
-          class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="web" target="_blank"
+          class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="brand" target="_blank"
           rel="noreferrer">
           <div class="portfolio-card-media">
-            <img src="{{ asset('images/covers/website-design.png') }}" alt="Website development showcase preview">
+            <img src="{{ asset('images/portfolio/Shinkyowa - Brand Design (brand identity).avif') }}"
+              alt="Shinkyowa Brand Design">
           </div>
-          <p class="eyebrow">Web Development</p>
-          <h3>Websites Design Showcase</h3>
+          <p class="eyebrow">Brand Identity</p>
+          <h3>Shinkyowa - Brand Design</h3>
           <p>Responsive, lightning-fast digital assets focused on frictionless user journeys and premium conversion
             rates</p>
         </a><a href="https://www.behance.net/gallery/248129751/Dedicated-Remote-Staff?tracking_source=services_modal"
-          class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="remote" target="_blank"
+          class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="brand" target="_blank"
           rel="noreferrer">
           <div class="portfolio-card-media">
-            <img src="{{ asset('images/service-2.avif') }}" alt="Dedicated remote staff preview">
+            <img src="{{ asset('images/portfolio/AAA DME INC (Brand Identity).avif') }}"
+              alt="AAA DME INC Brand Identity">
           </div>
-          <p class="eyebrow">Dedicated Remote Staff</p>
-          <h3>Dedicated Remote Staff</h3>
+          <p class="eyebrow">Brand Identity</p>
+          <h3>AAA DME INC - Brand Identity</h3>
           <p>Operational engineering built around dependable execution, embedded alignment, and scalable remote talent.
           </p>
         </a><a
@@ -78,28 +87,82 @@
           class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="media" target="_blank"
           rel="noreferrer">
           <div class="portfolio-card-media">
-            <img src="{{ asset('images/presentation-layer-2.avif') }}" alt="Photoshoot behind the scenes preview">
+            <img src="{{ asset('images/portfolio/Photoshoot Behind the Scenes.avif') }}"
+              alt="Photoshoot behind the scenes preview">
           </div>
           <p class="eyebrow">Media Production</p>
           <h3>Photoshoot Behind the Scenes</h3>
           <p>Creative production coverage highlighting the meticulous process and elite polish behind high-performing
             campaign assets</p>
-        </a><a
-          href="https://www.behance.net/gallery/248131599/Professional-Media-Production-for-Every-Need?tracking_source=services_modal"
+        </a>
+        <a href="https://www.behance.net/gallery/248131599/Professional-Media-Production-for-Every-Need?tracking_source=services_modal"
           class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="media" target="_blank"
           rel="noreferrer">
           <div class="portfolio-card-media">
-            <img src="{{ asset('images/presentation-layer-3.avif') }}" alt="Professional media production preview">
+            <img src="{{ asset('images/portfolio/Media Production cover.avif') }}"
+              alt="Professional media production preview">
           </div>
           <p class="eyebrow">Media Production</p>
           <h3>Professional Media Production for Every Need</h3>
           <p>Versatile commercial production framed around sharp visual storytelling and flawless execution</p>
-        </a><a
-          href="https://www.behance.net/gallery/248123881/SEO-vs-PPC-Whats-the-Difference?tracking_source=services_modal"
+        </a>
+        <a href="https://www.behance.net/gallery/248131599/Professional-Media-Production-for-Every-Need?tracking_source=services_modal"
+          class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="remote" target="_blank"
+          rel="noreferrer">
+          <div class="portfolio-card-media">
+            <img src="{{ asset('images/portfolio/Dedicated Remote staff cover (2).avif') }}"
+              alt="Dedicated Remote Staff">
+          </div>
+          <p class="eyebrow">Dedicated Remote Staff</p>
+          <h3>Dedicated Remote Staff</h3>
+          <p>Versatile commercial production framed around sharp visual storytelling and flawless execution</p>
+        </a>
+        <a href="https://www.behance.net/gallery/248131599/Professional-Media-Production-for-Every-Need?tracking_source=services_modal"
+          class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="social" target="_blank"
+          rel="noreferrer">
+          <div class="portfolio-card-media">
+            <img src="{{ asset('images/portfolio/Dexsora Digital Presence (SMM).avif') }}"
+              alt="Dexsora Digital Presence">
+          </div>
+          <p class="eyebrow">Social Media Marketing</p>
+          <h3>Dexsora - Digital Presence</h3>
+          <p>Versatile commercial production framed around sharp visual storytelling and flawless execution</p>
+        </a>
+        <a href="https://www.behance.net/gallery/248131599/Professional-Media-Production-for-Every-Need?tracking_source=services_modal"
+          class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="web" target="_blank"
+          rel="noreferrer">
+          <div class="portfolio-card-media">
+            <img src="{{ asset('images/portfolio/Websites Design Showcase.avif') }}" alt="Websites - Design Showcase">
+          </div>
+          <p class="eyebrow">Website Development</p>
+          <h3>Websites - Design Showcase</h3>
+          <p>Versatile commercial production framed around sharp visual storytelling and flawless execution</p>
+        </a>
+        <a href="https://www.behance.net/gallery/248131599/Professional-Media-Production-for-Every-Need?tracking_source=services_modal"
+          class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="brand" target="_blank"
+          rel="noreferrer">
+          <div class="portfolio-card-media">
+            <img src="{{ asset('images/portfolio/Logofolio cover.avif') }}" alt="LogoFolio">
+          </div>
+          <p class="eyebrow">Brand Identity</p>
+          <h3>LogoFolio</h3>
+          <p>Versatile commercial production framed around sharp visual storytelling and flawless execution</p>
+        </a>
+        <a href="https://www.behance.net/gallery/248131599/Professional-Media-Production-for-Every-Need?tracking_source=services_modal"
+          class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="brand" target="_blank"
+          rel="noreferrer">
+          <div class="portfolio-card-media">
+            <img src="{{ asset('images/portfolio/Dexsora (Brand Identity).avif') }}" alt="Dexsora - Brand Identity">
+          </div>
+          <p class="eyebrow">Brand Identity</p>
+          <h3>Dexsora - Brand Identity</h3>
+          <p>Versatile commercial production framed around sharp visual storytelling and flawless execution</p>
+        </a>
+        <a href="https://www.behance.net/gallery/248123881/SEO-vs-PPC-Whats-the-Difference?tracking_source=services_modal"
           class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="seo" target="_blank"
           rel="noreferrer">
           <div class="portfolio-card-media">
-            <img src="{{ asset('images/service-1.avif') }}" alt="SEO and PPC explainer preview">
+            <img src="{{ asset('images/portfolio/SEO - PPC cover.avif') }}" alt="SEO and PPC explainer preview">
           </div>
           <p class="eyebrow">SEO &amp; PPC</p>
           <h3>SEO vs PPC: What's the Difference?</h3>
