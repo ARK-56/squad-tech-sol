@@ -254,7 +254,7 @@
                                 code.</p>
                         </div>
                     </div>
-                    <a href="/about" class="secondary-button magnetic-button"> Meet The Hungry Team</a>
+                    <a href="/about" class="secondary-button magnetic-button">Lean More</a>
                 </div>
             </div>
         </section>
