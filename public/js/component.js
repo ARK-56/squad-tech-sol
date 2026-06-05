@@ -174,7 +174,7 @@ function renderHeader(activeKey) {
           <button class="theme-toggle" type="button" aria-label="Toggle light and dark mode">
             ${themeIconsMarkup()}
           </button>
-          <a href="/contact" class="primary-button magnetic-button" target="_blank" rel="noreferrer">Start a Project</a>
+          <a href="/contact" class="primary-button magnetic-button">Start a Project</a>
         </div>
       </nav>
       <div id="mobile-menu" class="mobile-menu md:hidden">
