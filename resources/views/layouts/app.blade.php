@@ -43,7 +43,7 @@
     </script>
 
     <!-- Calendly link widget begin -->
-    <a href="https://calendly.com/squadtechsolution/inquiry">
+    <a href="https://calendly.com/squadtechsolution/inquiry" target="__blank">
         <button class="calendly-widget" title="book a demo call on calendly">
             <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="50" height="50"
                 viewBox="0 0 500.000000 500.000000" preserveAspectRatio="xMidYMid meet">
