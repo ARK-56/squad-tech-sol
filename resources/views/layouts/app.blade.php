@@ -23,7 +23,9 @@
     </noscript>
     <!-- Critical stylesheets -->
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <link rel="stylesheet" href="{{ asset('build/assets/app-B4V4eC1j.css') }}">
+    <script src="{{ asset('build/assets/app-BvRk9kiK.js') }}"></script>
+    {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
     <!-- Calendly widget CSS: non-render-blocking -->
     <link rel="preload" as="style" href="https://assets.calendly.com/assets/external/widget.css"
         onload="this.rel='stylesheet'">
