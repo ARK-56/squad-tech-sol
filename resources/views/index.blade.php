@@ -25,15 +25,27 @@
                     </div>
                     <div class="hero-proof-row">
                         <span class="hero-proof-chip">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                                aria-hidden="true">
+                                <polyline points="20 6 9 17 4 12" />
+                            </svg>
                             Zero-risk guarantee
                         </span>
                         <span class="hero-proof-chip">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                                aria-hidden="true">
+                                <polyline points="20 6 9 17 4 12" />
+                            </svg>
                             7 years delivering
                         </span>
                         <span class="hero-proof-chip">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                                aria-hidden="true">
+                                <polyline points="20 6 9 17 4 12" />
+                            </svg>
                             No contracts
                         </span>
                     </div>
@@ -49,8 +61,7 @@
                     <div class="hero-console hero-video-placeholder video-placeholder interactive-card" data-tilt>
                         <div class="video-placeholder-frame">
                             <video autoplay muted loop playsinline preload="metadata">
-                                <source src="{{ asset('videos/Promotional-Intro-Squad-Tech-Solution.mp4') }}"
-                                    type="video/mp4">
+                                <source src="{{ asset('videos/Promotional-Intro-Squad-Tech-Solution.mp4') }}" type="video/mp4">
                             </video>
                         </div>
                         <div class="hero-tags">
@@ -217,7 +228,7 @@
                     <article class="video-placeholder reveal interactive-card" data-scroll-panel data-tilt>
                         <div class="video-placeholder-frame">
                             <div class="video-placeholder-screen">
-                                <video autoplay muted playsinline preload="none">
+                                <video muted playsinline preload="metadata" controls>
                                     <source src="{{ asset('videos/Social Media Marketing.mp4') }}" type="video/mp4">
                                 </video>
                             </div>
@@ -226,7 +237,7 @@
                     <article class="video-placeholder reveal interactive-card" data-scroll-panel data-tilt>
                         <div class="video-placeholder-frame">
                             <div class="video-placeholder-screen">
-                                <video autoplay muted playsinline preload="none">
+                                <video muted playsinline preload="metadata" controls>
                                     <source src="{{ asset('videos/video-presence-2.mp4') }}" type="video/mp4">
                                 </video>
                             </div>
@@ -234,7 +245,7 @@
                     </article>
                     <article class="video-placeholder reveal interactive-card" data-scroll-panel data-tilt>
                         <div class="video-placeholder-frame">
-                            <video autoplay muted playsinline preload="none">
+                            <video muted playsinline preload="metadata" controls>
                                 <source src="{{ asset('videos/video-presence-3.mp4') }}" type="video/mp4">
                             </video>
                         </div>
@@ -244,103 +255,112 @@
         </section>
 
         <section class="page-section">
-            <div class="section-inner split-layout">
-                <div class="about-visual reveal interactive-card" data-tilt>
-                    <div class="about-badge">OUR ZERO RISK</div>
-                    <div class="about-visual-copy">
-                        <p class="mini-label">We build digital solutions with the extreme hustle of an elite squad</p>
-                        <h3>Digital Presence Designed with Product Precision</h3>
+            <div class="section-inner about-redesign">
+                <div class="about-redesign-head reveal">
+                    <p class="eyebrow">ABOUT COMPANY</p>
+                    <h2 class="about-redesign-title">
+                        Sparking Rapid Growth
+                        <em class="about-redesign-title-em">and Authentic Scaling</em>
+                    </h2>
+                </div>
+
+                <div class="about-redesign-divider" aria-hidden="true"></div>
+
+                <div class="about-redesign-bottom reveal">
+                    <div class="about-redesign-stat">
+                        <p class="about-redesign-stat-num">98<sup class="about-redesign-sup">%</sup></p>
+                        <p class="about-redesign-stat-label">Client Satisfaction</p>
                     </div>
-                    <div class="about-metrics">
-                        <div class="about-metric">
-                            <p>0$</p>
-                            <span>Upfront Design Fee</span>
-                        </div>
-                        <div class="about-metric">
-                            <p>30d</p>
-                            <span>Full Cash Back Promise</span>
-                        </div>
+                    <div class="about-redesign-desc">
+                        <p>Squad Tech Solution pairs up with ambitious startups and scaling enterprises that demand
+                            genuine business outcomes over empty promises. We inject extreme creative energy, aggressive
+                            conversion strategies, and flawless technical architecture to outpace competitors.</p>
+                        <a href="/about" class="primary-button magnetic-button" style="width: fit-content;">Discover
+                            More</a>
                     </div>
                 </div>
-                <div class="about-copy reveal">
-                    <p class="eyebrow">About</p>
-                    <h2 class="section-title">Sparking Rapid Growth and Authentic Scaling</h2>
-                    <p class="section-copy">
-                        Squad Tech Solution pairs up with ambitious startups and scaling enterprises that demand genuine
-                        business outcomes over empty promises. We inject extreme creative energy, aggressive conversion
-                        strategies, and flawless technical architecture to outpace competitors
-                    </p>
-                    <div class="feature-list">
-                        <div class="feature-list-card interactive-card" data-tilt>
-                            <h3>Outcome-driven work</h3>
-                            <p>We anchor your product positioning and user acquisition goals into raw conversion maps
-                                before coding</p>
-                        </div>
-                        <div class="feature-list-card interactive-card" data-tilt>
-                            <h3>Ruthless execution</h3>
-                            <p>Every detail counts: ultra-fast page speeds, flawless interface animations, and pristine
-                                code.</p>
-                        </div>
-                    </div>
-                    <a href="/about" class="secondary-button magnetic-button">Lean More</a>
+
+                <div class="about-redesign-image reveal interactive-card" data-tilt>
+                    <img src="{{ asset('images/visual-direction-1.avif') }}" alt="Squad Tech Solution team at work"
+                        loading="lazy" decoding="async">
                 </div>
             </div>
         </section>
 
-        <section class="page-section">
+        <section class="page-section portfolio-cs-section">
             <div class="section-inner">
-                <div class="section-head">
-                    <div class="reveal max-w-2xl">
-                        <p class="eyebrow">Portfolio</p>
-                        <h2 class="section-title">Engineered case studies showcasing raw conversions and flawless
-                            styling</h2>
+                <div class="portfolio-cs-head">
+                    <div class="reveal">
+                        <p class="eyebrow">RECENT CASE STUDIES</p>
+                        <h2 class="portfolio-cs-title">
+                            Demonstrated
+                            <em class="portfolio-cs-title-em">Engineering Milestones</em>
+                        </h2>
                     </div>
-                    <a href="/portfolio" class="secondary-button magnetic-button reveal">View All Outcomes</a>
-                </div>
-                <div class="portfolio-grid">
-                    <article class="portfolio-feature reveal interactive-card" data-tilt>
-                        <div class="portfolio-content">
-                            <p class="eyebrow">SMM & MARKETING</p>
-                            <h3>A high-velocity viral social campaign that scaled pipeline metrics fast</h3>
-                            <p class="soft-copy">Deployed hyper-targeted paid ads paired with dynamic content loops to
-                                optimize lead capture and drive transactional volume</p>
-                            <div class="portfolio-metrics">
-                                <div class="metric-chip">
-                                    <strong>+180%</strong>
-                                    <span>Leads Generated</span>
-                                </div>
-                                <div class="metric-chip">
-                                    <strong>-45%</strong>
-                                    <span>Ad Spend Waste</span>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-                    <div class="portfolio-stack">
-                        <article class="portfolio-card reveal interactive-card" data-tilt>
-                            <p class="eyebrow">WEB DESIGN</p>
-                            <h3>Custom website architecture designed completely free to clear risk</h3>
-                            <p>High-converting landing page layouts built to establish massive trust and accelerate book
-                                calls.</p>
-                        </article>
-                        <article class="portfolio-card reveal interactive-card" data-tilt>
-                            <p class="eyebrow">SEO & ACQUISITION</p>
-                            <h3> Aggressive keyword ranking sprint that secured immediate inbound calls</h3>
-                            <p>Technical code optimization and intent-focused content mapping to dominate organic lists
-                            </p>
-                        </article>
+                    <div class="portfolio-cs-nav reveal">
+                        <button class="portfolio-cs-btn" id="portfolio-prev" aria-label="Previous projects">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                                <path d="M12.5 15L7.5 10L12.5 5" stroke="currentColor" stroke-width="2.2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <button class="portfolio-cs-btn" id="portfolio-next" aria-label="Next projects">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                                <path d="M7.5 5L12.5 10L7.5 15" stroke="currentColor" stroke-width="2.2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
                     </div>
                 </div>
-                <div class="image-placeholder-grid">
-                    <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
-                        <div class="image-placeholder-surface">
-                            <img src="{{ asset('images/portfolio-1.avif') }}" alt="" loading="lazy" decoding="async">
-                        </div>
+
+                <div class="portfolio-cs-track" id="portfolio-slider" role="list">
+                    <article class="portfolio-cs-slide" role="listitem">
+                        <a href="/portfolio" class="portfolio-cs-img-wrap">
+                            <img src="{{ asset('images/portfolio-1.avif') }}" alt="Social Campaign" loading="lazy"
+                                decoding="async">
+                        </a>
+                        <h3 class="portfolio-cs-name">Social Campaign</h3>
+                        <p class="portfolio-cs-cat">SMM &amp; Marketing</p>
                     </article>
-                    <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
-                        <div class="image-placeholder-surface image-placeholder-surface--alt">
-                            <img src="{{ asset('images/portfolio-2.avif') }}" alt="" loading="lazy" decoding="async">
-                        </div>
+                    <article class="portfolio-cs-slide" role="listitem">
+                        <a href="/portfolio" class="portfolio-cs-img-wrap">
+                            <img src="{{ asset('images/portfolio-2.avif') }}" alt="Web Architecture" loading="lazy"
+                                decoding="async">
+                        </a>
+                        <h3 class="portfolio-cs-name">Web Architecture</h3>
+                        <p class="portfolio-cs-cat">Web Design</p>
+                    </article>
+                    <article class="portfolio-cs-slide" role="listitem">
+                        <a href="/portfolio" class="portfolio-cs-img-wrap">
+                            <img src="{{ asset('images/presentation-layer-2.avif') }}" alt="UI/UX Mockups"
+                                loading="lazy" decoding="async">
+                        </a>
+                        <h3 class="portfolio-cs-name">UI/UX Mockups</h3>
+                        <p class="portfolio-cs-cat">UX Design</p>
+                    </article>
+                    <article class="portfolio-cs-slide" role="listitem">
+                        <a href="/portfolio" class="portfolio-cs-img-wrap">
+                            <img src="{{ asset('images/presentation-layer-3.avif') }}" alt="SEO Sprint" loading="lazy"
+                                decoding="async">
+                        </a>
+                        <h3 class="portfolio-cs-name">SEO Sprint</h3>
+                        <p class="portfolio-cs-cat">Acquisition</p>
+                    </article>
+                    <article class="portfolio-cs-slide" role="listitem">
+                        <a href="/portfolio" class="portfolio-cs-img-wrap">
+                            <img src="{{ asset('images/visual-direction-1.avif') }}" alt="Brand Identity" loading="lazy"
+                                decoding="async">
+                        </a>
+                        <h3 class="portfolio-cs-name">Brand Identity</h3>
+                        <p class="portfolio-cs-cat">Visual Identity</p>
+                    </article>
+                    <article class="portfolio-cs-slide" role="listitem">
+                        <a href="/portfolio" class="portfolio-cs-img-wrap">
+                            <img src="{{ asset('images/visual-direction-2.avif') }}" alt="Content Strategy"
+                                loading="lazy" decoding="async">
+                        </a>
+                        <h3 class="portfolio-cs-name">Content Strategy</h3>
+                        <p class="portfolio-cs-cat">Social Media</p>
                     </article>
                 </div>
             </div>
@@ -470,7 +490,7 @@
 
         <section class="page-section">
             <div class="section-inner">
-                <div class="cta-panel reveal interactive-card" data-tilt>
+                <div class="cta-panel reveal">
                     <div class="cta-copy">
                         <p class="eyebrow">Let's build</p>
                         <h2 class="section-title">Deploy a High-Converting Strategy, Risk-Free</h2>
@@ -480,8 +500,8 @@
                         </p>
                     </div>
                     <div class="cta-actions">
-                        <a href="mailto:inquiry@squadtechsol.com"
-                            class="primary-button magnetic-button">inquiry@squadtechsol.com</a>
+                        <a href="mailto:inquiry@squadtechsol.com" class="primary-button magnetic-button">Send an
+                            Email</a>
                         <a href="https://calendly.com/squadtechsolution/inquiry"
                             class="secondary-button magnetic-button" target="_blank" rel="noreferrer">Schedule a
                             Discovery Call</a>

@@ -1573,3 +1573,38 @@ initMagneticButtons();
 initCountUps();
 initGsapExperience();
 initAnimatedCursor();
+
+// Portfolio case-studies slider
+(function () {
+    const track = document.getElementById('portfolio-slider');
+    const prevBtn = document.getElementById('portfolio-prev');
+    const nextBtn = document.getElementById('portfolio-next');
+    if (!track || !prevBtn || !nextBtn) return;
+
+    function getStep() {
+        const slide = track.querySelector('.portfolio-cs-slide');
+        if (!slide) return 300;
+        const gap = parseFloat(getComputedStyle(track).gap) || 26;
+        return slide.offsetWidth + gap;
+    }
+
+    prevBtn.addEventListener('click', () => {
+        track.scrollBy({ left: -getStep(), behavior: 'smooth' });
+    });
+
+    nextBtn.addEventListener('click', () => {
+        track.scrollBy({ left: getStep(), behavior: 'smooth' });
+    });
+
+    function updateBtnStates() {
+        const atStart = track.scrollLeft <= 4;
+        const atEnd = track.scrollLeft >= track.scrollWidth - track.clientWidth - 4;
+        prevBtn.style.opacity = atStart ? '0.35' : '1';
+        nextBtn.style.opacity = atEnd ? '0.35' : '1';
+        prevBtn.disabled = atStart;
+        nextBtn.disabled = atEnd;
+    }
+
+    track.addEventListener('scroll', updateBtnStates, { passive: true });
+    updateBtnStates();
+})();
