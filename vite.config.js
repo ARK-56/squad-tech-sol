@@ -10,6 +10,10 @@ export default defineConfig({
         }),
         tailwindcss(),
     ],
+    build: {
+        cssMinify: true,
+        sourcemap: false,
+    },
     server: {
         watch: {
             ignored: ['**/storage/framework/views/**'],

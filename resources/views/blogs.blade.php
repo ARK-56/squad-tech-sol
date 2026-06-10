@@ -33,7 +33,7 @@
                     <article class="blog-card reveal interactive-card" data-tilt>
                         <div class="blog-card-media">
                             <img src="{{ asset('images/blogs/Blogs/The Pros and Cons of Outsourcing IT Services.png') }}"
-                                alt="The Pros and Cons of Outsourcing IT Services">
+                                alt="The Pros and Cons of Outsourcing IT Services" loading="lazy" decoding="async">
                         </div>
                         <div class="blog-meta">
                             <span class="blog-date">June 7, 2023</span>
@@ -48,7 +48,7 @@
                     <article class="blog-card reveal interactive-card" data-tilt>
                         <div class="blog-card-media">
                             <img src="{{ asset('images/blogs/Blogs/The Benefits of Virtualization in IT Environments.png') }}"
-                                alt="The Benefits of Virtualization in IT Environments">
+                                alt="The Benefits of Virtualization in IT Environments" loading="lazy" decoding="async">
                         </div>
                         <div class="blog-meta">
                             <span class="blog-date">May 23, 2023</span>
@@ -63,7 +63,7 @@
                     <article class="blog-card reveal interactive-card" data-tilt>
                         <div class="blog-card-media">
                             <img src="{{ asset('images/blogs/Blogs/The Benefits and Risks of BYOD policies.png') }}"
-                                alt="The Benefits and Risks of BYOD policies">
+                                alt="The Benefits and Risks of BYOD policies" loading="lazy" decoding="async">
                         </div>
                         <div class="blog-meta">
                             <span class="blog-date">May 7, 2023</span>
@@ -78,7 +78,7 @@
                     <article class="blog-card reveal interactive-card" data-tilt>
                         <div class="blog-card-media">
                             <img src="{{ asset('images/blogs/Blogs/Digital Transformation_ The Key to Business Success.png') }}"
-                                alt="Digital Transformation: The Key to Business Success">
+                                alt="Digital Transformation: The Key to Business Success" loading="lazy" decoding="async">
                         </div>
                         <div class="blog-meta">
                             <span class="blog-date">April 29, 2023</span>
@@ -93,7 +93,7 @@
                     <article class="blog-card reveal interactive-card" data-tilt>
                         <div class="blog-card-media">
                             <img src="{{ asset('images/blogs/Blogs/Things to Consider while Upgrading Your Website.png') }}"
-                                alt="Things to Consider while Upgrading Your Website">
+                                alt="Things to Consider while Upgrading Your Website" loading="lazy" decoding="async">
                         </div>
                         <div class="blog-meta">
                             <span class="blog-date">April 5, 2023</span>
@@ -108,7 +108,7 @@
                     <article class="blog-card reveal interactive-card" data-tilt>
                         <div class="blog-card-media">
                             <img src="{{ asset('images/blogs/Blogs/Why & When Do You Need a Website Upgrade.png') }}"
-                                alt="Why and When Do You Need a Website Upgrade">
+                                alt="Why and When Do You Need a Website Upgrade" loading="lazy" decoding="async">
                         </div>
                         <div class="blog-meta">
                             <span class="blog-date">March 14, 2023</span>

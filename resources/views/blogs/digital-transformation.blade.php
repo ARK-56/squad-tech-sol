@@ -26,7 +26,7 @@
                 <article class="article-shell reveal interactive-card" data-tilt>
                     <div class="article-hero-image">
                         <img src="{{ asset('images/blogs/Blogs/Digital Transformation_ The Key to Business Success.png') }}"
-                            alt="Digital Transformation: The Key to Business Success">
+                            alt="Digital Transformation: The Key to Business Success" decoding="async">
                     </div>
                     <div class="article-meta">
                         <span class="blog-tag">Strategy</span><span class="article-date">April 29, 2023</span>

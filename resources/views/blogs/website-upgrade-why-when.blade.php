@@ -26,7 +26,7 @@
                 <article class="article-shell reveal interactive-card" data-tilt>
                     <div class="article-hero-image">
                         <img src="{{ asset('images/blogs/Blogs/Why & When Do You Need a Website Upgrade.png') }}"
-                            alt="Why and When Do You Need a Website Upgrade">
+                            alt="Why and When Do You Need a Website Upgrade" decoding="async">
                     </div>
                     <div class="article-meta">
                         <span class="blog-tag">Website Strategy</span>

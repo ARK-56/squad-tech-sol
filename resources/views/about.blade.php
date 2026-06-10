@@ -76,7 +76,7 @@
                         data-tilt>
                         <div class="video-placeholder-frame">
                             <div class="video-placeholder-screen">
-                                <video autoplay muted>
+                                <video autoplay muted playsinline preload="none">
                                     <source src="{{ asset('videos/Dedicated-Teams.webm') }}" type="video/webm">
                                 </video>
                             </div>
@@ -84,12 +84,12 @@
                     </article>
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface">
-                            <img src="{{ asset('images/visual-direction-1.avif') }}" alt="">
+                            <img src="{{ asset('images/visual-direction-1.avif') }}" alt="" loading="lazy" decoding="async">
                         </div>
                     </article>
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface image-placeholder-surface--alt">
-                            <img src="{{ asset('images/visual-direction-2.avif') }}" alt="">
+                            <img src="{{ asset('images/visual-direction-2.avif') }}" alt="" loading="lazy" decoding="async">
                         </div>
                     </article>
                 </div>
@@ -149,12 +149,12 @@
                 <div class="image-placeholder-grid">
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface">
-                            <img src="{{ asset('images/principles-1.avif') }}" alt="">
+                            <img src="{{ asset('images/principles-1.avif') }}" alt="" loading="lazy" decoding="async">
                         </div>
                     </article>
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface image-placeholder-surface--alt">
-                            <img src="{{ asset('images/principles-2.avif') }}" alt="">
+                            <img src="{{ asset('images/principles-2.avif') }}" alt="" loading="lazy" decoding="async">
                         </div>
                     </article>
                 </div>

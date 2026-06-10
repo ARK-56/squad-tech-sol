@@ -24,7 +24,7 @@
                     <div class="floating-orb orb-two"></div>
                     <div class="hero-console hero-video-placeholder video-placeholder interactive-card" data-tilt>
                         <div class="video-placeholder-frame">
-                            <video autoplay>
+                            <video autoplay muted loop playsinline preload="metadata">
                                 <source src="{{ asset('videos/Promotional-Intro-Squad-Tech-Solution.mp4') }}"
                                     type="video/mp4">
                             </video>
@@ -158,12 +158,12 @@
                 <div class="image-placeholder-grid">
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface">
-                            <img src="{{ asset('images/service-1.avif') }}" alt="">
+                            <img src="{{ asset('images/service-1.avif') }}" alt="" loading="lazy" decoding="async">
                         </div>
                     </article>
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface image-placeholder-surface--alt">
-                            <img src="{{ asset('images/service-2.avif') }}" alt="">
+                            <img src="{{ asset('images/service-2.avif') }}" alt="" loading="lazy" decoding="async">
                         </div>
                     </article>
                 </div>
@@ -189,7 +189,7 @@
                     <article class="video-placeholder reveal interactive-card" data-scroll-panel data-tilt>
                         <div class="video-placeholder-frame">
                             <div class="video-placeholder-screen">
-                                <video autoplay muted>
+                                <video autoplay muted playsinline preload="none">
                                     <source src="{{ asset('videos/Social Media Marketing.mp4') }}" type="video/mp4">
                                 </video>
                             </div>
@@ -198,7 +198,7 @@
                     <article class="video-placeholder reveal interactive-card" data-scroll-panel data-tilt>
                         <div class="video-placeholder-frame">
                             <div class="video-placeholder-screen">
-                                <video autoplay muted>
+                                <video autoplay muted playsinline preload="none">
                                     <source src="{{ asset('videos/video-presence-2.mp4') }}" type="video/mp4">
                                 </video>
                             </div>
@@ -206,7 +206,7 @@
                     </article>
                     <article class="video-placeholder reveal interactive-card" data-scroll-panel data-tilt>
                         <div class="video-placeholder-frame">
-                            <video autoplay muted>
+                            <video autoplay muted playsinline preload="none">
                                 <source src="{{ asset('videos/video-presence-3.mp4') }}" type="video/mp4">
                             </video>
                         </div>
@@ -306,12 +306,12 @@
                 <div class="image-placeholder-grid">
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface">
-                            <img src="{{ asset('images/portfolio-1.avif') }}" alt="">
+                            <img src="{{ asset('images/portfolio-1.avif') }}" alt="" loading="lazy" decoding="async">
                         </div>
                     </article>
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface image-placeholder-surface--alt">
-                            <img src="{{ asset('images/portfolio-2.avif') }}" alt="">
+                            <img src="{{ asset('images/portfolio-2.avif') }}" alt="" loading="lazy" decoding="async">
                         </div>
                     </article>
                 </div>
@@ -415,12 +415,12 @@
                 <div class="image-placeholder-grid">
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface">
-                            <img src="{{ asset('images/testimonials-1.avif') }}" alt="">
+                            <img src="{{ asset('images/testimonials-1.avif') }}" alt="" loading="lazy" decoding="async">
                         </div>
                     </article>
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface image-placeholder-surface--alt">
-                            <img src="{{ asset('images/testimonials-2.avif') }}" alt="">
+                            <img src="{{ asset('images/testimonials-2.avif') }}" alt="" loading="lazy" decoding="async">
                         </div>
                     </article>
                 </div>

@@ -34,7 +34,7 @@
           rel="noreferrer">
           <div class="portfolio-card-media">
             <img src="{{ asset('images/portfolio/Redesign Website - Digital Creative Agency.avif') }}"
-              alt="Redesign Website for Digital Creative Agency">
+              alt="Redesign Website for Digital Creative Agency" loading="lazy" decoding="async">
           </div>
           <p class="eyebrow">Website Design</p>
           <h3>Redesign Website for Digital Creative Agency</h3>
@@ -45,7 +45,7 @@
           rel="noreferrer">
           <div class="portfolio-card-media">
             <img src="{{ asset('images/portfolio/Squad International (Brand Identity).avif') }}"
-              alt="Squad International Brand Identity">
+              alt="Squad International Brand Identity" loading="lazy" decoding="async">
           </div>
           <p class="eyebrow">Brand Identity</p>
           <h3>Squad International - Brand Identity</h3>
@@ -56,7 +56,7 @@
           rel="noreferrer">
           <div class="portfolio-card-media">
             <img src="{{ asset('images/portfolio/Squad Medical Supplies (Branding & Stationary).avif') }}"
-              alt="Squad Medical Supplies Branding & Stationary">
+              alt="Squad Medical Supplies Branding & Stationary" loading="lazy" decoding="async">
           </div>
           <p class="eyebrow">Brand Identity</p>
           <h3>Squad Medical Supplies - Branding & Stationary</h3>
@@ -67,7 +67,7 @@
           rel="noreferrer">
           <div class="portfolio-card-media">
             <img src="{{ asset('images/portfolio/Shinkyowa - Brand Design (brand identity).avif') }}"
-              alt="Shinkyowa Brand Design">
+              alt="Shinkyowa Brand Design" loading="lazy" decoding="async">
           </div>
           <p class="eyebrow">Brand Identity</p>
           <h3>Shinkyowa - Brand Design</h3>
@@ -78,7 +78,7 @@
           rel="noreferrer">
           <div class="portfolio-card-media">
             <img src="{{ asset('images/portfolio/AAA DME INC (Brand Identity).avif') }}"
-              alt="AAA DME INC Brand Identity">
+              alt="AAA DME INC Brand Identity" loading="lazy" decoding="async">
           </div>
           <p class="eyebrow">Brand Identity</p>
           <h3>AAA DME INC - Brand Identity</h3>
@@ -90,7 +90,7 @@
           rel="noreferrer">
           <div class="portfolio-card-media">
             <img src="{{ asset('images/portfolio/Photoshoot Behind the Scenes.avif') }}"
-              alt="Photoshoot behind the scenes preview">
+              alt="Photoshoot behind the scenes preview" loading="lazy" decoding="async">
           </div>
           <p class="eyebrow">Media Production</p>
           <h3>Photoshoot Behind the Scenes</h3>
@@ -102,7 +102,7 @@
           rel="noreferrer">
           <div class="portfolio-card-media">
             <img src="{{ asset('images/portfolio/Media Production cover.avif') }}"
-              alt="Professional media production preview">
+              alt="Professional media production preview" loading="lazy" decoding="async">
           </div>
           <p class="eyebrow">Media Production</p>
           <h3>Professional Media Production for Every Need</h3>
@@ -114,7 +114,7 @@
           rel="noreferrer">
           <div class="portfolio-card-media">
             <img src="{{ asset('images/portfolio/Dedicated Remote staff cover (2).avif') }}"
-              alt="Dedicated Remote Staff">
+              alt="Dedicated Remote Staff" loading="lazy" decoding="async">
           </div>
           <p class="eyebrow">Dedicated Remote Staff</p>
           <h3>Dedicated Remote Staff</h3>
@@ -126,7 +126,7 @@
           rel="noreferrer">
           <div class="portfolio-card-media">
             <img src="{{ asset('images/portfolio/Dexsora Digital Presence (SMM).avif') }}"
-              alt="Dexsora Digital Presence">
+              alt="Dexsora Digital Presence" loading="lazy" decoding="async">
           </div>
           <p class="eyebrow">Social Media Marketing</p>
           <h3>Dexsora - Digital Presence</h3>
@@ -137,7 +137,7 @@
           class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="web" target="_blank"
           rel="noreferrer">
           <div class="portfolio-card-media">
-            <img src="{{ asset('images/portfolio/Websites Design Showcase.avif') }}" alt="Websites - Design Showcase">
+            <img src="{{ asset('images/portfolio/Websites Design Showcase.avif') }}" alt="Websites - Design Showcase" loading="lazy" decoding="async">
           </div>
           <p class="eyebrow">Website Development</p>
           <h3>Websites - Design Showcase</h3>
@@ -148,7 +148,7 @@
           class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="brand" target="_blank"
           rel="noreferrer">
           <div class="portfolio-card-media">
-            <img src="{{ asset('images/portfolio/Logofolio cover.avif') }}" alt="LogoFolio">
+            <img src="{{ asset('images/portfolio/Logofolio cover.avif') }}" alt="LogoFolio" loading="lazy" decoding="async">
           </div>
           <p class="eyebrow">Brand Identity</p>
           <h3>LogoFolio</h3>
@@ -159,7 +159,7 @@
           class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="brand" target="_blank"
           rel="noreferrer">
           <div class="portfolio-card-media">
-            <img src="{{ asset('images/portfolio/Dexsora (Brand Identity).avif') }}" alt="Dexsora - Brand Identity">
+            <img src="{{ asset('images/portfolio/Dexsora (Brand Identity).avif') }}" alt="Dexsora - Brand Identity" loading="lazy" decoding="async">
           </div>
           <p class="eyebrow">Brand Identity</p>
           <h3>Dexsora - Brand Identity</h3>
@@ -170,7 +170,7 @@
           class="portfolio-card reveal interactive-card filter-item" data-tilt data-category="seo" target="_blank"
           rel="noreferrer">
           <div class="portfolio-card-media">
-            <img src="{{ asset('images/portfolio/SEO - PPC cover.avif') }}" alt="SEO and PPC explainer preview">
+            <img src="{{ asset('images/portfolio/SEO - PPC cover.avif') }}" alt="SEO and PPC explainer preview" loading="lazy" decoding="async">
           </div>
           <p class="eyebrow">SEO &amp; PPC</p>
           <h3>SEO vs PPC: What's the Difference?</h3>
@@ -194,19 +194,19 @@
         <div class="media-mosaic">
           <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
             <div class="image-placeholder-surface">
-              <video autoplay loop muted>
+              <video autoplay loop muted playsinline preload="none">
                 <source src="{{ asset('videos/presentation-layer-1.mp4') }}" type="video/mp4">
               </video>
             </div>
           </article>
           <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
             <div class="image-placeholder-surface image-placeholder-surface--alt">
-              <img src="{{ asset('images/presentation-layer-2.avif') }}" alt="">
+              <img src="{{ asset('images/presentation-layer-2.avif') }}" alt="" loading="lazy" decoding="async">
             </div>
           </article>
           <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
             <div class="image-placeholder-surface">
-              <img src="{{ asset('images/presentation-layer-3.avif') }}" alt="">
+              <img src="{{ asset('images/presentation-layer-3.avif') }}" alt="" loading="lazy" decoding="async">
             </div>
           </article>
         </div>
@@ -258,12 +258,12 @@
         <div class="image-placeholder-grid">
           <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
             <div class="image-placeholder-surface">
-              <img src="{{ asset('images/presentation-layer-4.avif') }}" alt="">
+              <img src="{{ asset('images/presentation-layer-4.avif') }}" alt="" loading="lazy" decoding="async">
             </div>
           </article>
           <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
             <div class="image-placeholder-surface image-placeholder-surface--alt">
-              <video autoplay loop muted>
+              <video autoplay loop muted playsinline preload="none">
                 <source src="{{ asset('videos/presentation-layer-3.mp4') }}" type="video/mp4">
               </video>
             </div>

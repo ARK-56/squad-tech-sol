@@ -25,7 +25,7 @@
                 <article class="article-shell reveal interactive-card" data-tilt>
                     <div class="article-hero-image">
                         <img src="{{ asset('images/blogs/Blogs/The Pros and Cons of Outsourcing IT Services.png') }}"
-                            alt="The Pros and Cons of Outsourcing IT Services">
+                            alt="The Pros and Cons of Outsourcing IT Services" decoding="async">
                     </div>
                     <div class="article-meta">
                         <span class="blog-tag">Outsourcing</span>

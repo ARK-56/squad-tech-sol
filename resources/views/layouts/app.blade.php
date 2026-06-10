@@ -8,13 +8,28 @@
         content="Squadtech Solution delivers social media marketing, SEO and PPC, brand identity, media production, web development, and dedicated remote staff.">
     <title>Squadtech Solution | Premium Tech Agency</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- Preconnect to external origins to reduce handshake latency -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="dns-prefetch" href="https://assets.calendly.com">
+    <!-- Google Fonts: non-render-blocking via preload swap trick -->
+    <link rel="preload" as="style"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        onload="this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap">
+    </noscript>
+    <!-- Critical stylesheets -->
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <!-- Calendly widget CSS: non-render-blocking -->
+    <link rel="preload" as="style" href="https://assets.calendly.com/assets/external/widget.css"
+        onload="this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="https://assets.calendly.com/assets/external/widget.css">
+    </noscript>
 </head>
 
 <body class="font-poppins is-loading" data-page="{{ $page }}">
@@ -27,10 +42,10 @@
 
         <div data-site-footer></div>
     </div>
-    <script src="{{ asset('js/component.js') }}"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
-    <script src="{{ asset('js/script.js') }}"></script>
+    <script src="{{ asset('js/component.js') }}" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js" defer></script>
+    <script src="{{ asset('js/script.js') }}" defer></script>
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-H9JPQ9NPFK"></script>

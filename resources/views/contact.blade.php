@@ -137,19 +137,19 @@
                     <article class="video-placeholder reveal interactive-card" data-scroll-panel data-media-card
                         data-tilt>
                         <div class="video-placeholder-frame">
-                            <video autoplay muted>
+                            <video autoplay muted playsinline preload="none">
                                 <source src="{{ asset('videos/contact.webm') }}" type="video/webm">
                             </video>
                         </div>
                     </article>
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface">
-                            <img src="{{ asset('images/contact-media-1.avif') }}" alt="">
+                            <img src="{{ asset('images/contact-media-1.avif') }}" alt="" loading="lazy" decoding="async">
                         </div>
                     </article>
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface image-placeholder-surface--alt">
-                            <img src="{{ asset('images/contact-media-2.avif') }}" alt="">
+                            <img src="{{ asset('images/contact-media-2.avif') }}" alt="" loading="lazy" decoding="async">
                         </div>
                     </article>
                 </div>
@@ -213,12 +213,12 @@
                 <div class="image-placeholder-grid">
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface">
-                            <img src="{{ asset('images/project-rediness-1.avif') }}" alt="">
+                            <img src="{{ asset('images/project-rediness-1.avif') }}" alt="" loading="lazy" decoding="async">
                         </div>
                     </article>
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface image-placeholder-surface--alt">
-                            <img src="{{ asset('images/project-rediness-2.avif') }}" alt="">
+                            <img src="{{ asset('images/project-rediness-2.avif') }}" alt="" loading="lazy" decoding="async">
                         </div>
                     </article>
                 </div>

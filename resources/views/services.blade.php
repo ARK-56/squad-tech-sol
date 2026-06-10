@@ -129,21 +129,21 @@
                 <div class="media-mosaic">
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface">
-                            <video autoplay muted>
+                            <video autoplay muted playsinline preload="none">
                                 <source src="{{ asset('videos/Social Media Marketing.mp4') }}" type="video/mp4">
                             </video>
                         </div>
                     </article>
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface image-placeholder-surface--alt">
-                            <video autoplay muted>
+                            <video autoplay muted playsinline preload="none">
                                 <source src="{{ asset('videos/video-presence-2.mp4') }}" type="video/mp4">
                             </video>
                         </div>
                     </article>
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface">
-                            <video autoplay muted>
+                            <video autoplay muted playsinline preload="none">
                                 <source src="{{ asset('videos/video-presence-3.mp4') }}" type="video/mp4">
                             </video>
                         </div>
@@ -207,12 +207,12 @@
                 <div class="image-placeholder-grid">
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface">
-                            <img src="{{ asset('images/how-we-work-1.avif') }}" alt="">
+                            <img src="{{ asset('images/how-we-work-1.avif') }}" alt="" loading="lazy" decoding="async">
                         </div>
                     </article>
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface image-placeholder-surface--alt">
-                            <img src="{{ asset('images/how-we-work-2.avif') }}" alt="">
+                            <img src="{{ asset('images/how-we-work-2.avif') }}" alt="" loading="lazy" decoding="async">
                         </div>
                     </article>
                 </div>
