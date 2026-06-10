@@ -3,9 +3,15 @@
         <section class="hero-section page-section">
             <div class="section-inner hero-grid">
                 <div class="reveal space-y-8">
+                    <div class="hero-trust-strip">
+                        <span class="hero-trust-dot"></span>
+                        <span>Trusted by 67+ global clients</span>
+                    </div>
                     <p class="eyebrow">OUTCOME-DRIVEN TECH AGENCY</p>
                     <div class="space-y-6">
-                        <h1 class="hero-title">Risk-Free Digital Products
+                        <h1 class="hero-title">
+                            Risk-Free<br>
+                            <span class="hero-title-accent">Digital Products</span>
                         </h1>
                         <p class="hero-copy">
                             Squad Tech Solution delivers elite software, marketing, and design. Try our 100% free
@@ -17,11 +23,29 @@
                         <a href="https://calendly.com/squadtechsolution/inquiry"
                             class="secondary-button magnetic-button">Book Free Call</a>
                     </div>
+                    <div class="hero-proof-row">
+                        <span class="hero-proof-chip">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                            Zero-risk guarantee
+                        </span>
+                        <span class="hero-proof-chip">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                            7 years delivering
+                        </span>
+                        <span class="hero-proof-chip">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                            No contracts
+                        </span>
+                    </div>
                 </div>
 
                 <div class="reveal relative">
                     <div class="floating-orb orb-one"></div>
                     <div class="floating-orb orb-two"></div>
+                    <div class="hero-float-card hero-float-tl">
+                        <span class="hero-float-value">200+</span>
+                        <span class="hero-float-label">Projects Delivered</span>
+                    </div>
                     <div class="hero-console hero-video-placeholder video-placeholder interactive-card" data-tilt>
                         <div class="video-placeholder-frame">
                             <video autoplay muted loop playsinline preload="metadata">
@@ -34,6 +58,10 @@
                             <div class="tag-card">Our philosophy</div>
                             <div class="tag-card">Why we fight</div>
                         </div>
+                    </div>
+                    <div class="hero-float-card hero-float-br">
+                        <span class="hero-float-value">+98%</span>
+                        <span class="hero-float-label">Client Satisfaction</span>
                     </div>
                 </div>
             </div>
