@@ -28,6 +28,8 @@ class MailRequest extends FormRequest
             "company" => ["required", "string", "min:3"],
             "phone" => ["required", "string", "min:3"],
             "service" => ["required", "string", "in:Social Media Marketing,SEO & PPC,Brand Identity,Media Production,Web Development,Dedicated Remote Staff"],
+            "website" => ["required", "string", "max:244"],
+            "budget" => ["required", "string", "max:244"],
             "message" => ["required", "string", "max:244"],
         ];
     }

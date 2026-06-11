@@ -37,27 +37,37 @@
                         <label class="form-field">
                             <span>Name</span>
                             <input class="form-input" type="text" name="name" maxlength="120" required
-                                autocomplete="name" placeholder="Your full name">
+                                autocomplete="name" placeholder="Your full name" required>
                         </label>
                         <label class="form-field">
                             <span>Email</span>
                             <input class="form-input" type="email" name="email" maxlength="180" required
-                                autocomplete="email" placeholder="you@company.com">
+                                autocomplete="email" placeholder="you@company.com" required>
                         </label>
                         <label class="form-field">
                             <span>Company Name</span>
                             <input class="form-input" type="text" name="company" maxlength="160"
-                                autocomplete="organization" placeholder="Company or brand name">
+                                autocomplete="organization" placeholder="Company or brand name" required>
                         </label>
                         <label class="form-field">
                             <span>Phone Number</span>
                             <input class="form-input" type="tel" name="phone" maxlength="40" autocomplete="tel"
-                                placeholder="+1 (555) 000-0000">
+                                placeholder="+1 (555) 000-0000" required>
+                        </label>
+                        <label class="form-field">
+                            <span>Website(Optional)</span>
+                            <input class="form-input" type="text" name="website" maxlength="160" autocomplete="website"
+                                placeholder="www.website.com">
+                        </label>
+                        <label class="form-field">
+                            <span>Budget</span>
+                            <input class="form-input" type="text" name="budget" maxlength="40" autocomplete="budget"
+                                placeholder="Add your estimated budget" required>
                         </label>
                     </div>
                     <label class="form-field">
                         <span>Service</span>
-                        <select class="form-input" name="service" required>
+                        <select class="form-input" name="service" required required>
                             <option value="">Choose a service</option>
                             <option value="Social Media Marketing">Social Media Marketing</option>
                             <option value="SEO & PPC">SEO & PPC</option>
@@ -144,12 +154,14 @@
                     </article>
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface">
-                            <img src="{{ asset('images/contact-media-1.avif') }}" alt="" loading="lazy" decoding="async">
+                            <img src="{{ asset('images/contact-media-1.avif') }}" alt="" loading="lazy"
+                                decoding="async">
                         </div>
                     </article>
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface image-placeholder-surface--alt">
-                            <img src="{{ asset('images/contact-media-2.avif') }}" alt="" loading="lazy" decoding="async">
+                            <img src="{{ asset('images/contact-media-2.avif') }}" alt="" loading="lazy"
+                                decoding="async">
                         </div>
                     </article>
                 </div>
@@ -213,12 +225,14 @@
                 <div class="image-placeholder-grid">
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface">
-                            <img src="{{ asset('images/project-rediness-1.avif') }}" alt="" loading="lazy" decoding="async">
+                            <img src="{{ asset('images/project-rediness-1.avif') }}" alt="" loading="lazy"
+                                decoding="async">
                         </div>
                     </article>
                     <article class="image-placeholder reveal interactive-card" data-media-card data-tilt>
                         <div class="image-placeholder-surface image-placeholder-surface--alt">
-                            <img src="{{ asset('images/project-rediness-2.avif') }}" alt="" loading="lazy" decoding="async">
+                            <img src="{{ asset('images/project-rediness-2.avif') }}" alt="" loading="lazy"
+                                decoding="async">
                         </div>
                     </article>
                 </div>

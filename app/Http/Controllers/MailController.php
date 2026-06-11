@@ -14,11 +14,13 @@ class MailController extends Controller
         $company = $request->input('company');
         $phone = $request->input('phone');
         $service = $request->input('service');
+        $website = $request->input('website', '');
+        $budget = $request->input('budget');
         $message = $request->input('message');
 
         $headers = "From: $email";
 
-        $sentPayload = "$message for $service with the contact as $phone, company name as $company by $name";
+        $sentPayload = "$message for $service with the contact as $phone, company name as $company by $name with the website $website and my budget is $budget";
 
         mail("inquiry@squadtechsol.com", "Inquiry Entry", $sentPayload);
 
