@@ -581,8 +581,7 @@ body.light-theme .theme-toggle-track::before {
     width: 100%;
     border: 1px solid var(--surface-border);
     border-radius: 1rem;
-    background: color-mix(in srgb, var(--bg-elevated-strong) 86%, transparent);
-    color: var(--text);
+    background-color: var(--bg) !important;
     padding: 0.95rem 1rem;
     font: inherit;
     transition: border-color 220ms ease, box-shadow 220ms ease, background 220ms ease;
